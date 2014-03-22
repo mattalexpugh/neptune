@@ -6,18 +6,20 @@ KEY_GT = 'gt'
 KEY_GOPRO = 'bangor'
 KEY_FOCB = 'focb'
 
+INTERNAL_GT_PATH = "data/static/json/gt/"
+
 
 PATHS = {
     'Darwin': {
-        KEY_GT: '/Users/matt/Dropbox/CompSci/MPhil/neptune/',
+        KEY_GT: '/Users/matt/Dropbox/CompSci/MPhil/neptune/' + INTERNAL_GT_PATH,
         KEY_GOPRO: '/Users/matt/Documents/MPhil/Video/GoPro/',
         KEY_FOCB: '/Users/matt/Documents/MPhil/Video/FoCB/'
     },
 
     'Linux': {
-        KEY_GT: '/home/matt/MPhil/neptune/',
-        KEY_GOPRO: '/home/matt/Videos/GoPro video from fishers sled/',
-        KEY_FOCB: '/home/matt/Videos/focb/'
+        KEY_GT: '/home/matt/MPhil/neptune/' + INTERNAL_GT_PATH,
+        KEY_GOPRO: '/home/matt/documents/MPhil/Videos/GoPro/',
+        KEY_FOCB: '/home/matt/documents/MPhil/Videos/FoCB/'
     }
 }
 
