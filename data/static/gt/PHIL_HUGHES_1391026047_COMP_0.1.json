@@ -1,0 +1,502 @@
+{
+    "author": "Phil Hughes", 
+    "complete": true, 
+    "created": 1391026047.27812, 
+    "data": {
+        "6648": {
+            "class": 29, 
+            "notes": null
+        }, 
+        "9048": {
+            "class": 0, 
+            "notes": null
+        }, 
+        "10101": {
+            "class": 29, 
+            "notes": null
+        }, 
+        "10128": {
+            "class": 0, 
+            "notes": null
+        }, 
+        "10732": {
+            "class": 29, 
+            "notes": null
+        }, 
+        "11168": {
+            "class": 0, 
+            "notes": null
+        }, 
+        "11311": {
+            "class": 29, 
+            "notes": null
+        }, 
+        "12217": {
+            "class": 0, 
+            "notes": null
+        }, 
+        "12375": {
+            "class": 16, 
+            "notes": null
+        }, 
+        "12570": {
+            "class": 29, 
+            "notes": null
+        }, 
+        "12599": {
+            "class": 0, 
+            "notes": null
+        }, 
+        "12665": {
+            "class": 29, 
+            "notes": null
+        }, 
+        "12711": {
+            "class": 16, 
+            "notes": null
+        }, 
+        "12898": {
+            "class": 0, 
+            "notes": null
+        }, 
+        "13658": {
+            "class": 29, 
+            "notes": null
+        }, 
+        "13899": {
+            "class": 0, 
+            "notes": null
+        }, 
+        "14383": {
+            "class": 28, 
+            "notes": null
+        }, 
+        "14828": {
+            "class": 28, 
+            "notes": null
+        }, 
+        "15229": {
+            "class": 0, 
+            "notes": null
+        }, 
+        "16561": {
+            "class": 16, 
+            "notes": null
+        }, 
+        "17284": {
+            "class": 0, 
+            "notes": null
+        }, 
+        "17461": {
+            "class": 16, 
+            "notes": null
+        }, 
+        "17757": {
+            "class": 0, 
+            "notes": null
+        }, 
+        "18216": {
+            "class": 16, 
+            "notes": null
+        }, 
+        "19338": {
+            "class": 0, 
+            "notes": null
+        }, 
+        "20547": {
+            "class": 22, 
+            "notes": null
+        }, 
+        "20686": {
+            "class": 16, 
+            "notes": null
+        }, 
+        "21756": {
+            "class": 0, 
+            "notes": null
+        }, 
+        "21906": {
+            "class": 16, 
+            "notes": null
+        }, 
+        "22206": {
+            "class": 0, 
+            "notes": null
+        }, 
+        "22356": {
+            "class": 16, 
+            "notes": null
+        }, 
+        "23256": {
+            "class": 0, 
+            "notes": null
+        }, 
+        "23556": {
+            "class": 16, 
+            "notes": null
+        }, 
+        "24656": {
+            "class": 0, 
+            "notes": null
+        }, 
+        "25556": {
+            "class": 16, 
+            "notes": null
+        }, 
+        "25706": {
+            "class": 0, 
+            "notes": null
+        }, 
+        "26456": {
+            "class": 16, 
+            "notes": null
+        }, 
+        "27656": {
+            "class": 0, 
+            "notes": null
+        }, 
+        "29612": {
+            "class": 16, 
+            "notes": null
+        }, 
+        "29762": {
+            "class": 0, 
+            "notes": null
+        }, 
+        "29912": {
+            "class": 31, 
+            "notes": null
+        }, 
+        "30212": {
+            "class": 0, 
+            "notes": null
+        }, 
+        "30662": {
+            "class": 31, 
+            "notes": null
+        }, 
+        "30812": {
+            "class": 0, 
+            "notes": null
+        }, 
+        "33382": {
+            "class": 31, 
+            "notes": null
+        }, 
+        "33532": {
+            "class": 0, 
+            "notes": null
+        }, 
+        "33982": {
+            "class": 29, 
+            "notes": null
+        }, 
+        "34132": {
+            "class": 0, 
+            "notes": null
+        }, 
+        "34282": {
+            "class": 31, 
+            "notes": null
+        }, 
+        "34882": {
+            "class": 0, 
+            "notes": null
+        }, 
+        "35182": {
+            "class": 31, 
+            "notes": null
+        }, 
+        "35332": {
+            "class": 0, 
+            "notes": null
+        }, 
+        "35947": {
+            "class": 31, 
+            "notes": null
+        }, 
+        "36097": {
+            "class": 0, 
+            "notes": null
+        }, 
+        "36556": {
+            "class": 31, 
+            "notes": null
+        }, 
+        "37006": {
+            "class": 0, 
+            "notes": null
+        }, 
+        "37306": {
+            "class": 16, 
+            "notes": null
+        }, 
+        "37756": {
+            "class": 0, 
+            "notes": null
+        }, 
+        "39556": {
+            "class": 31, 
+            "notes": null
+        }, 
+        "39856": {
+            "class": 0, 
+            "notes": null
+        }, 
+        "40006": {
+            "class": 31, 
+            "notes": null
+        }, 
+        "40156": {
+            "class": 16, 
+            "notes": null
+        }, 
+        "40456": {
+            "class": 31, 
+            "notes": null
+        }, 
+        "40606": {
+            "class": 16, 
+            "notes": null
+        }, 
+        "40756": {
+            "class": 31, 
+            "notes": null
+        }, 
+        "40906": {
+            "class": 0, 
+            "notes": null
+        }, 
+        "42406": {
+            "class": 31, 
+            "notes": null
+        }, 
+        "42556": {
+            "class": 0, 
+            "notes": null
+        }, 
+        "43012": {
+            "class": 31, 
+            "notes": null
+        }, 
+        "43162": {
+            "class": 16, 
+            "notes": null
+        }, 
+        "43462": {
+            "class": 0, 
+            "notes": null
+        }, 
+        "43912": {
+            "class": 31, 
+            "notes": null
+        }, 
+        "44512": {
+            "class": 31, 
+            "notes": null
+        }, 
+        "44812": {
+            "class": 0, 
+            "notes": null
+        }, 
+        "45262": {
+            "class": 16, 
+            "notes": null
+        }, 
+        "45712": {
+            "class": 31, 
+            "notes": null
+        }, 
+        "46612": {
+            "class": 31, 
+            "notes": null
+        }, 
+        "46912": {
+            "class": 0, 
+            "notes": null
+        }, 
+        "47212": {
+            "class": 31, 
+            "notes": null
+        }, 
+        "47362": {
+            "class": 0, 
+            "notes": null
+        }, 
+        "48412": {
+            "class": 16, 
+            "notes": null
+        }, 
+        "48562": {
+            "class": 0, 
+            "notes": null
+        }, 
+        "48862": {
+            "class": 16, 
+            "notes": null
+        }, 
+        "49162": {
+            "class": 0, 
+            "notes": null
+        }, 
+        "49462": {
+            "class": 16, 
+            "notes": null
+        }, 
+        "49612": {
+            "class": 0, 
+            "notes": null
+        }, 
+        "50212": {
+            "class": 31, 
+            "notes": null
+        }, 
+        "50362": {
+            "class": 0, 
+            "notes": null
+        }, 
+        "51262": {
+            "class": 16, 
+            "notes": null
+        }, 
+        "51862": {
+            "class": 0, 
+            "notes": null
+        }, 
+        "52312": {
+            "class": 16, 
+            "notes": null
+        }, 
+        "52462": {
+            "class": 0, 
+            "notes": null
+        }, 
+        "52612": {
+            "class": 16, 
+            "notes": null
+        }, 
+        "52762": {
+            "class": 0, 
+            "notes": null
+        }, 
+        "53074": {
+            "class": 16, 
+            "notes": null
+        }, 
+        "53224": {
+            "class": 0, 
+            "notes": null
+        }, 
+        "54124": {
+            "class": 16, 
+            "notes": null
+        }, 
+        "54274": {
+            "class": 0, 
+            "notes": null
+        }, 
+        "54424": {
+            "class": 16, 
+            "notes": null
+        }, 
+        "56674": {
+            "class": 0, 
+            "notes": null
+        }, 
+        "57574": {
+            "class": 31, 
+            "notes": null
+        }, 
+        "58624": {
+            "class": 31, 
+            "notes": null
+        }, 
+        "59224": {
+            "class": 31, 
+            "notes": null
+        }, 
+        "59374": {
+            "class": 0, 
+            "notes": null
+        }, 
+        "59974": {
+            "class": 31, 
+            "notes": null
+        }, 
+        "60124": {
+            "class": 16, 
+            "notes": null
+        }, 
+        "60274": {
+            "class": 31, 
+            "notes": null
+        }, 
+        "60574": {
+            "class": 0, 
+            "notes": null
+        }, 
+        "60874": {
+            "class": 16, 
+            "notes": null
+        }, 
+        "61024": {
+            "class": 0, 
+            "notes": null
+        }, 
+        "61624": {
+            "class": 31, 
+            "notes": null
+        }, 
+        "61774": {
+            "class": 0, 
+            "notes": null
+        }, 
+        "63424": {
+            "class": 16, 
+            "notes": null
+        }, 
+        "63874": {
+            "class": 31, 
+            "notes": null
+        }, 
+        "64174": {
+            "class": 0, 
+            "notes": null
+        }, 
+        "64774": {
+            "class": 31, 
+            "notes": null
+        }, 
+        "64924": {
+            "class": 0, 
+            "notes": null
+        }, 
+        "65824": {
+            "class": 31, 
+            "notes": null
+        }, 
+        "66274": {
+            "class": 0, 
+            "notes": null
+        }, 
+        "66574": {
+            "class": 31, 
+            "notes": null
+        }, 
+        "66874": {
+            "class": 16, 
+            "notes": null
+        }, 
+        "67324": {
+            "class": 31, 
+            "notes": null
+        }, 
+        "68074": {
+            "class": 0, 
+            "notes": null
+        }
+    }, 
+    "filepath": "/Users/matt/Documents/MPhil/Video/GoPro/Site 3.MP4", 
+    "supercedes": null, 
+    "version": "0.1"
+}

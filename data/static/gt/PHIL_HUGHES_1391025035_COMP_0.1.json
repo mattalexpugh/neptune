@@ -1,0 +1,102 @@
+{
+    "author": "Phil Hughes", 
+    "complete": true, 
+    "created": 1391025035.297124, 
+    "data": {
+        "5242": {
+            "class": 16, 
+            "notes": null
+        }, 
+        "8405": {
+            "class": 0, 
+            "notes": null
+        }, 
+        "8676": {
+            "class": 16, 
+            "notes": null
+        }, 
+        "9037": {
+            "class": 29, 
+            "notes": null
+        }, 
+        "10303": {
+            "class": 16, 
+            "notes": null
+        }, 
+        "10385": {
+            "class": 22, 
+            "notes": null
+        }, 
+        "10508": {
+            "class": 16, 
+            "notes": null
+        }, 
+        "11568": {
+            "class": 16, 
+            "notes": null
+        }, 
+        "12431": {
+            "class": 22, 
+            "notes": null
+        }, 
+        "12659": {
+            "class": 29, 
+            "notes": null
+        }, 
+        "12809": {
+            "class": 16, 
+            "notes": null
+        }, 
+        "12930": {
+            "class": 22, 
+            "notes": null
+        }, 
+        "13230": {
+            "class": 16, 
+            "notes": null
+        }, 
+        "13680": {
+            "class": 22, 
+            "notes": null
+        }, 
+        "14130": {
+            "class": 16, 
+            "notes": null
+        }, 
+        "14274": {
+            "class": 29, 
+            "notes": null
+        }, 
+        "28649": {
+            "class": 16, 
+            "notes": null
+        }, 
+        "29733": {
+            "class": 22, 
+            "notes": null
+        }, 
+        "30275": {
+            "class": 16, 
+            "notes": null
+        }, 
+        "38664": {
+            "class": 22, 
+            "notes": null
+        }, 
+        "38951": {
+            "class": 16, 
+            "notes": null
+        }, 
+        "42747": {
+            "class": 29, 
+            "notes": null
+        }, 
+        "49887": {
+            "class": 0, 
+            "notes": null
+        }
+    }, 
+    "filepath": "/Users/matt/Documents/MPhil/Video/GoPro/Site 2.MP4", 
+    "supercedes": null, 
+    "version": "0.1"
+}

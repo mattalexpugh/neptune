@@ -1,0 +1,18 @@
+{
+  "experimentType": "VIDEOSUBSTRATE",
+  "allFunctions": false,
+  "selectedFunctions": [
+    "features.histograms.cv2_calc_hist_retinex_bgr",
+    "cv2_calc_hist_retinex_gray",
+    "features.wavelets.gabor_lbp2",
+    "features.wavelets.gabor_lbp3"
+  ],
+  "allClassifiers": true,
+  "selectedClassifiers": [
+    
+  ],
+  "selectedVideos": [
+    "aber harbour 26th sep 08 tape 2.wmv",
+    "clarach consti and harbour pollock.wmv"
+  ]
+}

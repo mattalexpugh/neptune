@@ -1,0 +1,66 @@
+{
+    "author": "Matt", 
+    "complete": true, 
+    "created": 1387311857.864323, 
+    "data": {
+        "4720": {
+            "class": 16, 
+            "notes": "Something"
+        }, 
+        "15294": {
+            "class": 0, 
+            "notes": null
+        }, 
+        "16990": {
+            "class": 16, 
+            "notes": null
+        }, 
+        "17667": {
+            "class": 0, 
+            "notes": null
+        }, 
+        "18787": {
+            "class": 18, 
+            "notes": null
+        }, 
+        "20789": {
+            "class": 16, 
+            "notes": null
+        }, 
+        "21164": {
+            "class": 0, 
+            "notes": null
+        }, 
+        "21214": {
+            "class": 18, 
+            "notes": null
+        }, 
+        "21317": {
+            "class": 0, 
+            "notes": null
+        }, 
+        "22469": {
+            "class": 27, 
+            "notes": null
+        }, 
+        "25817": {
+            "class": 0, 
+            "notes": null
+        }, 
+        "25967": {
+            "class": 16, 
+            "notes": null
+        }, 
+        "29455": {
+            "class": 24, 
+            "notes": null
+        },
+		"32000": {
+            "class": 0, 
+            "notes": null
+        }    
+	}, 
+    "filepath": "/Users/matt/Documents/MPhil/GoPro/Site 10.MP4", 
+    "supercedes": null, 
+    "version": "0.1"
+}
