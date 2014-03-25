@@ -2,9 +2,10 @@
   "experimentType": "VIDEOSUBSTRATE",
   "allFunctions": false,
   "selectedFunctions": [
-    "features.wavelets.gabor_histo_4_rotations"
+    "features.histograms.cv2_calc_hist_retinex_bgr",
+	"features.histograms.cv2_calc_hist_retinex_gray"
   ],
-  "allClassifiers": false,
+  "allClassifiers": true,
   "selectedClassifiers": [
     "svm.svmlin"
   ],

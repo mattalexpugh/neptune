@@ -1,0 +1,15 @@
+{
+  "experimentType": "VIDEOSUBSTRATE",
+  "allFunctions": false,
+  "selectedFunctions": [
+    "features.histograms.cv2_gray_hist",
+	"features.histograms.cv2_calc_hist_bgr"
+  ],
+  "allClassifiers": false,
+  "selectedClassifiers": [
+    "svm.svmrbf"
+  ],
+  "selectedVideos": [
+    "MATT_1387311857_COMP_0.1.json|GoPro::Site 10.MP4"
+  ]
+}

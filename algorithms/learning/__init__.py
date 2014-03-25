@@ -15,7 +15,21 @@ Standard class prefixes:
     xDTR        Decision Tree
 """
 
+
+def get_instantiated_classifiers(funcName):
+    classifiers = {
+        'svms': svm.get_svcs_for_all_kernels(metric=funcName),
+        'knns': knn.get_knns_for_all_algorithms(metric=funcName, n=5)
+    }
+
+    # Manually stick this on for now
+    classifiers['svms']['LinearSVC'] = svm.VLinearSVCSubstrateClassifier(metric=funcName)
+
+    return classifiers
+
+
 CLASSIFIER_MAP = {
     'svm': svm.CLASSIFIER_MAP,
     'knn': knn.CLASSIFIER_MAP
 }
+

@@ -1,4 +1,9 @@
+import logging
+log = logging.getLogger(__name__)
+
+import app.paths as p
 from algorithms import get_api
+from experiments.videolearning import EXPMLVidSubstrate
 from util.system import load_json
 
 
@@ -16,6 +21,9 @@ KEY_SELCLAS = "selectedClassifiers"
 KEY_SELVIDS = "selectedVideos"
 
 API = get_api()
+
+STR_GT_DELIM = "|"
+STR_VID_COL_DELIM = "::"
 
 
 def get_exp_harness(json_file):
@@ -68,25 +76,83 @@ class EXPSubstrateHarness(EXPHarnessLoader):
         if not self.use_all_funcs or not self.use_all_classifiers:
             self._load_selected_only()
 
+        self._validate_and_select_targets()
+        self._validate_and_select_videos()
+
     def _load_selected_only(self):
         self._selected_funcs = self.json[KEY_SELFUNC]
         self._selected_classifiers = self.json[KEY_SELCLAS]
 
-    def run(self):
+    def _validate_and_select_targets(self):
         if self.use_all_funcs:
             funcs = API.methods.all_ptrs
         else:
-            funcs = [API.methods.get_function_ptr(x) for x in self.selected_funcs]
+            # This was originally a list comprehension, but error handling
+            # for missing functions would be better.
+            funcs = []
+
+            for func_api_ptr in self.selected_funcs:
+                func_ptr = API.methods.get_function_ptr(func_api_ptr)
+
+                if func_ptr is None:
+                    log.info("Unknown API method called: " + func_api_ptr)
+                else:
+                    # So we can have a name for the method when saving metric
+                    funcs.append((func_api_ptr, func_ptr))
 
         if self.use_all_classifiers:
             classifiers = API.classifiers.all_ptrs
         else:
-            classifiers = [API.classifiers.get_function_ptr(x) for x in self.selected_classifiers]
+            classifiers = []
 
-        for func in funcs:
-            for classifier in classifiers:
-                pass
+            for classifier_api_ptr in self.selected_classifiers:
+                classifier_ptr = API.classifiers.get_function_ptr(classifier_api_ptr)
 
+                if classifier_ptr is None:
+                    log.info("Unknown API classifier: " + classifier_api_ptr)
+                else:
+                    classifiers.append(classifier_ptr)
+
+        self._funcs = funcs
+        self._classifiers = classifiers
+
+    def _validate_and_select_videos(self):
+        gt_vid_pairs = []
+
+        for details in self.json[KEY_SELVIDS]:
+            # This would look much nicer in regex, but it works for now...
+            gt_vid_split = details.split(STR_GT_DELIM)
+            gt = gt_vid_split[0]
+
+            vid_details = gt_vid_split[1].split(STR_VID_COL_DELIM)
+            vid_type = vid_details[0]
+            vid_name = vid_details[1]
+
+            gt_file_path = p.get_path(p.KEY_GT) + gt
+            vid_file_path = p.get_path(vid_type.lower()) + vid_name
+
+            pair = (gt_file_path, vid_file_path)
+            gt_vid_pairs.append(pair)
+
+        self._videos = gt_vid_pairs
+
+    def run(self):
+        for video_gt_pair in self._videos:
+            gt = video_gt_pair[0]
+            fp = video_gt_pair[1]
+
+            for func in self._funcs:
+                func_name = func[0]
+                func_ptr = func[1]
+
+                for classifier in self._classifiers:
+                    exp = EXPMLVidSubstrate(gt, fp, func_ptr, False,
+                                            classifier(metric=func_name))
+                    exp.train()
+                    saved_classifier = exp.classifier.save()
+                    del exp
+
+                    log.info("Saved classifier: " + saved_classifier)
 
     @property
     def use_all_funcs(self):

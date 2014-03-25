@@ -20,6 +20,7 @@ class APIBaseGenerator(object):
     def __init__(self, method_map):
         self._all_ptrs = []
         self._api = self.__generate_api_structure(method_map)
+        self._method_map = method_map
 
     def __generate_api_structure(self, method_map):
         api = []
@@ -73,7 +74,7 @@ class APIBaseGenerator(object):
             else:
                 return traverse_api(api_stack, found_block)
 
-        return traverse_api(api_components, METHOD_MAP)
+        return traverse_api(api_components, self._method_map)
 
     @property
     def all_ptrs(self):
@@ -133,7 +134,7 @@ class APIHolder(object):
             api_object = self.everything[api_type]
 
             for pointer in api_object.structure:
-                yield ' => '.join([api_type, pointer])
+                yield "[" + api_type + "] " +  pointer
 
 _API = None
 

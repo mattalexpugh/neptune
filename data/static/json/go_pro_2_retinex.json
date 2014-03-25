@@ -1,0 +1,16 @@
+{
+  "experimentType": "VIDEOSUBSTRATE",
+  "allFunctions": false,
+  "selectedFunctions": [
+    "features.histograms.cv2_calc_hist_retinex_bgr",
+    "features.histograms.cv2_calc_hist_retinex_gray"
+  ],
+  "allClassifiers": false,
+  "selectedClassifiers": [
+    "svm.svmlin",
+    "svm.svmrbf"
+  ],
+  "selectedVideos": [
+    "PHIL_HUGHES_1391025035_COMP_0.1.json|GoPro::Site 2.MP4"
+  ]
+}

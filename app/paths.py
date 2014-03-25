@@ -3,7 +3,7 @@ __author__ = 'matt'
 import platform
 
 KEY_GT = 'gt'
-KEY_GOPRO = 'bangor'
+KEY_GOPRO = 'gopro'
 KEY_FOCB = 'focb'
 
 INTERNAL_GT_PATH = "data/static/json/gt/"

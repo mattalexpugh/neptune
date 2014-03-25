@@ -10,6 +10,7 @@ parser = argparse.ArgumentParser()
 parser.add_argument("-a", "--api", help="Prints out the API for experiments", action="store_true")
 parser.add_argument("-A", "--apiversion", help="Prints out the API Version", action="store_true")
 parser.add_argument("-c", "--nogui", help="Launch without PyQt frontend", action="store_true")
+parser.add_argument("-r", "--runexp", help="Run the saved classifier experiments", action="store_true")
 parser.add_argument("-e", "--experiment", help="Execute a specific experiment JSON file (Path required)")
 parser.add_argument("-v", "--version", help="Prints Neptune version", action="store_true")
 
@@ -34,6 +35,13 @@ if __name__ == '__main__':
         from experiments.holder import EXPHarnessLoader
         exp = EXPHarnessLoader.get_exp_for(args.experiment)
         exp.run()
+
+        if args.runexp:
+            from experiments.videolearning import run_exp_for_all_classifiers
+            run_exp_for_all_classifiers()
+    elif args.runexp:
+        from experiments.videolearning import run_exp_for_all_classifiers
+        run_exp_for_all_classifiers()
     elif args.nogui:
         logger.info("Starting in NoGUI Mode")
         logger.error("This hasn't been made yet!")

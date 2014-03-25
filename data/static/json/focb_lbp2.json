@@ -2,7 +2,7 @@
   "experimentType": "VIDEOSUBSTRATE",
   "allFunctions": false,
   "selectedFunctions": [
-    "features.wavelets.gabor_histo_4_rotations"
+    "features.texture.lbp2"
   ],
   "allClassifiers": false,
   "selectedClassifiers": [

@@ -6,10 +6,13 @@ import platform # fix this!
 from sklearn.externals import joblib
 
 
+STR_PARAM_DELIM = "__"
+
+
 if platform.system() == 'Darwin':
     DIR_CLASSIFIERS = "/Users/matt/Documents/MPhil/classifiers/"
 else:
-    DIR_CLASSIFIERS = "/home/matt/MPhil/classifiers/"
+    DIR_CLASSIFIERS = "/home/matt/documents/MPhil/classifiers/"
 
 
 def load_saved_classifier(classifier_path):
@@ -27,7 +30,7 @@ class PersistantClassifier():
 
         if fname_extra is not None:
             prefix = fname_extra.replace(' ', '_').split('.')[0]
-            this_name = prefix + "_" + this_name
+            this_name = prefix + STR_PARAM_DELIM + this_name
 
         fp = DIR_CLASSIFIERS + this_name
 
@@ -83,6 +86,7 @@ class PersistantClassifier():
     @property
     def state(self):
         timestamp = str(time.time()).split('.')[0]
-        file_name = "_".join([self.__class__.__name__, self.identifier, timestamp])
+        file_name = STR_PARAM_DELIM.join([self.__class__.__name__,
+                              self.identifier, timestamp])
 
         return file_name

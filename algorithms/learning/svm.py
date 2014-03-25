@@ -1,6 +1,6 @@
 from sklearn import svm
 
-from algorithms.learning.persist import PersistantClassifier
+from algorithms.learning.persist import PersistantClassifier, STR_PARAM_DELIM
 
 
 __author__ = 'matt'
@@ -23,7 +23,7 @@ class VSVMSubstrateClassifier(PersistantClassifier):
 
     @property
     def identifier(self):
-        return "_".join([self.kernel_type, self.metric])
+        return STR_PARAM_DELIM.join([self.kernel_type, self.metric])
 
     @property
     def kernel_type(self):

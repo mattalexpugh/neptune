@@ -6,7 +6,7 @@
   ],
   "allClassifiers": false,
   "selectedClassifiers": [
-    "svm.svmlin"
+    "svm.svmrbf"
   ],
   "selectedVideos": [
     "MATT_PUGH_1391010753_COMP_0.1.json|FoCB::aber harbour 26th sep 08 tape 2.wmv",

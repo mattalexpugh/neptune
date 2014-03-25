@@ -1,6 +1,6 @@
 from sklearn.neighbors import KNeighborsClassifier
 
-from algorithms.learning.persist import PersistantClassifier
+from algorithms.learning.persist import PersistantClassifier, STR_PARAM_DELIM
 
 
 __author__ = 'matt'
@@ -24,7 +24,7 @@ class VKNNSubstrateClassifier(PersistantClassifier):
 
     @property
     def identifier(self):
-        return "_".join([self.algorithm, "n" + str(self._n), self.metric])
+        return STR_PARAM_DELIM.join([self.algorithm, "n" + str(self._n), self.metric])
 
     @property
     def algorithm(self):
