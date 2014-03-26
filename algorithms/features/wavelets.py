@@ -63,14 +63,14 @@ def gabor_2d_with_kernel(image, kernel):
 
 ## EXPERIMENT SPECIFIC METHODS
 
-
-kernels = [gabor_2d_kernel(theta=x) for x in [0, 45, 90, 135]]
+rotations = [0, 45, 90, 135]
+full_frame_kernels = [gabor_2d_kernel(theta=x) for x in rotations]
 
 
 def gabor_histo_at_4_rotations(image):
     stacked_histo = []
 
-    for kernel in kernels:
+    for kernel in full_frame_kernels:
         gabor_frame = gabor_2d_with_kernel(image, kernel)
         histo = np.histogram(gabor_frame.ravel(), 256, [0, 256])
         stacked_histo.extend(histo)
@@ -95,7 +95,7 @@ def gabor_composite_from_thetas(image, histeq=False):
     if histeq:
         image = cv2.equalizeHist(image)
 
-    return reduce(lambda x, y: x + y, [cv2.filter2D(image, cv2.CV_32F, k) for k in kernels])
+    return reduce(lambda x, y: x + y, [cv2.filter2D(image, cv2.CV_32F, k) for k in full_frame_kernels])
 
 
 ## Get LBPs of different radius on the impulse response

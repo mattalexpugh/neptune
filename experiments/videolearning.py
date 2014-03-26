@@ -3,6 +3,7 @@ __author__ = 'matt'
 import csv
 import time
 import multiprocessing as mp
+import datetime
 import logging
 log = logging.getLogger(__name__)
 
@@ -91,30 +92,42 @@ def run_exp_for_all_classifiers(save_dir=DIR_CLASSIFIERS):
     for c in classifiers:
         # c is a full filepath to the base file of the serialised classifier
         clf = load_saved_classifier(DIR_CLASSIFIERS + c)
-        log.info("Testing Classifier: " + c)
 
         # Make a filename which includes the classifier type and parameters
         vp_full = clf.video_path
         parts = vp_full.split("/")
         file_name = parts[-1]
-        fp = save_dir + STR_PARAM_DELIM.join([c, "SSTRATE", "EXP", file_name,
-                                  str(time.clock()), ".csv"])
+
+        fp = save_dir + STR_PARAM_DELIM.join(
+            [c, "SSTRATE", "EXP", file_name, str(time.clock()), ".csv"]
+        )
 
         exp = EXPMLVidSubstrate(clf.ground_truth, clf.video_path,
                                 None, classifier=clf, init=False)
+
+        # This is the unique ID for the filename, to track in logs.
+        c_hash = hash(c)
+
+        log.info("Testing Classifier: \tHash: {}".format(
+            c, c_hash
+        ))
 
         training_frames = set(clf.training_data)  # The frames used to train
         classes = exp._classes
 
         with open(fp, 'wb') as csvfile:
-            log.debug("Writing to CSV file " + fp)
+            log.debug("Writing to CSV file {} ({})".format(fp, c_hash))
+
             exp_csv_writer = csv.writer(csvfile)
-            exp_csv_writer.writerow(["Video:", clf.video_path, "GT:", clf.ground_truth])
+            exp_csv_writer.writerow(["Video:", clf.video_path,
+                                     "GT:", clf.ground_truth])
             exp_csv_writer.writerow(csv_header)
 
             for klass in classes:
+                log.info("{}: Testing class {} begins.".format(c_hash, klass))
+                start_time = datetime.datetime.now()
+
                 class_frames = set(exp._ground_truth.get_frames_for_class(klass))
-                # All frames - training frames
                 testing_frames = class_frames.difference(training_frames)
 
                 # Deconstruct the filename c to get the method
@@ -133,10 +146,12 @@ def run_exp_for_all_classifiers(save_dir=DIR_CLASSIFIERS):
                         data = data.ravel()
 
                     result = exp.classifier.classify(data) # Get the result
-
-                    # Write it to CSV
-                    # @todo: check the difference of ccw vs internal schema
                     line = [f, klass, result[0], int(klass) == int(result)]
                     exp_csv_writer.writerow(line)
 
-                log.info("Testing class " + str(klass))
+                end_time = datetime.datetime.now()
+                time_delta = end_time - start_time
+
+                log.info("{}: Testing class {} finishes (taken: {})".format(
+                    c_hash, klass, time_delta
+                ))
