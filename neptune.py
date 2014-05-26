@@ -23,12 +23,12 @@ if __name__ == '__main__':
     if args.version:
         print(config.APP_VERSION)
     elif args.api:
-        from algorithms import get_api
+        from app import get_api
         API = get_api()
         for api_element in API.structure:
             print(api_element)
     elif args.apiversion:
-        from algorithms import get_api
+        from app import get_api
         API = get_api()
         print(API.version)
     elif args.experiment:
@@ -37,11 +37,11 @@ if __name__ == '__main__':
         exp.run()
 
         if args.runexp:
-            from experiments.videolearning import run_exp_for_all_classifiers
-            run_exp_for_all_classifiers()
+            from experiments.videolearning import EXPClassifierHandler
+            EXPClassifierHandler.run_exp_for_all_classifiers()
     elif args.runexp:
-        from experiments.videolearning import run_exp_for_all_classifiers
-        run_exp_for_all_classifiers()
+        from experiments.videolearning import EXPClassifierHandler
+        EXPClassifierHandler.run_exp_for_all_classifiers()
     elif args.nogui:
         logger.info("Starting in NoGUI Mode")
         logger.error("This hasn't been made yet!")

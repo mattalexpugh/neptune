@@ -199,7 +199,7 @@ class WTrackerMarking(QMainWindow):
         tracker_name = self.cmb_tracker_types.currentText()
         tracker = TRACKER_TYPES[str(tracker_name)]
 
-        frame_gray = cvtColor(self.vid.current_raw_frame, COLOR_BGR2GRAY)
+        frame_gray = cvtColor(self.vid.current_frame, COLOR_BGR2GRAY)
         # This now depends on the value of the combobox
         new_tracker = tracker(frame_gray, rect)
         self.trackers.add(new_tracker)
@@ -259,7 +259,7 @@ class WTrackerMarking(QMainWindow):
 
         if frame:
             if self.trackers.active:
-                raw_frame = self.vid.current_raw_frame
+                raw_frame = self.vid.current_frame
                 frame_gray = cvtColor(raw_frame, COLOR_BGR2GRAY)
                 self.trackers.update_all(frame_gray)
                 self.trackers.write_to_frame(raw_frame)

@@ -7,6 +7,7 @@ from algorithms.tracking.mosse import MOSSETracker
 
 __author__ = 'matt'
 
+
 class MOSSECVWindow(object):
 
     FRAME_NAME = 'Video Frame'

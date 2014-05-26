@@ -8,6 +8,8 @@ KEY_FOCB = 'focb'
 
 INTERNAL_GT_PATH = "data/static/json/gt/"
 
+IS_MAC = platform.system() == 'Darwin'
+
 
 PATHS = {
     'Darwin': {

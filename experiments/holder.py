@@ -1,11 +1,11 @@
 import logging
-log = logging.getLogger(__name__)
 
 import app.paths as p
-from algorithms import get_api
-from experiments.videolearning import EXPMLVidSubstrate
+from app import get_api
+from experiments.videolearning import EXPMLVidSubstrateFullFrame
 from util.system import load_json
 
+log = logging.getLogger(__name__)
 
 __author__ = 'matt'
 
@@ -21,10 +21,6 @@ KEY_SELCLAS = "selectedClassifiers"
 KEY_SELVIDS = "selectedVideos"
 
 API = get_api()
-
-STR_GT_DELIM = "|"
-STR_VID_COL_DELIM = "::"
-
 
 def get_exp_harness(json_file):
     exp_json = load_json(json_file)
@@ -72,6 +68,11 @@ class EXPSubstrateHarness(EXPHarnessLoader):
 
         self._all_functions = self.json[KEY_ALLFUNC]
         self._all_classifiers = self.json[KEY_ALLCLAS]
+        self._funcs = None
+        self._classifiers = None
+        self._selected_funcs = None
+        self._selected_classifiers = None
+        self._videos = []
 
         if not self.use_all_funcs or not self.use_all_classifiers:
             self._load_selected_only()
@@ -117,24 +118,13 @@ class EXPSubstrateHarness(EXPHarnessLoader):
         self._classifiers = classifiers
 
     def _validate_and_select_videos(self):
-        gt_vid_pairs = []
+        for data_set in self.json[KEY_SELVIDS].keys():
+            videos = self.json[KEY_SELVIDS][data_set]
 
-        for details in self.json[KEY_SELVIDS]:
-            # This would look much nicer in regex, but it works for now...
-            gt_vid_split = details.split(STR_GT_DELIM)
-            gt = gt_vid_split[0]
-
-            vid_details = gt_vid_split[1].split(STR_VID_COL_DELIM)
-            vid_type = vid_details[0]
-            vid_name = vid_details[1]
-
-            gt_file_path = p.get_path(p.KEY_GT) + gt
-            vid_file_path = p.get_path(vid_type.lower()) + vid_name
-
-            pair = (gt_file_path, vid_file_path)
-            gt_vid_pairs.append(pair)
-
-        self._videos = gt_vid_pairs
+            for video_name, ground_truth in videos:
+                ground_truth_fp = p.get_path(p.KEY_GT) + ground_truth
+                video_fp = p.get_path(data_set.lower()) + video_name
+                self._videos.append((ground_truth_fp, video_fp))
 
     def run(self):
         for video_gt_pair in self._videos:
@@ -146,8 +136,8 @@ class EXPSubstrateHarness(EXPHarnessLoader):
                 func_ptr = func[1]
 
                 for classifier in self._classifiers:
-                    exp = EXPMLVidSubstrate(gt, fp, func_ptr, False,
-                                            classifier(metric=func_name))
+                    exp = EXPMLVidSubstrateFullFrame(gt, fp, func_ptr, False,
+                                                     classifier(metric=func_name))
                     exp.train()
                     saved_classifier = exp.classifier.save()
                     del exp

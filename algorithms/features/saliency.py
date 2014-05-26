@@ -49,3 +49,6 @@ def ac09(image):
 
 
 
+METHOD_MAP = {
+
+}

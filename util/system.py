@@ -4,6 +4,7 @@ from getpass import getuser
 from os import listdir
 from os.path import isfile, join
 
+
 def get_system_username():
     # Wrapped to avoid imports plus to fancier things later
     return getuser()

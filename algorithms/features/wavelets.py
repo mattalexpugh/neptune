@@ -37,7 +37,7 @@ def gabor_2d_kernel(xy=21, sigma=5, theta=0, lmbda=50, psi=90):
     x_theta = x * np.cos(theta) + y * np.sin(theta)
     y_theta = x * np.sin(theta) + y * np.cos(theta)
 
-    term1 = np.exp(-0.5 * (x_theta ** 2 + y_theta ** 2 ) / sigma ** 2)
+    term1 = np.exp(-0.5 * (x_theta ** 2 + y_theta ** 2) / sigma ** 2)
     term2 = np.cos(2. * np.pi * x_theta / lmbda + psi)
 
     return np.array(term1 * term2, dtype=np.float32)
