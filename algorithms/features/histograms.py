@@ -12,7 +12,10 @@ def cv2_calc_hist_gray(frame):
     Converts the frame to grayscale from 3-channel colour
     before deriving the histogram based on 8-bit resolution
     """
-    frame = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
+
+    if len(frame.shape) > 2:
+        frame = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
+
     hist = cv2.calcHist([frame], [0], None, [256], [0, 256])
     return np.int32(np.around([x[0] for x in hist]))
 

@@ -11,6 +11,8 @@
     "svm.svmrbf"
   ],
   "selectedVideos": {
-    "GoPro": ["Site 2.MP4", "PHIL_HUGHES_1391025035_COMP_0.1.json"]
+    "GoPro": [
+		["Site 2.MP4", "PHIL_HUGHES_1391025035_COMP_0.1.json"]
+	]
   }
 }
