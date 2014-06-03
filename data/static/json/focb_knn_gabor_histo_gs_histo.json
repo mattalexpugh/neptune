@@ -8,14 +8,13 @@
   },
   "allFunctions": false,
   "selectedFunctions": [
-	"features.wavelets.gabor_lbp1",
-	"features.wavelets.gabor_lbp2",
-    "features.wavelets.gabor_composite_histogram"
+    "features.histograms.cv2_gray_hist",
+    "features.wavelets.gabor_lbp1",
+    "features.wavelets.gabor_lbp2"
   ],
   "allClassifiers": false,
   "selectedClassifiers": [
-    "svm.svmlin",
-	"knn.knn"
+    "knn.knn"
   ],
   "selectedVideos": {
     "FoCB": [

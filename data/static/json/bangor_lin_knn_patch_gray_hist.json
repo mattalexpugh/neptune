@@ -8,9 +8,9 @@
   },
   "allFunctions": false,
   "selectedFunctions": [
-	"features.wavelets.gabor_lbp1",
-	"features.wavelets.gabor_lbp2",
-    "features.wavelets.gabor_composite_histogram"
+    "features.wavelets.gabor_lbp1",
+    "features.wavelets.gabor_lbp2",
+    "features.wavelets.gabor_histo_4_rotations"
   ],
   "allClassifiers": false,
   "selectedClassifiers": [
@@ -18,14 +18,15 @@
 	"knn.knn"
   ],
   "selectedVideos": {
-    "FoCB": [
+    "GoPro": [
       [
-        "aber harbour 26th sep 08 tape 2.wmv",
-        "MATT_PUGH_1391010753_COMP_0.1.json"
+        "Site 2.MP4", "PHIL_HUGHES_1391025035_COMP_0.1.json"
+      ],
+		[
+        "Site 3.MP4", "PHIL_HUGHES_1391026047_COMP_0.1.json"
       ],
       [
-        "clarach consti and harbour pollock.wmv",
-        "MATT_PUGH_1391012089_COMP_0.1.json"
+        "Site 10.MP4", "MATT_1387311857_COMP_0.1.json"
       ]
     ]
   }

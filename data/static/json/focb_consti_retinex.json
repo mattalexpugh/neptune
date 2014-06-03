@@ -1,0 +1,15 @@
+{
+  "experimentType": "VIDEOSUBSTRATE",
+  "allFunctions": false,
+  "selectedFunctions": [
+    "features.histograms.cv2_calc_hist_retinex_bgr",
+	"features.histograms.cv2_calc_hist_retinex_gray"
+  ],
+  "allClassifiers": true,
+  "selectedClassifiers": [
+    "svm.svmlin"
+  ],
+  "selectedVideos": [
+    "MATT_PUGH_1391012089_COMP_0.1.json|FoCB::clarach consti and harbour pollock.wmv"
+  ]
+}

@@ -1,0 +1,1580 @@
+2014-03-01 16:09:16,981 - __main__ - INFO - foo
+2014-03-01 21:00:20,813 - __main__ - INFO - Starting in NoGUI Mode
+2014-03-01 21:00:20,814 - __main__ - ERROR - This hasn't been made yet!
+2014-03-22 15:34:44,526 - experiments.holder - INFO - Unknown API method called: cv2_calc_hist_retinex_gray
+2014-03-22 16:08:32,508 - experiments.videolearning - INFO - Learned class 24
+2014-03-22 16:12:15,718 - experiments.videolearning - INFO - Learned class 18
+2014-03-22 16:15:01,915 - experiments.videolearning - INFO - Learned class 22
+2014-03-22 16:18:06,774 - experiments.videolearning - INFO - Learned class 23
+2014-03-22 16:29:22,652 - experiments.videolearning - INFO - Learned class 16
+2014-03-22 16:30:08,828 - experiments.videolearning - INFO - Learned class 24
+2014-03-22 16:30:47,727 - experiments.videolearning - INFO - Learned class 18
+2014-03-22 16:31:49,828 - experiments.videolearning - INFO - Learned class 27
+2014-03-22 16:39:37,674 - experiments.videolearning - INFO - Learned class 16
+2014-03-22 16:40:26,962 - experiments.videolearning - INFO - Learned class 24
+2014-03-22 16:41:07,265 - experiments.videolearning - INFO - Learned class 18
+2014-03-22 16:42:10,022 - experiments.videolearning - INFO - Learned class 27
+2014-03-22 16:42:10,023 - experiments.videolearning - INFO - Beginning fitting for LinearSVC_undefined
+2014-03-22 16:42:13,792 - experiments.holder - INFO - Saved classifier: /home/matt/documents/MPhil/classifiers/VLinearSVCSubstrateClassifier_LinearSVC_undefined_1395506533
+2014-03-22 16:46:56,348 - experiments.videolearning - INFO - Learned class 16
+2014-03-22 16:47:44,009 - experiments.videolearning - INFO - Learned class 24
+2014-03-22 16:48:23,504 - experiments.videolearning - INFO - Learned class 18
+2014-03-22 16:49:25,016 - experiments.videolearning - INFO - Learned class 27
+2014-03-22 16:49:25,017 - experiments.videolearning - INFO - Beginning fitting for rbf_undefined
+2014-03-22 16:49:28,327 - experiments.holder - INFO - Saved classifier: /home/matt/documents/MPhil/classifiers/VSVMSubstrateClassifier_rbf_undefined_1395506968
+2014-03-22 16:54:22,307 - experiments.videolearning - INFO - Learned class 16
+2014-03-22 16:55:11,317 - experiments.videolearning - INFO - Learned class 24
+2014-03-22 16:55:53,321 - experiments.videolearning - INFO - Learned class 18
+2014-03-22 16:56:58,647 - experiments.videolearning - INFO - Learned class 27
+2014-03-22 16:56:58,647 - experiments.videolearning - INFO - Beginning fitting for LinearSVC_undefined
+2014-03-22 16:57:08,315 - experiments.holder - INFO - Saved classifier: /home/matt/documents/MPhil/classifiers/VLinearSVCSubstrateClassifier_LinearSVC_undefined_1395507428
+2014-03-22 17:12:35,105 - experiments.videolearning - INFO - Learned class 16
+2014-03-22 17:13:22,090 - experiments.videolearning - INFO - Learned class 24
+2014-03-22 17:14:03,271 - experiments.videolearning - INFO - Learned class 18
+2014-03-22 17:15:08,438 - experiments.videolearning - INFO - Learned class 27
+2014-03-22 17:15:08,439 - experiments.videolearning - INFO - Beginning fitting for LinearSVC_cv2_gray_hist
+2014-03-22 17:15:12,264 - experiments.holder - INFO - Saved classifier: /home/matt/documents/MPhil/classifiers/VLinearSVCSubstrateClassifier_LinearSVC_cv2_gray_hist_1395508512
+2014-03-22 17:19:58,218 - experiments.videolearning - INFO - Learned class 16
+2014-03-22 17:20:49,197 - experiments.videolearning - INFO - Learned class 24
+2014-03-22 17:21:30,111 - experiments.videolearning - INFO - Learned class 18
+2014-03-22 17:22:34,220 - experiments.videolearning - INFO - Learned class 27
+2014-03-22 17:22:34,220 - experiments.videolearning - INFO - Beginning fitting for rbf_cv2_gray_hist
+2014-03-22 17:22:37,675 - experiments.holder - INFO - Saved classifier: /home/matt/documents/MPhil/classifiers/VSVMSubstrateClassifier_rbf_cv2_gray_hist_1395508957
+2014-03-22 17:28:30,344 - experiments.videolearning - INFO - Learned class 16
+2014-03-22 17:29:32,003 - experiments.videolearning - INFO - Learned class 24
+2014-03-22 17:30:25,086 - experiments.videolearning - INFO - Learned class 18
+2014-03-22 17:31:45,524 - experiments.videolearning - INFO - Learned class 27
+2014-03-22 17:31:45,524 - experiments.videolearning - INFO - Beginning fitting for LinearSVC_cv2_calc_hist_bgr
+2014-03-22 17:31:54,936 - experiments.holder - INFO - Saved classifier: /home/matt/documents/MPhil/classifiers/VLinearSVCSubstrateClassifier_LinearSVC_cv2_calc_hist_bgr_1395509514
+2014-03-22 17:36:46,111 - experiments.videolearning - INFO - Learned class 16
+2014-03-22 17:37:35,369 - experiments.videolearning - INFO - Learned class 24
+2014-03-22 17:38:17,694 - experiments.videolearning - INFO - Learned class 18
+2014-03-22 17:39:22,602 - experiments.videolearning - INFO - Learned class 27
+2014-03-22 17:39:22,602 - experiments.videolearning - INFO - Beginning fitting for rbf_cv2_calc_hist_bgr
+2014-03-22 17:39:28,495 - experiments.holder - INFO - Saved classifier: /home/matt/documents/MPhil/classifiers/VSVMSubstrateClassifier_rbf_cv2_calc_hist_bgr_1395509968
+2014-03-22 18:13:25,230 - experiments.videolearning - INFO - Learned class 16
+2014-03-22 18:19:16,186 - experiments.videolearning - INFO - Learned class 24
+2014-03-22 18:24:05,812 - experiments.videolearning - INFO - Learned class 18
+2014-03-22 18:31:42,579 - experiments.videolearning - INFO - Learned class 27
+2014-03-22 18:31:42,579 - experiments.videolearning - INFO - Beginning fitting for LinearSVC_gabor_histo_4_rotations
+2014-03-22 18:32:12,901 - experiments.holder - INFO - Saved classifier: /home/matt/documents/MPhil/classifiers/VLinearSVCSubstrateClassifier_LinearSVC_gabor_histo_4_rotations_1395513132
+2014-03-22 19:06:44,893 - experiments.videolearning - INFO - Learned class 16
+2014-03-22 19:12:37,858 - experiments.videolearning - INFO - Learned class 24
+2014-03-22 19:17:43,057 - experiments.videolearning - INFO - Learned class 18
+2014-03-22 19:25:19,436 - experiments.videolearning - INFO - Learned class 27
+2014-03-22 19:25:19,437 - experiments.videolearning - INFO - Beginning fitting for rbf_gabor_histo_4_rotations
+2014-03-22 19:25:44,004 - experiments.holder - INFO - Saved classifier: /home/matt/documents/MPhil/classifiers/VSVMSubstrateClassifier_rbf_gabor_histo_4_rotations_1395516343
+2014-03-22 19:58:19,386 - experiments.videolearning - INFO - Learned class 16
+2014-03-22 20:04:05,758 - experiments.videolearning - INFO - Learned class 24
+2014-03-22 20:08:59,077 - experiments.videolearning - INFO - Learned class 18
+2014-03-22 20:16:03,662 - experiments.videolearning - INFO - Learned class 27
+2014-03-22 20:16:03,662 - experiments.videolearning - INFO - Beginning fitting for LinearSVC_gabor_lbp1
+2014-03-22 20:16:04,809 - experiments.holder - INFO - Saved classifier: /home/matt/documents/MPhil/classifiers/VLinearSVCSubstrateClassifier_LinearSVC_gabor_lbp1_1395519364
+2014-03-22 20:48:51,737 - experiments.videolearning - INFO - Learned class 16
+2014-03-22 20:54:16,658 - experiments.videolearning - INFO - Learned class 24
+2014-03-22 20:58:44,117 - experiments.videolearning - INFO - Learned class 18
+2014-03-22 21:05:43,483 - experiments.videolearning - INFO - Learned class 27
+2014-03-22 21:05:43,483 - experiments.videolearning - INFO - Beginning fitting for rbf_gabor_lbp1
+2014-03-22 21:05:44,300 - experiments.holder - INFO - Saved classifier: /home/matt/documents/MPhil/classifiers/VSVMSubstrateClassifier_rbf_gabor_lbp1_1395522344
+2014-03-22 21:12:25,852 - experiments.videolearning - INFO - Learned class 16
+2014-03-22 21:21:08,633 - experiments.videolearning - INFO - Learned class 29
+2014-03-22 21:21:47,101 - experiments.videolearning - INFO - Learned class 22
+2014-03-22 21:21:47,101 - experiments.videolearning - INFO - Beginning fitting for LinearSVC_cv2_gray_hist
+2014-03-22 21:21:56,324 - experiments.holder - INFO - Saved classifier: /home/matt/documents/MPhil/classifiers/VLinearSVCSubstrateClassifier_LinearSVC_cv2_gray_hist_1395523316
+2014-03-22 21:28:22,058 - experiments.videolearning - INFO - Learned class 16
+2014-03-22 21:35:53,923 - experiments.videolearning - INFO - Learned class 29
+2014-03-22 21:36:31,350 - experiments.videolearning - INFO - Learned class 22
+2014-03-22 21:36:31,353 - experiments.videolearning - INFO - Beginning fitting for rbf_cv2_gray_hist
+2014-03-22 21:36:41,293 - experiments.holder - INFO - Saved classifier: /home/matt/documents/MPhil/classifiers/VSVMSubstrateClassifier_rbf_cv2_gray_hist_1395524201
+2014-03-22 21:43:24,755 - experiments.videolearning - INFO - Learned class 16
+2014-03-22 21:50:22,205 - experiments.videolearning - INFO - Learned class 29
+2014-03-22 21:50:56,575 - experiments.videolearning - INFO - Learned class 22
+2014-03-22 21:50:56,575 - experiments.videolearning - INFO - Beginning fitting for LinearSVC_cv2_calc_hist_bgr
+2014-03-22 21:51:16,415 - experiments.holder - INFO - Saved classifier: /home/matt/documents/MPhil/classifiers/VLinearSVCSubstrateClassifier_LinearSVC_cv2_calc_hist_bgr_1395525076
+2014-03-22 21:57:08,217 - experiments.videolearning - INFO - Learned class 16
+2014-03-22 22:05:56,608 - experiments.videolearning - INFO - Learned class 29
+2014-03-22 22:06:44,202 - experiments.videolearning - INFO - Learned class 22
+2014-03-22 22:06:44,203 - experiments.videolearning - INFO - Beginning fitting for rbf_cv2_calc_hist_bgr
+2014-03-22 22:07:14,626 - experiments.holder - INFO - Saved classifier: /home/matt/documents/MPhil/classifiers/VSVMSubstrateClassifier_rbf_cv2_calc_hist_bgr_1395526034
+2014-03-22 22:10:34,669 - experiments.videolearning - INFO - Learned class 24
+2014-03-22 22:14:17,398 - experiments.videolearning - INFO - Learned class 18
+2014-03-22 22:16:58,082 - experiments.videolearning - INFO - Learned class 22
+2014-03-22 22:19:57,982 - experiments.videolearning - INFO - Learned class 23
+2014-03-22 22:19:57,982 - experiments.videolearning - INFO - Beginning fitting for LinearSVC_features.wavelets.gabor_histo_4_rotations
+2014-03-22 22:20:30,579 - experiments.holder - INFO - Saved classifier: /Users/matt/Documents/MPhil/classifiers/VLinearSVCSubstrateClassifier__LinearSVC_features.wavelets.gabor_histo_4_rotations__1395526830
+2014-03-22 22:26:34,633 - experiments.videolearning - INFO - Learned class 24
+2014-03-22 22:28:14,290 - experiments.videolearning - INFO - Learned class 29
+2014-03-22 22:28:42,038 - experiments.videolearning - INFO - Learned class 22
+2014-03-22 22:31:49,432 - experiments.videolearning - INFO - Learned class 23
+2014-03-22 22:31:49,432 - experiments.videolearning - INFO - Beginning fitting for LinearSVC_features.wavelets.gabor_histo_4_rotations
+2014-03-22 22:36:09,078 - experiments.videolearning - INFO - Learned class 24
+2014-03-22 22:39:59,652 - experiments.videolearning - INFO - Learned class 18
+2014-03-22 22:42:49,645 - experiments.videolearning - INFO - Learned class 22
+2014-03-22 22:45:58,096 - experiments.videolearning - INFO - Learned class 23
+2014-03-22 22:45:58,096 - experiments.videolearning - INFO - Beginning fitting for LinearSVC__features.wavelets.gabor_histo_4_rotations
+2014-03-22 22:46:31,487 - experiments.holder - INFO - Saved classifier: /Users/matt/Documents/MPhil/classifiers/VLinearSVCSubstrateClassifier__LinearSVC__features.wavelets.gabor_histo_4_rotations__1395528391
+2014-03-22 22:52:28,364 - experiments.videolearning - INFO - Learned class 24
+2014-03-22 22:54:03,428 - experiments.videolearning - INFO - Learned class 29
+2014-03-22 22:54:29,972 - experiments.videolearning - INFO - Learned class 22
+2014-03-22 22:57:33,434 - experiments.videolearning - INFO - Learned class 23
+2014-03-22 22:57:33,434 - experiments.videolearning - INFO - Beginning fitting for LinearSVC__features.wavelets.gabor_histo_4_rotations
+2014-03-22 22:58:18,859 - experiments.holder - INFO - Saved classifier: /Users/matt/Documents/MPhil/classifiers/VLinearSVCSubstrateClassifier__LinearSVC__features.wavelets.gabor_histo_4_rotations__1395529098
+2014-03-22 22:58:18,890 - experiments.videolearning - INFO - Testing Classifier: VLinearSVCSubstrateClassifier__LinearSVC__features.wavelets.gabor_histo_4_rotations__1395528391
+2014-03-22 23:30:58,212 - experiments.videolearning - INFO - Testing class 24
+2014-03-23 00:05:34,704 - experiments.videolearning - INFO - Testing class 18
+2014-03-23 00:29:52,124 - experiments.videolearning - INFO - Testing class 22
+2014-03-23 00:58:39,118 - experiments.videolearning - INFO - Testing class 23
+2014-03-23 00:58:39,131 - experiments.videolearning - INFO - Testing Classifier: VLinearSVCSubstrateClassifier__LinearSVC__features.wavelets.gabor_histo_4_rotations__1395529098
+2014-03-23 01:56:37,506 - experiments.videolearning - INFO - Testing class 24
+2014-03-23 02:10:58,862 - experiments.videolearning - INFO - Testing class 29
+2014-03-23 02:14:55,159 - experiments.videolearning - INFO - Testing class 22
+2014-03-23 02:42:24,383 - experiments.videolearning - INFO - Testing class 23
+2014-03-23 04:28:57,140 - experiments.holder - INFO - Unknown API method called: features.histograms.cv2_calc_hist
+2014-03-23 04:31:03,254 - experiments.videolearning - INFO - Learned class 16
+2014-03-23 04:31:25,162 - experiments.videolearning - INFO - Learned class 24
+2014-03-23 04:31:44,060 - experiments.videolearning - INFO - Learned class 18
+2014-03-23 04:32:12,843 - experiments.videolearning - INFO - Learned class 27
+2014-03-23 04:32:12,844 - experiments.videolearning - INFO - Beginning fitting for auto_n5_features.histograms.cv2_calc_hist_retinex_bgr
+2014-03-23 04:32:13,102 - experiments.holder - INFO - Saved classifier: /Users/matt/Documents/MPhil/classifiers/VKNNSubstrateClassifier__auto_n5_features.histograms.cv2_calc_hist_retinex_bgr__1395549133
+2014-03-23 04:34:30,222 - experiments.videolearning - INFO - Learned class 16
+2014-03-23 04:34:52,052 - experiments.videolearning - INFO - Learned class 24
+2014-03-23 04:35:09,965 - experiments.videolearning - INFO - Learned class 18
+2014-03-23 04:35:38,330 - experiments.videolearning - INFO - Learned class 27
+2014-03-23 04:35:38,330 - experiments.videolearning - INFO - Beginning fitting for rbf__features.histograms.cv2_calc_hist_retinex_bgr
+2014-03-23 04:35:42,556 - experiments.holder - INFO - Saved classifier: /Users/matt/Documents/MPhil/classifiers/VSVMSubstrateClassifier__rbf__features.histograms.cv2_calc_hist_retinex_bgr__1395549342
+2014-03-23 04:38:00,551 - experiments.videolearning - INFO - Learned class 16
+2014-03-23 04:38:22,963 - experiments.videolearning - INFO - Learned class 24
+2014-03-23 04:38:41,341 - experiments.videolearning - INFO - Learned class 18
+2014-03-23 04:39:10,666 - experiments.videolearning - INFO - Learned class 27
+2014-03-23 04:39:10,666 - experiments.videolearning - INFO - Beginning fitting for LinearSVC__features.histograms.cv2_calc_hist_retinex_bgr
+2014-03-23 04:39:17,142 - experiments.holder - INFO - Saved classifier: /Users/matt/Documents/MPhil/classifiers/VLinearSVCSubstrateClassifier__LinearSVC__features.histograms.cv2_calc_hist_retinex_bgr__1395549557
+2014-03-23 04:42:41,778 - experiments.videolearning - INFO - Learned class 16
+2014-03-23 04:43:15,510 - experiments.videolearning - INFO - Learned class 24
+2014-03-23 04:43:42,801 - experiments.videolearning - INFO - Learned class 18
+2014-03-23 04:44:27,043 - experiments.videolearning - INFO - Learned class 27
+2014-03-23 04:44:27,043 - experiments.videolearning - INFO - Beginning fitting for auto_n5_features.histograms.cv2_calc_hist_retinex_gray
+2014-03-23 04:44:27,128 - experiments.holder - INFO - Saved classifier: /Users/matt/Documents/MPhil/classifiers/VKNNSubstrateClassifier__auto_n5_features.histograms.cv2_calc_hist_retinex_gray__1395549867
+2014-03-23 04:47:52,133 - experiments.videolearning - INFO - Learned class 16
+2014-03-23 04:48:26,265 - experiments.videolearning - INFO - Learned class 24
+2014-03-23 04:48:54,038 - experiments.videolearning - INFO - Learned class 18
+2014-03-23 04:49:38,754 - experiments.videolearning - INFO - Learned class 27
+2014-03-23 04:49:38,754 - experiments.videolearning - INFO - Beginning fitting for rbf__features.histograms.cv2_calc_hist_retinex_gray
+2014-03-23 04:49:41,194 - experiments.holder - INFO - Saved classifier: /Users/matt/Documents/MPhil/classifiers/VSVMSubstrateClassifier__rbf__features.histograms.cv2_calc_hist_retinex_gray__1395550181
+2014-03-23 04:53:07,111 - experiments.videolearning - INFO - Learned class 16
+2014-03-23 04:53:40,169 - experiments.videolearning - INFO - Learned class 24
+2014-03-23 04:54:08,139 - experiments.videolearning - INFO - Learned class 18
+2014-03-23 04:54:51,636 - experiments.videolearning - INFO - Learned class 27
+2014-03-23 04:54:51,636 - experiments.videolearning - INFO - Beginning fitting for LinearSVC__features.histograms.cv2_calc_hist_retinex_gray
+2014-03-23 04:54:54,251 - experiments.holder - INFO - Saved classifier: /Users/matt/Documents/MPhil/classifiers/VLinearSVCSubstrateClassifier__LinearSVC__features.histograms.cv2_calc_hist_retinex_gray__1395550494
+2014-03-23 04:56:57,930 - experiments.videolearning - INFO - Learned class 16
+2014-03-23 04:57:05,120 - experiments.videolearning - INFO - Learned class 28
+2014-03-23 04:57:42,208 - experiments.videolearning - INFO - Learned class 29
+2014-03-23 04:57:43,294 - experiments.videolearning - INFO - Learned class 22
+2014-03-23 04:59:08,214 - experiments.videolearning - INFO - Learned class 31
+2014-03-23 04:59:08,215 - experiments.videolearning - INFO - Beginning fitting for auto_n5_features.histograms.cv2_calc_hist_retinex_bgr
+2014-03-23 04:59:08,539 - experiments.holder - INFO - Saved classifier: /Users/matt/Documents/MPhil/classifiers/VKNNSubstrateClassifier__auto_n5_features.histograms.cv2_calc_hist_retinex_bgr__1395550748
+2014-03-23 05:01:11,416 - experiments.videolearning - INFO - Learned class 16
+2014-03-23 05:01:18,469 - experiments.videolearning - INFO - Learned class 28
+2014-03-23 05:01:55,464 - experiments.videolearning - INFO - Learned class 29
+2014-03-23 05:01:56,823 - experiments.videolearning - INFO - Learned class 22
+2014-03-23 05:03:22,381 - experiments.videolearning - INFO - Learned class 31
+2014-03-23 05:03:22,381 - experiments.videolearning - INFO - Beginning fitting for rbf__features.histograms.cv2_calc_hist_retinex_bgr
+2014-03-23 05:03:34,110 - experiments.holder - INFO - Saved classifier: /Users/matt/Documents/MPhil/classifiers/VSVMSubstrateClassifier__rbf__features.histograms.cv2_calc_hist_retinex_bgr__1395551014
+2014-03-23 05:05:36,657 - experiments.videolearning - INFO - Learned class 16
+2014-03-23 05:05:44,081 - experiments.videolearning - INFO - Learned class 28
+2014-03-23 05:06:21,244 - experiments.videolearning - INFO - Learned class 29
+2014-03-23 05:06:22,392 - experiments.videolearning - INFO - Learned class 22
+2014-03-23 05:07:46,607 - experiments.videolearning - INFO - Learned class 31
+2014-03-23 05:07:46,607 - experiments.videolearning - INFO - Beginning fitting for LinearSVC__features.histograms.cv2_calc_hist_retinex_bgr
+2014-03-23 05:07:55,934 - experiments.holder - INFO - Saved classifier: /Users/matt/Documents/MPhil/classifiers/VLinearSVCSubstrateClassifier__LinearSVC__features.histograms.cv2_calc_hist_retinex_bgr__1395551275
+2014-03-23 05:11:02,380 - experiments.videolearning - INFO - Learned class 16
+2014-03-23 05:11:13,167 - experiments.videolearning - INFO - Learned class 28
+2014-03-23 05:12:08,342 - experiments.videolearning - INFO - Learned class 29
+2014-03-23 05:12:10,117 - experiments.videolearning - INFO - Learned class 22
+2014-03-23 05:14:16,187 - experiments.videolearning - INFO - Learned class 31
+2014-03-23 05:14:16,187 - experiments.videolearning - INFO - Beginning fitting for auto_n5_features.histograms.cv2_calc_hist_retinex_gray
+2014-03-23 05:14:16,296 - experiments.holder - INFO - Saved classifier: /Users/matt/Documents/MPhil/classifiers/VKNNSubstrateClassifier__auto_n5_features.histograms.cv2_calc_hist_retinex_gray__1395551656
+2014-03-23 05:17:22,730 - experiments.videolearning - INFO - Learned class 16
+2014-03-23 05:17:34,315 - experiments.videolearning - INFO - Learned class 28
+2014-03-23 05:18:29,748 - experiments.videolearning - INFO - Learned class 29
+2014-03-23 05:18:31,496 - experiments.videolearning - INFO - Learned class 22
+2014-03-23 05:20:39,397 - experiments.videolearning - INFO - Learned class 31
+2014-03-23 05:20:39,398 - experiments.videolearning - INFO - Beginning fitting for rbf__features.histograms.cv2_calc_hist_retinex_gray
+2014-03-23 05:20:43,676 - experiments.holder - INFO - Saved classifier: /Users/matt/Documents/MPhil/classifiers/VSVMSubstrateClassifier__rbf__features.histograms.cv2_calc_hist_retinex_gray__1395552043
+2014-03-23 05:23:52,116 - experiments.videolearning - INFO - Learned class 16
+2014-03-23 05:24:02,787 - experiments.videolearning - INFO - Learned class 28
+2014-03-23 05:24:59,812 - experiments.videolearning - INFO - Learned class 29
+2014-03-23 05:25:01,441 - experiments.videolearning - INFO - Learned class 22
+2014-03-23 05:27:10,204 - experiments.videolearning - INFO - Learned class 31
+2014-03-23 05:27:10,204 - experiments.videolearning - INFO - Beginning fitting for LinearSVC__features.histograms.cv2_calc_hist_retinex_gray
+2014-03-23 05:27:15,094 - experiments.holder - INFO - Saved classifier: /Users/matt/Documents/MPhil/classifiers/VLinearSVCSubstrateClassifier__LinearSVC__features.histograms.cv2_calc_hist_retinex_gray__1395552435
+2014-03-23 05:27:15,150 - experiments.videolearning - INFO - Testing Classifier: VKNNSubstrateClassifier__auto_n5_features.histograms.cv2_calc_hist_retinex_bgr__1395549133
+2014-03-23 11:42:08,696 - experiments.holder - INFO - Unknown API method called: features.histograms.cv2_calc_hist
+2014-03-23 11:42:08,753 - experiments.videolearning - INFO - Testing Classifier: VKNNSubstrateClassifier__auto_n5_features.histograms.cv2_calc_hist_retinex_bgr__1395549133
+2014-03-23 11:44:42,673 - experiments.videolearning - INFO - Learned class 16
+2014-03-23 11:44:50,711 - experiments.videolearning - INFO - Learned class 28
+2014-03-23 11:45:30,400 - experiments.videolearning - INFO - Learned class 29
+2014-03-23 11:45:31,370 - experiments.videolearning - INFO - Learned class 22
+2014-03-23 11:46:59,158 - experiments.videolearning - INFO - Learned class 31
+2014-03-23 11:46:59,158 - experiments.videolearning - INFO - Beginning fitting for auto_n5_features.histograms.cv2_calc_hist_bgr
+2014-03-23 11:46:59,504 - experiments.holder - INFO - Saved classifier: /Users/matt/Documents/MPhil/classifiers/VKNNSubstrateClassifier__auto_n5_features.histograms.cv2_calc_hist_bgr__1395575219
+2014-03-23 12:12:18,703 - experiments.videolearning - INFO - Learned class 16
+2014-03-23 12:13:45,683 - experiments.videolearning - INFO - Learned class 28
+2014-03-23 12:21:03,973 - experiments.videolearning - INFO - Learned class 29
+2014-03-23 12:21:17,288 - experiments.videolearning - INFO - Learned class 22
+2014-03-23 12:38:09,433 - experiments.videolearning - INFO - Learned class 31
+2014-03-23 12:38:09,434 - experiments.videolearning - INFO - Beginning fitting for auto_n5_features.wavelets.gabor_histo_4_rotations
+2014-03-23 12:38:10,309 - experiments.holder - INFO - Saved classifier: /Users/matt/Documents/MPhil/classifiers/VKNNSubstrateClassifier__auto_n5_features.wavelets.gabor_histo_4_rotations__1395578290
+2014-03-23 13:02:56,821 - experiments.videolearning - INFO - Learned class 16
+2014-03-23 13:04:29,357 - experiments.videolearning - INFO - Learned class 28
+2014-03-23 13:11:54,537 - experiments.videolearning - INFO - Learned class 29
+2014-03-23 13:12:08,388 - experiments.videolearning - INFO - Learned class 22
+2014-03-23 13:29:55,221 - experiments.videolearning - INFO - Learned class 31
+2014-03-23 13:29:55,222 - experiments.videolearning - INFO - Beginning fitting for auto_n5_features.wavelets.gabor_lbp1
+2014-03-23 13:29:55,268 - experiments.holder - INFO - Saved classifier: /Users/matt/Documents/MPhil/classifiers/VKNNSubstrateClassifier__auto_n5_features.wavelets.gabor_lbp1__1395581395
+2014-03-23 13:29:55,336 - experiments.videolearning - INFO - Testing Classifier: VKNNSubstrateClassifier__auto_n5_features.histograms.cv2_calc_hist_bgr__1395575219
+2014-03-23 14:03:27,185 - experiments.videolearning - INFO - Testing Classifier: VKNNSubstrateClassifier__auto_n5_features.histograms.cv2_calc_hist_bgr__1395575219
+2014-03-23 14:26:39,821 - experiments.videolearning - INFO - Testing Classifier: VKNNSubstrateClassifier__auto__n5__features.histograms.cv2_calc_hist_bgr__1395575219
+2014-03-23 15:12:28,268 - experiments.videolearning - INFO - Testing Classifier: VKNNSubstrateClassifier__auto__n5__features.histograms.cv2_calc_hist_bgr__1395575219
+2014-03-23 15:32:13,020 - experiments.videolearning - INFO - Testing class 16
+2014-03-23 15:33:23,382 - experiments.videolearning - INFO - Testing class 28
+2014-03-23 15:38:58,535 - experiments.videolearning - INFO - Testing class 29
+2014-03-23 15:39:09,395 - experiments.videolearning - INFO - Testing class 22
+2014-03-23 15:52:01,178 - experiments.videolearning - INFO - Testing class 31
+2014-03-23 15:52:01,201 - experiments.videolearning - INFO - Testing Classifier: VKNNSubstrateClassifier__auto__n5__features.histograms.cv2_calc_hist_retinex_bgr__1395549133
+2014-03-23 16:12:54,930 - experiments.videolearning - INFO - Testing class 16
+2014-03-23 16:16:20,952 - experiments.videolearning - INFO - Testing class 24
+2014-03-23 16:19:09,242 - experiments.videolearning - INFO - Testing class 18
+2014-03-23 16:23:39,426 - experiments.videolearning - INFO - Testing class 27
+2014-03-23 16:23:39,472 - experiments.videolearning - INFO - Testing Classifier: VKNNSubstrateClassifier__auto__n5__features.histograms.cv2_calc_hist_retinex_bgr__1395550748
+2014-03-23 16:42:31,074 - experiments.videolearning - INFO - Testing class 16
+2014-03-23 16:43:38,718 - experiments.videolearning - INFO - Testing class 28
+2014-03-23 16:49:15,478 - experiments.videolearning - INFO - Testing class 29
+2014-03-23 16:49:26,290 - experiments.videolearning - INFO - Testing class 22
+2014-03-23 17:03:20,281 - experiments.videolearning - INFO - Testing class 31
+2014-03-23 17:03:20,299 - experiments.videolearning - INFO - Testing Classifier: VKNNSubstrateClassifier__auto__n5__features.histograms.cv2_calc_hist_retinex_gray__1395549867
+2014-03-24 01:31:42,194 - experiments.videolearning - INFO - Testing Classifier: VLinearSVCSubstrateClassifier__LinearSVC__features.histograms.cv2_calc_hist_bgr__1395509514
+2014-03-24 02:14:32,767 - experiments.videolearning - INFO - Testing class 16
+2014-03-24 02:22:09,133 - experiments.videolearning - INFO - Testing class 24
+2014-03-24 02:28:31,247 - experiments.videolearning - INFO - Testing class 18
+2014-03-24 02:39:10,397 - experiments.videolearning - INFO - Testing class 27
+2014-03-24 02:39:10,412 - experiments.videolearning - INFO - Testing Classifier: VSVMSubstrateClassifier__rbf__features.wavelets.gabor_lbp1__1395548659
+2014-03-24 08:52:12,124 - experiments.videolearning - INFO - Testing class 16
+2014-03-24 14:33:43,956 - experiments.videolearning - INFO - Testing Classifier: VLinearSVCSubstrateClassifier__LinearSVC__features.wavelets.gabor_lbp1__1395562366
+2014-03-24 14:34:45,586 - experiments.videolearning - INFO - Testing Classifier: VLinearSVCSubstrateClassifier__LinearSVC__features.histograms.cv2_gray_hist__1395508512
+2014-03-24 16:02:32,213 - experiments.videolearning - INFO - Testing class 16
+2014-03-24 16:19:28,953 - experiments.videolearning - INFO - Testing class 24
+2014-03-24 16:32:58,846 - experiments.videolearning - INFO - Testing class 18
+2014-03-24 16:55:26,288 - experiments.videolearning - INFO - Testing class 27
+2014-03-24 16:55:26,823 - experiments.videolearning - INFO - Testing Classifier: VSVMSubstrateClassifier__rbf__features.wavelets.gabor_histo_4_rotations__1395537927
+2014-03-24 17:54:19,689 - experiments.videolearning - INFO - Testing class 29
+2014-03-24 18:41:52,165 - experiments.videolearning - INFO - Testing Classifier: VSVMSubstrateClassifier__rbf__features.wavelets.gabor_histo_4_rotations__1395558774
+2014-03-24 19:07:13,566 - experiments.videolearning - INFO - Testing class 22
+2014-03-24 19:29:46,019 - experiments.videolearning - INFO - Testing Classifier: VLinearSVCSubstrateClassifier__LinearSVC__features.wavelets.gabor_histo_4_rotations__1395531969
+2014-03-24 19:40:13,899 - experiments.videolearning - INFO - Testing Classifier: VKNNSubstrateClassifier__auto__n5__features.histograms.cv2_calc_hist_retinex_gray__1395684649
+2014-03-24 19:57:10,159 - experiments.videolearning - INFO - Testing class 24
+2014-03-24 20:02:50,593 - experiments.videolearning - INFO - Testing Classifier: VKNNSubstrateClassifier__auto__n5__features.histograms.cv2_gray_hist__1395683969
+2014-03-24 20:29:01,534 - experiments.videolearning - INFO - Testing class 18
+2014-03-24 20:51:58,704 - experiments.videolearning - INFO - Testing class 16
+2014-03-24 20:58:09,311 - experiments.videolearning - INFO - Testing class 22
+2014-03-24 21:48:45,094 - experiments.videolearning - INFO - Testing class 29
+2014-03-24 21:53:22,534 - experiments.videolearning - INFO - Testing class 22
+2014-03-24 21:53:22,555 - experiments.videolearning - INFO - Testing Classifier: VLinearSVCSubstrateClassifier__LinearSVC__features.histograms.cv2_calc_hist_retinex_bgr__1395684185
+2014-03-24 22:05:26,947 - experiments.videolearning - INFO - Testing class 24
+2014-03-24 22:16:28,606 - experiments.videolearning - INFO - Testing Classifier: VLinearSVCSubstrateClassifier__LinearSVC__features.histograms.cv2_calc_hist_retinex_bgr__1395684185
+2014-03-24 22:19:10,045 - experiments.videolearning - INFO - Testing class 18
+2014-03-24 22:28:58,358 - experiments.videolearning - INFO - Testing class 24
+2014-03-24 22:29:48,346 - experiments.videolearning - INFO - Testing class 22
+2014-03-24 22:32:53,417 - experiments.videolearning - INFO - Testing Classifier: VLinearSVCSubstrateClassifier__LinearSVC__features.histograms.cv2_calc_hist_retinex_bgr__1395684185
+2014-03-24 22:36:33,492 - experiments.videolearning - INFO - Testing Classifier: VSVMSubstrateClassifier__rbf__features.histograms.cv2_calc_hist_retinex_bgr__1395683434
+2014-03-24 22:36:46,323 - experiments.videolearning - INFO - Testing class 23
+2014-03-24 22:37:40,226 - experiments.videolearning - INFO - Testing Classifier: VSVMSubstrateClassifier__rbf__features.wavelets.gabor_histo_4_rotations__1395684352
+2014-03-24 22:38:28,294 - experiments.videolearning - INFO - Testing class 18
+2014-03-24 22:38:52,627 - experiments.videolearning - INFO - Testing Classifier: VSVMSubstrateClassifier__rbf__features.wavelets.gabor_histo_4_rotations__1395685678
+2014-03-24 22:41:11,320 - experiments.videolearning - INFO - Testing class 24
+2014-03-24 22:47:30,935 - experiments.videolearning - INFO - Testing class 24
+2014-03-24 22:47:55,012 - experiments.videolearning - INFO - Testing class 22
+2014-03-24 22:54:59,114 - experiments.videolearning - INFO - Testing class 18
+2014-03-24 22:58:02,407 - experiments.videolearning - INFO - Testing class 23
+2014-03-24 23:01:49,166 - experiments.videolearning - INFO - Testing class 18
+2014-03-24 23:03:43,390 - experiments.videolearning - INFO - Testing class 22
+2014-03-24 23:10:48,759 - experiments.videolearning - INFO - Testing class 22
+2014-03-24 23:12:20,120 - experiments.videolearning - INFO - Testing class 23
+2014-03-24 23:13:57,379 - experiments.videolearning - INFO - Testing class 24
+2014-03-24 23:19:05,131 - experiments.videolearning - INFO - Testing class 23
+2014-03-24 23:43:41,117 - experiments.videolearning - INFO - Testing class 24
+2014-03-24 23:52:40,375 - experiments.videolearning - INFO - Learned class 16
+2014-03-24 23:53:31,105 - experiments.videolearning - INFO - Learned class 16
+2014-03-24 23:53:33,893 - experiments.videolearning - INFO - Learned class 24
+2014-03-24 23:54:02,028 - experiments.videolearning - INFO - Testing class 18
+2014-03-24 23:54:17,155 - experiments.videolearning - INFO - Learned class 18
+2014-03-24 23:54:23,067 - experiments.videolearning - INFO - Learned class 24
+2014-03-24 23:55:08,104 - experiments.videolearning - INFO - Learned class 18
+2014-03-24 23:55:24,964 - experiments.videolearning - INFO - Learned class 27
+2014-03-24 23:55:24,964 - experiments.videolearning - INFO - Beginning fitting for rbf__features.histograms.cv2_gray_hist
+2014-03-24 23:55:29,657 - experiments.holder - INFO - Saved classifier: /Users/matt/Documents/MPhil/classifiers/VSVMSubstrateClassifier__rbf__features.histograms.cv2_gray_hist__1395705329
+2014-03-24 23:56:11,057 - experiments.videolearning - INFO - Learned class 27
+2014-03-24 23:56:11,057 - experiments.videolearning - INFO - Beginning fitting for LinearSVC__features.histograms.cv2_gray_hist
+2014-03-24 23:56:16,377 - experiments.holder - INFO - Saved classifier: /Users/matt/Documents/MPhil/classifiers/VLinearSVCSubstrateClassifier__LinearSVC__features.histograms.cv2_gray_hist__1395705376
+2014-03-24 23:58:44,646 - experiments.videolearning - INFO - Learned class 16
+2014-03-24 23:59:14,230 - experiments.videolearning - INFO - Learned class 24
+2014-03-24 23:59:37,982 - experiments.videolearning - INFO - Learned class 18
+2014-03-25 00:00:18,415 - experiments.videolearning - INFO - Learned class 27
+2014-03-25 00:00:18,416 - experiments.videolearning - INFO - Beginning fitting for rbf__features.histograms.cv2_calc_hist_bgr
+2014-03-25 00:00:23,090 - experiments.holder - INFO - Saved classifier: /Users/matt/Documents/MPhil/classifiers/VSVMSubstrateClassifier__rbf__features.histograms.cv2_calc_hist_bgr__1395705623
+2014-03-25 00:05:52,248 - experiments.videolearning - INFO - Learned class 16
+2014-03-25 00:10:46,352 - experiments.videolearning - INFO - Learned class 29
+2014-03-25 00:11:10,884 - experiments.videolearning - INFO - Learned class 22
+2014-03-25 00:11:10,884 - experiments.videolearning - INFO - Beginning fitting for LinearSVC__features.histograms.cv2_calc_hist_bgr
+2014-03-25 00:11:29,800 - experiments.holder - INFO - Saved classifier: /Users/matt/Documents/MPhil/classifiers/VLinearSVCSubstrateClassifier__LinearSVC__features.histograms.cv2_calc_hist_bgr__1395706289
+2014-03-25 00:11:50,234 - experiments.videolearning - INFO - Testing class 29
+2014-03-25 00:15:43,321 - experiments.videolearning - INFO - Learned class 16
+2014-03-25 00:20:48,708 - experiments.videolearning - INFO - Learned class 29
+2014-03-25 00:21:13,277 - experiments.videolearning - INFO - Learned class 22
+2014-03-25 00:21:13,278 - experiments.videolearning - INFO - Beginning fitting for rbf__features.histograms.cv2_calc_hist_bgr
+2014-03-25 00:21:30,260 - experiments.videolearning - INFO - Testing class 22
+2014-03-25 00:21:38,260 - experiments.holder - INFO - Saved classifier: /Users/matt/Documents/MPhil/classifiers/VSVMSubstrateClassifier__rbf__features.histograms.cv2_calc_hist_bgr__1395706898
+2014-03-25 00:25:54,554 - experiments.videolearning - INFO - Learned class 16
+2014-03-25 00:30:52,395 - experiments.videolearning - INFO - Learned class 29
+2014-03-25 00:31:17,083 - experiments.videolearning - INFO - Learned class 22
+2014-03-25 00:31:17,083 - experiments.videolearning - INFO - Beginning fitting for LinearSVC__features.histograms.cv2_gray_hist
+2014-03-25 00:31:25,442 - experiments.holder - INFO - Saved classifier: /Users/matt/Documents/MPhil/classifiers/VLinearSVCSubstrateClassifier__LinearSVC__features.histograms.cv2_gray_hist__1395707485
+2014-03-25 00:35:39,837 - experiments.videolearning - INFO - Learned class 16
+2014-03-25 00:40:40,309 - experiments.videolearning - INFO - Learned class 29
+2014-03-25 00:41:05,122 - experiments.videolearning - INFO - Learned class 22
+2014-03-25 00:41:05,123 - experiments.videolearning - INFO - Beginning fitting for rbf__features.histograms.cv2_gray_hist
+2014-03-25 00:41:13,777 - experiments.holder - INFO - Saved classifier: /Users/matt/Documents/MPhil/classifiers/VSVMSubstrateClassifier__rbf__features.histograms.cv2_gray_hist__1395708073
+2014-03-25 00:45:46,773 - experiments.videolearning - INFO - Testing class 22
+2014-03-25 00:57:55,447 - experiments.videolearning - INFO - Learned class 16
+2014-03-25 01:03:59,561 - experiments.videolearning - INFO - Testing class 23
+2014-03-25 01:18:16,202 - experiments.videolearning - INFO - Testing class 23
+2014-03-25 01:41:29,629 - experiments.videolearning - INFO - Learned class 29
+2014-03-25 01:45:08,909 - experiments.videolearning - INFO - Learned class 22
+2014-03-25 01:45:08,909 - experiments.videolearning - INFO - Beginning fitting for LinearSVC__features.wavelets.gabor_histo_4_rotations
+2014-03-25 01:45:46,227 - experiments.holder - INFO - Saved classifier: /Users/matt/Documents/MPhil/classifiers/VLinearSVCSubstrateClassifier__LinearSVC__features.wavelets.gabor_histo_4_rotations__1395711946
+2014-03-25 01:54:28,426 - experiments.videolearning - INFO - Testing Classifier: VLinearSVCSubstrateClassifier__LinearSVC__features.histograms.cv2_calc_hist_bgr__1395706289
+2014-03-25 01:54:53,901 - experiments.videolearning - INFO - Testing Classifier: VLinearSVCSubstrateClassifier__LinearSVC__features.histograms.cv2_gray_hist__1395705376
+2014-03-25 01:55:05,409 - experiments.videolearning - INFO - Testing Classifier: VLinearSVCSubstrateClassifier__LinearSVC__features.histograms.cv2_gray_hist__1395707485
+2014-03-25 01:55:40,977 - experiments.videolearning - INFO - Testing Classifier: VLinearSVCSubstrateClassifier__LinearSVC__features.wavelets.gabor_histo_4_rotations__1395711946
+2014-03-25 09:01:11,741 - experiments.videolearning - INFO - Testing Classifier: VSVMSubstrateClassifier__rbf__features.wavelets.gabor_histo_4_rotations__1395537927
+2014-03-25 11:29:01,853 - experiments.videolearning - INFO - Testing Classifier: VLinearSVCSubstrateClassifier__LinearSVC__features.wavelets.gabor_histo_4_rotations__1395711946
+2014-03-25 11:29:22,396 - experiments.videolearning - INFO - Testing Classifier: VLinearSVCSubstrateClassifier__LinearSVC__features.wavelets.gabor_lbp1__1395735171
+2014-03-25 11:29:40,484 - experiments.videolearning - INFO - Testing Classifier: VSVMSubstrateClassifier__rbf__features.wavelets.gabor_lbp1__1395740568
+2014-03-26 01:34:36,608 - experiments.videolearning - INFO - Testing Classifier: VSVMSubstrateClassifier__rbf__features.wavelets.gabor_histo_4_rotations__1395516343
+2014-03-26 09:54:13,113 - experiments.videolearning - INFO - Testing class 16
+2014-03-26 11:02:16,042 - experiments.videolearning - INFO - Testing class 24
+2014-03-26 11:59:47,863 - experiments.videolearning - INFO - Testing class 18
+2014-03-26 12:03:48,698 - experiments.videolearning - INFO - Testing Classifier: VLinearSVCSubstrateClassifier__LinearSVC__features.wavelets.gabor_histo_4_rotations__1395554835
+2014-03-26 13:35:55,826 - experiments.videolearning - INFO - Testing class 27
+2014-03-26 17:20:10,198 - experiments.videolearning - INFO - Testing class 16
+2014-03-26 17:36:00,126 - experiments.videolearning - INFO - Testing Classifier: VLinearSVCSubstrateClassifier__LinearSVC__features.wavelets.gabor_histo_4_rotations__1395711946	File: /Users/matt/Documents/MPhil/classifiers/VLinearSVCSubstrateClassifier__LinearSVC__features.wavelets.gabor_histo_4_rotations__1395711946__SSTRATE__EXP__Site 2.MP4__0.532406__.csv	Hash: -2374541664109409282
+2014-03-26 17:36:00,127 - experiments.videolearning - INFO - -2374541664109409282: Testing class 16 begins.
+2014-03-26 17:56:33,169 - experiments.videolearning - INFO - Testing Classifier: 	Hash: VLinearSVCSubstrateClassifier__LinearSVC__features.wavelets.gabor_histo_4_rotations__1395711946
+2014-03-26 17:56:33,169 - experiments.videolearning - INFO - Testing Classifier: 	Hash: VSVMSubstrateClassifier__rbf__features.wavelets.gabor_lbp1__1395740568
+2014-03-26 17:56:33,169 - experiments.videolearning - INFO - Testing Classifier: 	Hash: VLinearSVCSubstrateClassifier__LinearSVC__features.wavelets.gabor_lbp1__1395735171
+2014-03-26 17:56:33,170 - experiments.videolearning - INFO - -201965206724436345: Testing class 16 begins.
+2014-03-26 17:56:33,170 - experiments.videolearning - INFO - 7114473384108458507: Testing class 16 begins.
+2014-03-26 17:56:33,170 - experiments.videolearning - INFO - -8386948903472054805: Testing class 16 begins.
+2014-03-26 18:03:51,190 - experiments.videolearning - INFO - Testing Classifier: VLinearSVCSubstrateClassifier__LinearSVC__features.wavelets.gabor_lbp1__1395735171 Hash: -8386948903472054805
+2014-03-26 18:03:51,190 - experiments.videolearning - INFO - Testing Classifier: VLinearSVCSubstrateClassifier__LinearSVC__features.wavelets.gabor_histo_4_rotations__1395711946 Hash: -201965206724436345
+2014-03-26 18:03:51,191 - experiments.videolearning - INFO - -8386948903472054805: Testing class 16 begins.
+2014-03-26 18:03:51,191 - experiments.videolearning - INFO - -201965206724436345: Testing class 16 begins.
+2014-03-26 18:03:51,196 - experiments.videolearning - INFO - Testing Classifier: VSVMSubstrateClassifier__rbf__features.wavelets.gabor_lbp1__1395740568 Hash: 7114473384108458507
+2014-03-26 18:03:51,197 - experiments.videolearning - INFO - 7114473384108458507: Testing class 16 begins.
+2014-03-26 18:07:54,822 - experiments.videolearning - INFO - Testing Classifier: VLinearSVCSubstrateClassifier__LinearSVC__features.wavelets.gabor_histo_4_rotations__1395711946 Hash: -201965206724436345
+2014-03-26 18:07:54,823 - experiments.videolearning - INFO - -201965206724436345: Testing class 16 begins.
+2014-03-26 18:08:41,993 - experiments.videolearning - INFO - Testing Classifier: VLinearSVCSubstrateClassifier__LinearSVC__features.wavelets.gabor_lbp1__1395735171 Hash: -8386948903472054805
+2014-03-26 18:08:41,993 - experiments.videolearning - INFO - Testing Classifier: VLinearSVCSubstrateClassifier__LinearSVC__features.wavelets.gabor_histo_4_rotations__1395711946 Hash: -201965206724436345
+2014-03-26 18:08:41,994 - experiments.videolearning - INFO - -8386948903472054805: Testing class 16 begins.
+2014-03-26 18:08:41,994 - experiments.videolearning - INFO - -201965206724436345: Testing class 16 begins.
+2014-03-26 18:08:41,996 - experiments.videolearning - INFO - Testing Classifier: VSVMSubstrateClassifier__rbf__features.wavelets.gabor_lbp1__1395740568 Hash: 7114473384108458507
+2014-03-26 18:08:41,997 - experiments.videolearning - INFO - 7114473384108458507: Testing class 16 begins.
+2014-03-26 18:13:36,778 - experiments.videolearning - INFO - Testing Classifier: VLinearSVCSubstrateClassifier__LinearSVC__features.wavelets.gabor_histo_4_rotations__1395711946 Hash: -201965206724436345
+2014-03-26 18:13:36,778 - experiments.videolearning - INFO - Testing Classifier: VLinearSVCSubstrateClassifier__LinearSVC__features.wavelets.gabor_lbp1__1395735171 Hash: -8386948903472054805
+2014-03-26 18:13:36,779 - experiments.videolearning - INFO - -201965206724436345: Testing class 16 begins.
+2014-03-26 18:13:36,779 - experiments.videolearning - INFO - -8386948903472054805: Testing class 16 begins.
+2014-03-26 18:13:36,781 - experiments.videolearning - INFO - Testing Classifier: VSVMSubstrateClassifier__rbf__features.wavelets.gabor_lbp1__1395740568 Hash: 7114473384108458507
+2014-03-26 18:13:36,782 - experiments.videolearning - INFO - 7114473384108458507: Testing class 16 begins.
+2014-03-26 18:14:35,120 - experiments.videolearning - INFO - Testing Classifier: VLinearSVCSubstrateClassifier__LinearSVC__features.wavelets.gabor_lbp1__1395735171 Hash: -8386948903472054805
+2014-03-26 18:14:35,120 - experiments.videolearning - INFO - Testing Classifier: VLinearSVCSubstrateClassifier__LinearSVC__features.wavelets.gabor_histo_4_rotations__1395711946 Hash: -201965206724436345
+2014-03-26 18:14:35,121 - experiments.videolearning - INFO - -8386948903472054805: Testing class 16 begins.
+2014-03-26 18:14:35,121 - experiments.videolearning - INFO - -201965206724436345: Testing class 16 begins.
+2014-03-26 18:14:35,123 - experiments.videolearning - INFO - Testing Classifier: VSVMSubstrateClassifier__rbf__features.wavelets.gabor_lbp1__1395740568 Hash: 7114473384108458507
+2014-03-26 18:14:35,124 - experiments.videolearning - INFO - 7114473384108458507: Testing class 16 begins.
+2014-03-26 18:19:14,663 - experiments.videolearning - INFO - Testing Classifier: VLinearSVCSubstrateClassifier__LinearSVC__features.wavelets.gabor_histo_4_rotations__1395711946 Hash: -201965206724436345
+2014-03-26 18:19:14,663 - experiments.videolearning - INFO - Testing Classifier: VLinearSVCSubstrateClassifier__LinearSVC__features.wavelets.gabor_lbp1__1395735171 Hash: -8386948903472054805
+2014-03-26 18:19:14,665 - experiments.videolearning - INFO - -8386948903472054805: Testing class 16 begins.
+2014-03-26 18:19:14,665 - experiments.videolearning - INFO - -201965206724436345: Testing class 16 begins.
+2014-03-26 18:19:14,666 - experiments.videolearning - INFO - Testing Classifier: VSVMSubstrateClassifier__rbf__features.wavelets.gabor_lbp1__1395740568 Hash: 7114473384108458507
+2014-03-26 18:19:14,667 - experiments.videolearning - INFO - 7114473384108458507: Testing class 16 begins.
+2014-03-26 18:21:22,489 - experiments.videolearning - INFO - Testing Classifier: VLinearSVCSubstrateClassifier__LinearSVC__features.wavelets.gabor_histo_4_rotations__1395711946 Hash: -201965206724436345
+2014-03-26 18:21:22,489 - experiments.videolearning - INFO - Testing Classifier: VLinearSVCSubstrateClassifier__LinearSVC__features.wavelets.gabor_lbp1__1395735171 Hash: -8386948903472054805
+2014-03-26 18:21:22,490 - experiments.videolearning - INFO - -201965206724436345: Testing class 16 begins.
+2014-03-26 18:21:22,490 - experiments.videolearning - INFO - -8386948903472054805: Testing class 16 begins.
+2014-03-26 18:21:22,522 - experiments.videolearning - INFO - Testing Classifier: VSVMSubstrateClassifier__rbf__features.wavelets.gabor_lbp1__1395740568 Hash: 7114473384108458507
+2014-03-26 18:21:22,530 - experiments.videolearning - INFO - 7114473384108458507: Testing class 16 begins.
+2014-03-26 18:23:55,367 - experiments.videolearning - INFO - Testing Classifier: VLinearSVCSubstrateClassifier__LinearSVC__features.wavelets.gabor_lbp1__1395735171 Hash: -8386948903472054805
+2014-03-26 18:23:55,368 - experiments.videolearning - INFO - Testing Classifier: VLinearSVCSubstrateClassifier__LinearSVC__features.wavelets.gabor_histo_4_rotations__1395711946 Hash: -201965206724436345
+2014-03-26 18:23:55,368 - experiments.videolearning - INFO - -8386948903472054805: Testing class 16 begins.
+2014-03-26 18:23:55,368 - experiments.videolearning - INFO - -201965206724436345: Testing class 16 begins.
+2014-03-26 18:23:55,371 - experiments.videolearning - INFO - Testing Classifier: VSVMSubstrateClassifier__rbf__features.wavelets.gabor_lbp1__1395740568 Hash: 7114473384108458507
+2014-03-26 18:23:55,372 - experiments.videolearning - INFO - 7114473384108458507: Testing class 16 begins.
+2014-03-26 18:25:41,129 - experiments.videolearning - INFO - Testing Classifier: VLinearSVCSubstrateClassifier__LinearSVC__features.wavelets.gabor_lbp1__1395735171 Hash: -8386948903472054805
+2014-03-26 18:25:41,129 - experiments.videolearning - INFO - Testing Classifier: VLinearSVCSubstrateClassifier__LinearSVC__features.wavelets.gabor_histo_4_rotations__1395711946 Hash: -201965206724436345
+2014-03-26 18:25:41,130 - experiments.videolearning - INFO - -201965206724436345: Testing class 16 begins.
+2014-03-26 18:25:41,130 - experiments.videolearning - INFO - -8386948903472054805: Testing class 16 begins.
+2014-03-26 18:25:41,132 - experiments.videolearning - INFO - Testing Classifier: VSVMSubstrateClassifier__rbf__features.wavelets.gabor_lbp1__1395740568 Hash: 7114473384108458507
+2014-03-26 18:25:41,132 - experiments.videolearning - INFO - 7114473384108458507: Testing class 16 begins.
+2014-03-26 18:30:18,454 - experiments.videolearning - INFO - Testing Classifier: VLinearSVCSubstrateClassifier__LinearSVC__features.wavelets.gabor_histo_4_rotations__1395711946 Hash: -201965206724436345 Video: /Users/matt/Documents/MPhil/Video/GoPro/Site 2.MP4
+2014-03-26 18:30:18,454 - experiments.videolearning - INFO - -201965206724436345: Testing class 16 begins.
+2014-03-26 18:30:18,456 - experiments.videolearning - INFO - Testing Classifier: VLinearSVCSubstrateClassifier__LinearSVC__features.wavelets.gabor_lbp1__1395735171 Hash: -8386948903472054805 Video: /Users/matt/Documents/MPhil/Video/GoPro/Site 2.MP4
+2014-03-26 18:30:18,457 - experiments.videolearning - INFO - -8386948903472054805: Testing class 16 begins.
+2014-03-26 18:30:18,459 - experiments.videolearning - INFO - Testing Classifier: VSVMSubstrateClassifier__rbf__features.wavelets.gabor_lbp1__1395740568 Hash: 7114473384108458507 Video: /Users/matt/Documents/MPhil/Video/GoPro/Site 2.MP4
+2014-03-26 18:30:18,459 - experiments.videolearning - INFO - 7114473384108458507: Testing class 16 begins.
+2014-03-26 18:35:44,370 - experiments.videolearning - INFO - Testing Classifier: VLinearSVCSubstrateClassifier__LinearSVC__features.wavelets.gabor_lbp1__1395735171 Hash: -8386948903472054805 Video: /Users/matt/Documents/MPhil/Video/GoPro/Site 2.MP4
+2014-03-26 18:35:44,371 - experiments.videolearning - INFO - Testing Classifier: VLinearSVCSubstrateClassifier__LinearSVC__features.wavelets.gabor_histo_4_rotations__1395711946 Hash: -201965206724436345 Video: /Users/matt/Documents/MPhil/Video/GoPro/Site 2.MP4
+2014-03-26 18:35:44,372 - experiments.videolearning - INFO - -8386948903472054805: Testing class 16 begins.
+2014-03-26 18:35:44,372 - experiments.videolearning - INFO - -201965206724436345: Testing class 16 begins.
+2014-03-26 18:35:44,373 - experiments.videolearning - INFO - Testing Classifier: VSVMSubstrateClassifier__rbf__features.wavelets.gabor_lbp1__1395740568 Hash: 7114473384108458507 Video: /Users/matt/Documents/MPhil/Video/GoPro/Site 2.MP4
+2014-03-26 18:35:44,374 - experiments.videolearning - INFO - 7114473384108458507: Testing class 16 begins.
+2014-03-26 18:36:17,807 - experiments.videolearning - INFO - Testing Classifier: VLinearSVCSubstrateClassifier__LinearSVC__features.wavelets.gabor_histo_4_rotations__1395711946 Hash: -201965206724436345 Video: /Users/matt/Documents/MPhil/Video/GoPro/Site 2.MP4
+2014-03-26 18:36:17,808 - experiments.videolearning - INFO - -201965206724436345: Testing class 16 begins.
+2014-03-26 18:36:17,809 - experiments.videolearning - INFO - Testing Classifier: VLinearSVCSubstrateClassifier__LinearSVC__features.wavelets.gabor_lbp1__1395735171 Hash: -8386948903472054805 Video: /Users/matt/Documents/MPhil/Video/GoPro/Site 2.MP4
+2014-03-26 18:36:17,810 - experiments.videolearning - INFO - -8386948903472054805: Testing class 16 begins.
+2014-03-26 18:36:17,812 - experiments.videolearning - INFO - Testing Classifier: VSVMSubstrateClassifier__rbf__features.wavelets.gabor_lbp1__1395740568 Hash: 7114473384108458507 Video: /Users/matt/Documents/MPhil/Video/GoPro/Site 2.MP4
+2014-03-26 18:36:17,812 - experiments.videolearning - INFO - 7114473384108458507: Testing class 16 begins.
+2014-03-26 18:36:47,585 - experiments.videolearning - INFO - Testing Classifier: VLinearSVCSubstrateClassifier__LinearSVC__features.wavelets.gabor_lbp1__1395735171 Hash: -8386948903472054805 Video: /Users/matt/Documents/MPhil/Video/GoPro/Site 2.MP4
+2014-03-26 18:36:47,585 - experiments.videolearning - INFO - Testing Classifier: VLinearSVCSubstrateClassifier__LinearSVC__features.wavelets.gabor_histo_4_rotations__1395711946 Hash: -201965206724436345 Video: /Users/matt/Documents/MPhil/Video/GoPro/Site 2.MP4
+2014-03-26 18:36:47,586 - experiments.videolearning - INFO - -8386948903472054805: Testing class 16 begins.
+2014-03-26 18:36:47,587 - experiments.videolearning - INFO - -201965206724436345: Testing class 16 begins.
+2014-03-26 18:36:47,587 - experiments.videolearning - INFO - Testing Classifier: VSVMSubstrateClassifier__rbf__features.wavelets.gabor_lbp1__1395740568 Hash: 7114473384108458507 Video: /Users/matt/Documents/MPhil/Video/GoPro/Site 2.MP4
+2014-03-26 18:36:47,588 - experiments.videolearning - INFO - 7114473384108458507: Testing class 16 begins.
+2014-03-26 18:37:04,916 - experiments.videolearning - INFO - Testing Classifier: VLinearSVCSubstrateClassifier__LinearSVC__features.wavelets.gabor_histo_4_rotations__1395711946 Hash: -201965206724436345 Video: /Users/matt/Documents/MPhil/Video/GoPro/Site 2.MP4
+2014-03-26 18:37:04,916 - experiments.videolearning - INFO - Testing Classifier: VLinearSVCSubstrateClassifier__LinearSVC__features.wavelets.gabor_lbp1__1395735171 Hash: -8386948903472054805 Video: /Users/matt/Documents/MPhil/Video/GoPro/Site 2.MP4
+2014-03-26 18:37:04,917 - experiments.videolearning - INFO - -201965206724436345: Testing class 16 begins.
+2014-03-26 18:37:04,917 - experiments.videolearning - INFO - -8386948903472054805: Testing class 16 begins.
+2014-03-26 18:37:04,918 - experiments.videolearning - INFO - Testing Classifier: VSVMSubstrateClassifier__rbf__features.wavelets.gabor_lbp1__1395740568 Hash: 7114473384108458507 Video: /Users/matt/Documents/MPhil/Video/GoPro/Site 2.MP4
+2014-03-26 18:37:04,919 - experiments.videolearning - INFO - 7114473384108458507: Testing class 16 begins.
+2014-03-26 18:38:31,146 - experiments.videolearning - INFO - Testing Classifier: VLinearSVCSubstrateClassifier__LinearSVC__features.wavelets.gabor_histo_4_rotations__1395711946 Hash: -201965206724436345 Video: /Users/matt/Documents/MPhil/Video/GoPro/Site 2.MP4
+2014-03-26 18:38:31,146 - experiments.videolearning - INFO - Testing Classifier: VLinearSVCSubstrateClassifier__LinearSVC__features.wavelets.gabor_lbp1__1395735171 Hash: -8386948903472054805 Video: /Users/matt/Documents/MPhil/Video/GoPro/Site 2.MP4
+2014-03-26 18:38:31,148 - experiments.videolearning - INFO - -201965206724436345: Testing class 16 begins.
+2014-03-26 18:38:31,148 - experiments.videolearning - INFO - -8386948903472054805: Testing class 16 begins.
+2014-03-26 18:38:31,150 - experiments.videolearning - INFO - Testing Classifier: VSVMSubstrateClassifier__rbf__features.wavelets.gabor_lbp1__1395740568 Hash: 7114473384108458507 Video: /Users/matt/Documents/MPhil/Video/GoPro/Site 2.MP4
+2014-03-26 18:38:31,150 - experiments.videolearning - INFO - 7114473384108458507: Testing class 16 begins.
+2014-03-26 18:38:51,706 - experiments.videolearning - INFO - Testing Classifier: VLinearSVCSubstrateClassifier__LinearSVC__features.wavelets.gabor_lbp1__1395735171 Hash: -8386948903472054805 Video: /Users/matt/Documents/MPhil/Video/GoPro/Site 2.MP4
+2014-03-26 18:38:51,706 - experiments.videolearning - INFO - Testing Classifier: VLinearSVCSubstrateClassifier__LinearSVC__features.wavelets.gabor_histo_4_rotations__1395711946 Hash: -201965206724436345 Video: /Users/matt/Documents/MPhil/Video/GoPro/Site 2.MP4
+2014-03-26 18:38:51,707 - experiments.videolearning - INFO - -8386948903472054805: Testing class 16 begins.
+2014-03-26 18:38:51,708 - experiments.videolearning - INFO - -201965206724436345: Testing class 16 begins.
+2014-03-26 18:38:51,712 - experiments.videolearning - INFO - Testing Classifier: VSVMSubstrateClassifier__rbf__features.wavelets.gabor_lbp1__1395740568 Hash: 7114473384108458507 Video: /Users/matt/Documents/MPhil/Video/GoPro/Site 2.MP4
+2014-03-26 18:38:51,713 - experiments.videolearning - INFO - 7114473384108458507: Testing class 16 begins.
+2014-03-26 18:39:29,130 - experiments.videolearning - INFO - Testing Classifier: VLinearSVCSubstrateClassifier__LinearSVC__features.wavelets.gabor_histo_4_rotations__1395711946 Hash: -201965206724436345 Video: /Users/matt/Documents/MPhil/Video/GoPro/Site 2.MP4
+2014-03-26 18:39:29,132 - experiments.videolearning - INFO - -201965206724436345: Testing class 16 begins.
+2014-03-26 18:39:29,133 - experiments.videolearning - INFO - Testing Classifier: VLinearSVCSubstrateClassifier__LinearSVC__features.wavelets.gabor_lbp1__1395735171 Hash: -8386948903472054805 Video: /Users/matt/Documents/MPhil/Video/GoPro/Site 2.MP4
+2014-03-26 18:39:29,134 - experiments.videolearning - INFO - -8386948903472054805: Testing class 16 begins.
+2014-03-26 18:39:29,141 - experiments.videolearning - INFO - Testing Classifier: VSVMSubstrateClassifier__rbf__features.wavelets.gabor_lbp1__1395740568 Hash: 7114473384108458507 Video: /Users/matt/Documents/MPhil/Video/GoPro/Site 2.MP4
+2014-03-26 18:39:29,142 - experiments.videolearning - INFO - 7114473384108458507: Testing class 16 begins.
+2014-03-26 18:40:08,260 - experiments.videolearning - INFO - Testing Classifier: VLinearSVCSubstrateClassifier__LinearSVC__features.wavelets.gabor_histo_4_rotations__1395711946 Hash: -201965206724436345 Video: /Users/matt/Documents/MPhil/Video/GoPro/Site 2.MP4
+2014-03-26 18:40:08,260 - experiments.videolearning - INFO - Testing Classifier: VLinearSVCSubstrateClassifier__LinearSVC__features.wavelets.gabor_lbp1__1395735171 Hash: -8386948903472054805 Video: /Users/matt/Documents/MPhil/Video/GoPro/Site 2.MP4
+2014-03-26 18:40:08,261 - experiments.videolearning - INFO - -201965206724436345: Testing class 16 begins.
+2014-03-26 18:40:08,261 - experiments.videolearning - INFO - -8386948903472054805: Testing class 16 begins.
+2014-03-26 18:40:08,262 - experiments.videolearning - INFO - Testing Classifier: VSVMSubstrateClassifier__rbf__features.wavelets.gabor_lbp1__1395740568 Hash: 7114473384108458507 Video: /Users/matt/Documents/MPhil/Video/GoPro/Site 2.MP4
+2014-03-26 18:40:08,263 - experiments.videolearning - INFO - 7114473384108458507: Testing class 16 begins.
+2014-03-26 19:03:04,306 - experiments.videolearning - INFO - Testing Classifier: VLinearSVCSubstrateClassifier__LinearSVC__features.wavelets.gabor_histo_4_rotations__1395711946 Hash: -201965206724436345 Video: /Users/matt/Documents/MPhil/Video/GoPro/Site 2.MP4
+2014-03-26 19:03:04,307 - experiments.videolearning - INFO - -201965206724436345: Testing class 16 begins.
+2014-03-26 22:52:29,944 - experiments.videolearning - INFO - Testing Classifier: VSVMSubstrateClassifier__rbf__features.histograms.cv2_calc_hist_bgr__1395550912 Hash: -2520882391485134103 Video: /home/matt/documents/MPhil/Videos/GoPro/Site 3.MP4
+2014-03-26 22:52:29,945 - experiments.videolearning - INFO - -2520882391485134103: Testing class 16 begins.
+2014-03-26 22:52:50,347 - experiments.videolearning - INFO - Testing Classifier: VSVMSubstrateClassifier__rbf__features.histograms.cv2_calc_hist_bgr__1395509968 Hash: -3085353932840271744 Video: /home/matt/documents/MPhil/Videos/GoPro/Site 10.MP4
+2014-03-26 22:52:50,348 - experiments.videolearning - INFO - -3085353932840271744: Testing class 16 begins.
+2014-03-27 01:00:23,349 - experiments.videolearning - INFO - -2520882391485134103: Testing class 16 finishes (taken: 2:07:53.403245)
+2014-03-27 01:00:23,352 - experiments.videolearning - INFO - -2520882391485134103: Testing class 28 begins.
+2014-03-27 01:07:13,293 - experiments.videolearning - INFO - -3085353932840271744: Testing class 16 finishes (taken: 2:14:22.944476)
+2014-03-27 01:07:13,311 - experiments.videolearning - INFO - -3085353932840271744: Testing class 24 begins.
+2014-03-27 01:07:53,051 - experiments.videolearning - INFO - -2520882391485134103: Testing class 28 finishes (taken: 0:07:29.692120)
+2014-03-27 01:07:53,064 - experiments.videolearning - INFO - -2520882391485134103: Testing class 29 begins.
+2014-03-27 01:29:49,055 - experiments.videolearning - INFO - -3085353932840271744: Testing class 24 finishes (taken: 0:22:35.740363)
+2014-03-27 01:29:49,055 - experiments.videolearning - INFO - -3085353932840271744: Testing class 18 begins.
+2014-03-27 01:45:12,531 - experiments.videolearning - INFO - -2520882391485134103: Testing class 29 finishes (taken: 0:37:19.458603)
+2014-03-27 01:45:12,546 - experiments.videolearning - INFO - -2520882391485134103: Testing class 22 begins.
+2014-03-27 01:46:24,952 - experiments.videolearning - INFO - -2520882391485134103: Testing class 22 finishes (taken: 0:01:12.405657)
+2014-03-27 01:46:24,965 - experiments.videolearning - INFO - -2520882391485134103: Testing class 31 begins.
+2014-03-27 01:48:49,472 - experiments.videolearning - INFO - -3085353932840271744: Testing class 18 finishes (taken: 0:19:00.416762)
+2014-03-27 01:48:49,477 - experiments.videolearning - INFO - -3085353932840271744: Testing class 27 begins.
+2014-03-27 02:20:16,727 - experiments.videolearning - INFO - -3085353932840271744: Testing class 27 finishes (taken: 0:31:27.246501)
+2014-03-27 02:20:16,861 - experiments.videolearning - INFO - Testing Classifier: VLinearSVCSubstrateClassifier__LinearSVC__features.wavelets.gabor_lbp1__1395519364 Hash: 1405046645563061567 Video: /home/matt/documents/MPhil/Videos/GoPro/Site 10.MP4
+2014-03-27 02:20:16,862 - experiments.videolearning - INFO - 1405046645563061567: Testing class 16 begins.
+2014-03-27 03:08:13,530 - experiments.videolearning - INFO - -2520882391485134103: Testing class 31 finishes (taken: 1:21:48.559397)
+2014-03-27 08:09:11,965 - experiments.videolearning - INFO - 1405046645563061567: Testing class 16 finishes (taken: 5:48:55.103210)
+2014-03-27 08:09:11,965 - experiments.videolearning - INFO - 1405046645563061567: Testing class 24 begins.
+2014-03-27 08:10:00,137 - experiments.videolearning - INFO - Testing Classifier: VLinearSVCSubstrateClassifier__LinearSVC__features.histograms.cv2_calc_hist_bgr__1395525076 Hash: 3384720841967542380 Video: /home/matt/documents/MPhil/Videos/GoPro/Site 2.MP4
+2014-03-27 08:10:00,138 - experiments.videolearning - INFO - 3384720841967542380: Testing class 16 begins.
+2014-03-27 08:10:44,328 - experiments.videolearning - INFO - Testing Classifier: VLinearSVCSubstrateClassifier__LinearSVC__features.wavelets.gabor_lbp1__1395543290 Hash: -7720377233221318536 Video: /home/matt/documents/MPhil/Videos/GoPro/Site 2.MP4
+2014-03-27 08:10:44,328 - experiments.videolearning - INFO - -7720377233221318536: Testing class 16 begins.
+2014-03-27 09:57:24,765 - experiments.videolearning - INFO - 1405046645563061567: Testing class 24 finishes (taken: 1:48:12.799032)
+2014-03-27 09:57:24,765 - experiments.videolearning - INFO - 1405046645563061567: Testing class 18 begins.
+2014-03-27 10:04:35,574 - experiments.videolearning - INFO - 3384720841967542380: Testing class 16 finishes (taken: 1:54:35.435853)
+2014-03-27 10:04:35,575 - experiments.videolearning - INFO - 3384720841967542380: Testing class 29 begins.
+2014-03-27 11:29:59,196 - experiments.videolearning - INFO - 1405046645563061567: Testing class 18 finishes (taken: 1:32:34.430188)
+2014-03-27 11:29:59,198 - experiments.videolearning - INFO - 1405046645563061567: Testing class 27 begins.
+2014-03-27 12:25:28,351 - experiments.videolearning - INFO - 3384720841967542380: Testing class 29 finishes (taken: 2:20:52.776427)
+2014-03-27 12:25:28,352 - experiments.videolearning - INFO - 3384720841967542380: Testing class 22 begins.
+2014-03-27 12:37:11,200 - experiments.videolearning - INFO - 3384720841967542380: Testing class 22 finishes (taken: 0:11:42.848196)
+2014-03-27 13:21:30,248 - experiments.videolearning - INFO - 1405046645563061567: Testing class 27 finishes (taken: 1:51:31.025032)
+2014-04-05 19:26:01,903 - experiments.videolearning - INFO - Testing Classifier: VLinearSVCSubstrateClassifier__LinearSVC__features.wavelets.gabor_lbp1__1395735171 Hash: -8386948903472054805 Video: /Users/matt/Documents/MPhil/Video/GoPro/Site 2.MP4
+2014-04-05 19:26:01,904 - experiments.videolearning - INFO - -8386948903472054805: Testing class 16 begins.
+2014-04-05 19:42:14,860 - experiments.videolearning - INFO - Learned class 24
+2014-04-05 19:42:38,427 - experiments.videolearning - INFO - Learned class 29
+2014-04-05 19:42:45,192 - experiments.videolearning - INFO - Learned class 22
+2014-04-05 19:43:29,670 - experiments.videolearning - INFO - Learned class 23
+2014-04-05 19:43:29,670 - experiments.videolearning - INFO - Beginning fitting for auto__n5__features.histograms.cv2_calc_hist_retinex_bgr
+2014-04-05 19:43:30,201 - experiments.holder - INFO - Saved classifier: /Users/matt/Documents/MPhil/classifiers/VKNNSubstrateClassifier__auto__n5__features.histograms.cv2_calc_hist_retinex_bgr__1396723410
+2014-04-05 19:43:42,685 - experiments.videolearning - INFO - Learned class 24
+2014-04-05 19:44:49,512 - experiments.videolearning - INFO - Learned class 18
+2014-04-05 19:44:56,174 - experiments.videolearning - INFO - Learned class 24
+2014-04-05 19:45:19,587 - experiments.videolearning - INFO - Learned class 29
+2014-04-05 19:45:25,996 - experiments.videolearning - INFO - Learned class 22
+2014-04-05 19:45:36,880 - experiments.videolearning - INFO - Learned class 22
+2014-04-05 19:46:11,851 - experiments.videolearning - INFO - Learned class 23
+2014-04-05 19:46:11,852 - experiments.videolearning - INFO - Beginning fitting for rbf__features.histograms.cv2_calc_hist_retinex_bgr
+2014-04-05 19:46:25,985 - experiments.videolearning - INFO - Learned class 23
+2014-04-05 19:46:25,986 - experiments.videolearning - INFO - Beginning fitting for LinearSVC__features.histograms.cv2_calc_hist_retinex_gray
+2014-04-05 19:46:32,850 - experiments.holder - INFO - Saved classifier: /Users/matt/Documents/MPhil/classifiers/VLinearSVCSubstrateClassifier__LinearSVC__features.histograms.cv2_calc_hist_retinex_gray__1396723592
+2014-04-05 19:46:42,336 - experiments.holder - INFO - Saved classifier: /Users/matt/Documents/MPhil/classifiers/VSVMSubstrateClassifier__rbf__features.histograms.cv2_calc_hist_retinex_bgr__1396723602
+2014-04-05 19:47:26,331 - experiments.videolearning - INFO - Learned class 24
+2014-04-05 19:48:10,734 - experiments.videolearning - INFO - Learned class 24
+2014-04-05 19:48:32,466 - experiments.videolearning - INFO - Learned class 18
+2014-04-05 19:48:34,243 - experiments.videolearning - INFO - Learned class 29
+2014-04-05 19:48:41,011 - experiments.videolearning - INFO - Learned class 22
+2014-04-05 19:49:19,099 - experiments.videolearning - INFO - Learned class 22
+2014-04-05 19:49:24,961 - experiments.videolearning - INFO - Learned class 23
+2014-04-05 19:49:24,962 - experiments.videolearning - INFO - Beginning fitting for LinearSVC__features.histograms.cv2_calc_hist_retinex_bgr
+2014-04-05 19:49:36,715 - experiments.holder - INFO - Saved classifier: /Users/matt/Documents/MPhil/classifiers/VLinearSVCSubstrateClassifier__LinearSVC__features.histograms.cv2_calc_hist_retinex_bgr__1396723776
+2014-04-05 19:50:31,777 - experiments.videolearning - INFO - Learned class 23
+2014-04-05 19:50:31,777 - experiments.videolearning - INFO - Beginning fitting for rbf__features.histograms.cv2_calc_hist_retinex_gray
+2014-04-05 19:50:49,585 - experiments.holder - INFO - Saved classifier: /Users/matt/Documents/MPhil/classifiers/VSVMSubstrateClassifier__rbf__features.histograms.cv2_calc_hist_retinex_gray__1396723849
+2014-04-05 19:52:59,569 - experiments.videolearning - INFO - Learned class 24
+2014-04-05 19:53:56,173 - experiments.videolearning - INFO - Learned class 29
+2014-04-05 19:54:12,031 - experiments.videolearning - INFO - Learned class 22
+2014-04-05 19:54:13,608 - experiments.videolearning - INFO - Learned class 16
+2014-04-05 19:54:29,176 - experiments.videolearning - INFO - Learned class 28
+2014-04-05 19:54:56,919 - experiments.videolearning - INFO - Learned class 16
+2014-04-05 19:55:11,524 - experiments.videolearning - INFO - Learned class 28
+2014-04-05 19:55:46,575 - experiments.videolearning - INFO - Learned class 29
+2014-04-05 19:55:49,028 - experiments.videolearning - INFO - Learned class 22
+2014-04-05 19:55:59,456 - experiments.videolearning - INFO - Learned class 23
+2014-04-05 19:55:59,456 - experiments.videolearning - INFO - Beginning fitting for auto__n5__features.histograms.cv2_calc_hist_retinex_gray
+2014-04-05 19:55:59,928 - experiments.holder - INFO - Saved classifier: /Users/matt/Documents/MPhil/classifiers/VKNNSubstrateClassifier__auto__n5__features.histograms.cv2_calc_hist_retinex_gray__1396724159
+2014-04-05 19:56:29,789 - experiments.videolearning - INFO - Learned class 29
+2014-04-05 19:56:32,064 - experiments.videolearning - INFO - Learned class 22
+2014-04-05 19:58:55,841 - experiments.videolearning - INFO - Learned class 31
+2014-04-05 19:58:55,841 - experiments.videolearning - INFO - Beginning fitting for LinearSVC__features.histograms.cv2_calc_hist_bgr
+2014-04-05 19:59:12,636 - experiments.holder - INFO - Saved classifier: /Users/matt/Documents/MPhil/classifiers/VLinearSVCSubstrateClassifier__LinearSVC__features.histograms.cv2_calc_hist_bgr__1396724352
+2014-04-05 19:59:20,482 - experiments.videolearning - INFO - Learned class 31
+2014-04-05 19:59:20,482 - experiments.videolearning - INFO - Beginning fitting for LinearSVC__features.histograms.cv2_gray_hist
+2014-04-05 19:59:25,781 - experiments.holder - INFO - Saved classifier: /Users/matt/Documents/MPhil/classifiers/VLinearSVCSubstrateClassifier__LinearSVC__features.histograms.cv2_gray_hist__1396724365
+2014-04-05 19:59:25,900 - experiments.videolearning - INFO - Learned class 24
+2014-04-05 20:00:12,904 - experiments.videolearning - INFO - Learned class 29
+2014-04-05 20:00:26,248 - experiments.videolearning - INFO - Learned class 22
+2014-04-05 20:02:00,654 - experiments.videolearning - INFO - Learned class 23
+2014-04-05 20:02:00,654 - experiments.videolearning - INFO - Beginning fitting for rbf__features.histograms.cv2_calc_hist_retinex_gray
+2014-04-05 20:02:15,410 - experiments.holder - INFO - Saved classifier: /Users/matt/Documents/MPhil/classifiers/VSVMSubstrateClassifier__rbf__features.histograms.cv2_calc_hist_retinex_gray__1396724535
+2014-04-05 20:02:15,478 - experiments.videolearning - INFO - Learned class 16
+2014-04-05 20:02:25,874 - experiments.videolearning - INFO - Learned class 28
+2014-04-05 20:03:21,623 - experiments.videolearning - INFO - Learned class 29
+2014-04-05 20:03:23,172 - experiments.videolearning - INFO - Learned class 22
+2014-04-05 20:05:22,735 - experiments.videolearning - INFO - Learned class 24
+2014-04-05 20:05:23,286 - experiments.videolearning - INFO - Learned class 31
+2014-04-05 20:05:23,287 - experiments.videolearning - INFO - Beginning fitting for rbf__features.histograms.cv2_gray_hist
+2014-04-05 20:05:27,964 - experiments.holder - INFO - Saved classifier: /Users/matt/Documents/MPhil/classifiers/VSVMSubstrateClassifier__rbf__features.histograms.cv2_gray_hist__1396724727
+2014-04-05 20:05:48,569 - experiments.videolearning - INFO - Learned class 29
+2014-04-05 20:05:55,663 - experiments.videolearning - INFO - Learned class 22
+2014-04-05 20:06:42,576 - experiments.videolearning - INFO - Learned class 23
+2014-04-05 20:06:42,576 - experiments.videolearning - INFO - Beginning fitting for LinearSVC__features.histograms.cv2_calc_hist_retinex_gray
+2014-04-05 20:06:50,440 - experiments.holder - INFO - Saved classifier: /Users/matt/Documents/MPhil/classifiers/VLinearSVCSubstrateClassifier__LinearSVC__features.histograms.cv2_calc_hist_retinex_gray__1396724810
+2014-04-05 20:08:19,114 - experiments.videolearning - INFO - Testing Classifier: VKNNSubstrateClassifier__auto__n5__features.histograms.cv2_calc_hist_retinex_bgr__1396723410 Hash: -773814479320928259 Video: /Users/matt/Documents/MPhil/Video/FoCB/clarach consti and harbour pollock.wmv
+2014-04-05 20:08:19,115 - experiments.videolearning - INFO - -773814479320928259: Testing class 24 begins.
+2014-04-05 20:08:40,299 - experiments.videolearning - INFO - Testing Classifier: VKNNSubstrateClassifier__auto__n5__features.histograms.cv2_calc_hist_retinex_gray__1396724159 Hash: -3167284992135313911 Video: /Users/matt/Documents/MPhil/Video/FoCB/clarach consti and harbour pollock.wmv
+2014-04-05 20:08:40,300 - experiments.videolearning - INFO - -3167284992135313911: Testing class 24 begins.
+2014-04-05 20:08:56,570 - experiments.videolearning - INFO - Testing Classifier: VLinearSVCSubstrateClassifier__LinearSVC__features.histograms.cv2_calc_hist_bgr__1396724352 Hash: 827033588418148891 Video: /Users/matt/Documents/MPhil/Video/GoPro/Site 3.MP4
+2014-04-05 20:08:56,570 - experiments.videolearning - INFO - 827033588418148891: Testing class 16 begins.
+2014-04-05 20:09:18,429 - experiments.videolearning - INFO - Testing Classifier: VLinearSVCSubstrateClassifier__LinearSVC__features.histograms.cv2_calc_hist_retinex_bgr__1396723776 Hash: 139263977730000326 Video: /Users/matt/Documents/MPhil/Video/FoCB/clarach consti and harbour pollock.wmv
+2014-04-05 20:09:18,430 - experiments.videolearning - INFO - 139263977730000326: Testing class 24 begins.
+2014-04-05 20:38:15,507 - experiments.videolearning - INFO - 139263977730000326: Testing class 24 finishes (taken: 0:28:57.076587)
+2014-04-05 20:38:15,507 - experiments.videolearning - INFO - 139263977730000326: Testing class 29 begins.
+2014-04-05 20:40:58,489 - experiments.videolearning - INFO - -773814479320928259: Testing class 24 finishes (taken: 0:32:39.373385)
+2014-04-05 20:40:58,489 - experiments.videolearning - INFO - -773814479320928259: Testing class 29 begins.
+2014-04-05 20:41:13,568 - experiments.videolearning - INFO - -3167284992135313911: Testing class 24 finishes (taken: 0:32:33.267384)
+2014-04-05 20:41:13,568 - experiments.videolearning - INFO - -3167284992135313911: Testing class 29 begins.
+2014-04-05 20:45:50,152 - experiments.videolearning - INFO - 827033588418148891: Testing class 16 finishes (taken: 0:36:53.581732)
+2014-04-05 20:45:50,153 - experiments.videolearning - INFO - 827033588418148891: Testing class 28 begins.
+2014-04-05 20:45:55,671 - experiments.videolearning - INFO - 139263977730000326: Testing class 29 finishes (taken: 0:07:40.163365)
+2014-04-05 20:45:55,671 - experiments.videolearning - INFO - 139263977730000326: Testing class 22 begins.
+2014-04-05 20:47:55,135 - experiments.videolearning - INFO - 827033588418148891: Testing class 28 finishes (taken: 0:02:04.982636)
+2014-04-05 20:47:55,136 - experiments.videolearning - INFO - 827033588418148891: Testing class 29 begins.
+2014-04-05 20:48:07,130 - experiments.videolearning - INFO - 139263977730000326: Testing class 22 finishes (taken: 0:02:11.458837)
+2014-04-05 20:48:07,131 - experiments.videolearning - INFO - 139263977730000326: Testing class 23 begins.
+2014-04-05 20:49:38,748 - experiments.videolearning - INFO - -773814479320928259: Testing class 29 finishes (taken: 0:08:40.259128)
+2014-04-05 20:49:38,749 - experiments.videolearning - INFO - -773814479320928259: Testing class 22 begins.
+2014-04-05 20:49:46,762 - experiments.videolearning - INFO - -3167284992135313911: Testing class 29 finishes (taken: 0:08:33.193513)
+2014-04-05 20:49:46,762 - experiments.videolearning - INFO - -3167284992135313911: Testing class 22 begins.
+2014-04-05 20:52:09,178 - experiments.videolearning - INFO - -773814479320928259: Testing class 22 finishes (taken: 0:02:30.429087)
+2014-04-05 20:52:09,178 - experiments.videolearning - INFO - -773814479320928259: Testing class 23 begins.
+2014-04-05 20:52:15,527 - experiments.videolearning - INFO - -3167284992135313911: Testing class 22 finishes (taken: 0:02:28.764420)
+2014-04-05 20:52:15,527 - experiments.videolearning - INFO - -3167284992135313911: Testing class 23 begins.
+2014-04-05 21:04:11,709 - experiments.videolearning - INFO - 139263977730000326: Testing class 23 finishes (taken: 0:16:04.577665)
+2014-04-05 21:04:11,749 - experiments.videolearning - INFO - Testing Classifier: VLinearSVCSubstrateClassifier__LinearSVC__features.histograms.cv2_calc_hist_retinex_gray__1396723592 Hash: -7079324510007011617 Video: /Users/matt/Documents/MPhil/Video/FoCB/aber harbour 26th sep 08 tape 2.wmv
+2014-04-05 21:04:11,750 - experiments.videolearning - INFO - -7079324510007011617: Testing class 24 begins.
+2014-04-05 21:05:25,711 - experiments.videolearning - INFO - 827033588418148891: Testing class 29 finishes (taken: 0:17:30.574853)
+2014-04-05 21:05:25,712 - experiments.videolearning - INFO - 827033588418148891: Testing class 22 begins.
+2014-04-05 23:48:31,444 - experiments.videolearning - INFO - Testing Classifier: VLinearSVCSubstrateClassifier__LinearSVC__features.histograms.cv2_calc_hist_bgr__1396724352 Hash: 827033588418148891 Video: /Users/matt/Documents/MPhil/Video/GoPro/Site 3.MP4
+2014-04-05 23:48:31,445 - experiments.videolearning - INFO - 827033588418148891: Testing class 16 begins.
+2014-04-05 23:48:46,974 - experiments.videolearning - INFO - Testing Classifier: VLinearSVCSubstrateClassifier__LinearSVC__features.histograms.cv2_calc_hist_retinex_gray__1396723592 Hash: -7079324510007011617 Video: /Users/matt/Documents/MPhil/Video/FoCB/aber harbour 26th sep 08 tape 2.wmv
+2014-04-05 23:48:46,975 - experiments.videolearning - INFO - -7079324510007011617: Testing class 24 begins.
+2014-04-06 00:05:38,653 - experiments.videolearning - INFO - -7079324510007011617: Testing class 24 finishes (taken: 0:16:51.677335)
+2014-04-06 00:05:38,653 - experiments.videolearning - INFO - -7079324510007011617: Testing class 18 begins.
+2014-04-06 00:05:42,479 - experiments.videolearning - INFO - Learned class 24
+2014-04-06 00:28:33,213 - experiments.videolearning - INFO - -7079324510007011617: Testing class 18 finishes (taken: 0:22:54.559482)
+2014-04-06 00:28:33,214 - experiments.videolearning - INFO - -7079324510007011617: Testing class 22 begins.
+2014-04-06 00:31:00,511 - experiments.videolearning - INFO - 827033588418148891: Testing class 16 finishes (taken: 0:42:29.065235)
+2014-04-06 00:31:00,512 - experiments.videolearning - INFO - 827033588418148891: Testing class 28 begins.
+2014-04-06 00:33:35,499 - experiments.videolearning - INFO - Learned class 24
+2014-04-06 00:33:52,702 - experiments.videolearning - INFO - 827033588418148891: Testing class 28 finishes (taken: 0:02:52.189919)
+2014-04-06 00:33:52,702 - experiments.videolearning - INFO - 827033588418148891: Testing class 29 begins.
+2014-04-06 00:37:58,021 - experiments.videolearning - INFO - Learned class 18
+2014-04-06 00:47:15,144 - experiments.videolearning - INFO - -7079324510007011617: Testing class 22 finishes (taken: 0:18:41.930364)
+2014-04-06 00:47:15,145 - experiments.videolearning - INFO - -7079324510007011617: Testing class 23 begins.
+2014-04-06 00:48:05,526 - experiments.videolearning - INFO - 827033588418148891: Testing class 29 finishes (taken: 0:14:12.823269)
+2014-04-06 00:48:05,527 - experiments.videolearning - INFO - 827033588418148891: Testing class 22 begins.
+2014-04-06 00:48:32,741 - experiments.videolearning - INFO - 827033588418148891: Testing class 22 finishes (taken: 0:00:27.213419)
+2014-04-06 00:48:32,742 - experiments.videolearning - INFO - 827033588418148891: Testing class 31 begins.
+2014-04-06 00:48:56,726 - experiments.videolearning - INFO - Learned class 29
+2014-04-06 00:53:12,377 - experiments.videolearning - INFO - Learned class 22
+2014-04-06 01:03:25,457 - experiments.videolearning - INFO - Learned class 22
+2014-04-06 01:18:03,633 - experiments.videolearning - INFO - 827033588418148891: Testing class 31 finishes (taken: 0:29:30.890851)
+2014-04-06 01:19:26,276 - experiments.videolearning - INFO - Learned class 23
+2014-04-06 01:19:26,276 - experiments.videolearning - INFO - Beginning fitting for auto__n5__features.texture.lbp2
+2014-04-06 01:19:26,706 - experiments.holder - INFO - Saved classifier: /Users/matt/Documents/MPhil/classifiers/VKNNSubstrateClassifier__auto__n5__features.texture.lbp2__1396743566
+2014-04-06 01:23:33,368 - experiments.videolearning - INFO - Learned class 23
+2014-04-06 01:23:33,368 - experiments.videolearning - INFO - Beginning fitting for LinearSVC__features.texture.lbp2
+2014-04-06 01:23:49,445 - experiments.holder - INFO - Saved classifier: /Users/matt/Documents/MPhil/classifiers/VLinearSVCSubstrateClassifier__LinearSVC__features.texture.lbp2__1396743829
+2014-04-06 01:34:02,371 - experiments.videolearning - INFO - Learned class 24
+2014-04-06 01:46:36,494 - experiments.videolearning - INFO - Learned class 18
+2014-04-06 01:56:06,339 - experiments.videolearning - INFO - Learned class 22
+2014-04-06 02:02:47,733 - experiments.videolearning - INFO - Testing Classifier: VKNNSubstrateClassifier__auto__n5__features.texture.lbp2__1396743566 Hash: -5642078248564588607 Video: /Users/matt/Documents/MPhil/Video/FoCB/clarach consti and harbour pollock.wmv
+2014-04-06 02:02:47,733 - experiments.videolearning - INFO - -5642078248564588607: Testing class 24 begins.
+2014-04-06 02:03:04,205 - experiments.videolearning - INFO - Testing Classifier: VLinearSVCSubstrateClassifier__LinearSVC__features.histograms.cv2_calc_hist_retinex_gray__1396724810 Hash: -2079322510090011887 Video: /Users/matt/Documents/MPhil/Video/FoCB/clarach consti and harbour pollock.wmv
+2014-04-06 02:03:04,205 - experiments.videolearning - INFO - -2079322510090011887: Testing class 24 begins.
+2014-04-06 02:04:04,962 - experiments.videolearning - INFO - Testing Classifier: VLinearSVCSubstrateClassifier__LinearSVC__features.histograms.cv2_gray_hist__1396724365 Hash: 7973156923116372879 Video: /Users/matt/Documents/MPhil/Video/GoPro/Site 3.MP4
+2014-04-06 02:04:04,962 - experiments.videolearning - INFO - 7973156923116372879: Testing class 16 begins.
+2014-04-06 02:10:50,550 - experiments.videolearning - INFO - Learned class 23
+2014-04-06 02:10:50,551 - experiments.videolearning - INFO - Beginning fitting for rbf__features.texture.lbp2
+2014-04-06 02:11:11,424 - experiments.holder - INFO - Saved classifier: /Users/matt/Documents/MPhil/classifiers/VSVMSubstrateClassifier__rbf__features.texture.lbp2__1396746671
+2014-04-06 02:31:45,080 - experiments.videolearning - INFO - -2079322510090011887: Testing class 24 finishes (taken: 0:28:40.874501)
+2014-04-06 02:31:45,080 - experiments.videolearning - INFO - -2079322510090011887: Testing class 29 begins.
+2014-04-06 02:39:25,714 - experiments.videolearning - INFO - -2079322510090011887: Testing class 29 finishes (taken: 0:07:40.632958)
+2014-04-06 02:39:25,714 - experiments.videolearning - INFO - -2079322510090011887: Testing class 22 begins.
+2014-04-06 02:41:40,187 - experiments.videolearning - INFO - -2079322510090011887: Testing class 22 finishes (taken: 0:02:14.472869)
+2014-04-06 02:41:40,187 - experiments.videolearning - INFO - -2079322510090011887: Testing class 23 begins.
+2014-04-06 02:43:02,160 - experiments.videolearning - INFO - 7973156923116372879: Testing class 16 finishes (taken: 0:38:57.197280)
+2014-04-06 02:43:02,160 - experiments.videolearning - INFO - 7973156923116372879: Testing class 28 begins.
+2014-04-06 02:45:20,130 - experiments.videolearning - INFO - 7973156923116372879: Testing class 28 finishes (taken: 0:02:17.969086)
+2014-04-06 02:45:20,130 - experiments.videolearning - INFO - 7973156923116372879: Testing class 29 begins.
+2014-04-06 02:56:29,346 - experiments.videolearning - INFO - -2079322510090011887: Testing class 23 finishes (taken: 0:14:49.158684)
+2014-04-06 02:56:34,597 - experiments.videolearning - INFO - 7973156923116372879: Testing class 29 finishes (taken: 0:11:14.466658)
+2014-04-06 02:56:34,597 - experiments.videolearning - INFO - 7973156923116372879: Testing class 22 begins.
+2014-04-06 02:56:52,979 - experiments.videolearning - INFO - 7973156923116372879: Testing class 22 finishes (taken: 0:00:18.381858)
+2014-04-06 02:56:52,979 - experiments.videolearning - INFO - 7973156923116372879: Testing class 31 begins.
+2014-04-06 02:58:39,780 - experiments.videolearning - INFO - Learned class 24
+2014-04-06 03:10:59,180 - experiments.videolearning - INFO - Learned class 29
+2014-04-06 03:14:23,266 - experiments.videolearning - INFO - Learned class 22
+2014-04-06 03:18:25,066 - experiments.videolearning - INFO - 7973156923116372879: Testing class 31 finishes (taken: 0:21:32.086421)
+2014-04-06 03:18:25,111 - experiments.videolearning - INFO - Testing Classifier: VLinearSVCSubstrateClassifier__LinearSVC__features.texture.lbp2__1396743829 Hash: -3565769215271448253 Video: /Users/matt/Documents/MPhil/Video/FoCB/aber harbour 26th sep 08 tape 2.wmv
+2014-04-06 03:18:25,112 - experiments.videolearning - INFO - -3565769215271448253: Testing class 24 begins.
+2014-04-06 03:29:16,870 - experiments.videolearning - INFO - Learned class 23
+2014-04-06 03:29:16,871 - experiments.videolearning - INFO - Beginning fitting for LinearSVC__features.texture.lbp2
+2014-04-06 03:29:32,640 - experiments.holder - INFO - Saved classifier: /Users/matt/Documents/MPhil/classifiers/VLinearSVCSubstrateClassifier__LinearSVC__features.texture.lbp2__1396751372
+2014-04-06 03:39:14,635 - experiments.videolearning - INFO - Learned class 16
+2014-04-06 03:49:01,588 - experiments.videolearning - INFO - Learned class 28
+2014-04-06 03:55:48,417 - experiments.videolearning - INFO - Learned class 24
+2014-04-06 04:02:48,481 - experiments.videolearning - INFO - Learned class 29
+2014-04-06 04:04:48,096 - experiments.videolearning - INFO - Learned class 22
+2014-04-06 04:18:02,986 - experiments.videolearning - INFO - Learned class 23
+2014-04-06 04:18:02,987 - experiments.videolearning - INFO - Beginning fitting for rbf__features.texture.lbp2
+2014-04-06 04:18:18,694 - experiments.holder - INFO - Saved classifier: /Users/matt/Documents/MPhil/classifiers/VSVMSubstrateClassifier__rbf__features.texture.lbp2__1396754298
+2014-04-06 04:34:32,783 - experiments.videolearning - INFO - Learned class 29
+2014-04-06 04:35:41,332 - experiments.videolearning - INFO - Learned class 16
+2014-04-06 04:35:46,605 - experiments.videolearning - INFO - Learned class 22
+2014-04-06 05:01:46,503 - experiments.videolearning - INFO - -3565769215271448253: Testing class 24 finishes (taken: 1:43:21.391108)
+2014-04-06 05:01:46,503 - experiments.videolearning - INFO - -3565769215271448253: Testing class 18 begins.
+2014-04-06 06:04:03,665 - experiments.videolearning - INFO - -5642078248564588607: Testing class 24 finishes (taken: 4:01:15.931763)
+2014-04-06 06:04:03,666 - experiments.videolearning - INFO - -5642078248564588607: Testing class 29 begins.
+2014-04-06 06:09:33,421 - experiments.videolearning - INFO - Learned class 31
+2014-04-06 06:09:33,422 - experiments.videolearning - INFO - Beginning fitting for auto__n5__features.texture.lbp2
+2014-04-06 06:09:33,614 - experiments.holder - INFO - Saved classifier: /Users/matt/Documents/MPhil/classifiers/VKNNSubstrateClassifier__auto__n5__features.texture.lbp2__1396760973
+2014-04-06 06:52:28,419 - experiments.videolearning - INFO - -5642078248564588607: Testing class 29 finishes (taken: 0:48:24.753326)
+2014-04-06 06:52:28,419 - experiments.videolearning - INFO - -5642078248564588607: Testing class 22 begins.
+2014-04-06 06:55:26,860 - experiments.videolearning - INFO - -3565769215271448253: Testing class 18 finishes (taken: 1:53:40.356403)
+2014-04-06 06:55:26,860 - experiments.videolearning - INFO - -3565769215271448253: Testing class 22 begins.
+2014-04-06 07:05:44,868 - experiments.videolearning - INFO - -5642078248564588607: Testing class 22 finishes (taken: 0:13:16.448699)
+2014-04-06 07:05:44,868 - experiments.videolearning - INFO - -5642078248564588607: Testing class 23 begins.
+2014-04-06 08:05:09,004 - experiments.videolearning - INFO - Learned class 29
+2014-04-06 08:15:46,542 - experiments.videolearning - INFO - -3565769215271448253: Testing class 22 finishes (taken: 1:20:19.681234)
+2014-04-06 08:15:46,542 - experiments.videolearning - INFO - -3565769215271448253: Testing class 23 begins.
+2014-04-06 08:22:07,138 - experiments.videolearning - INFO - Learned class 22
+2014-04-06 08:22:07,138 - experiments.videolearning - INFO - Beginning fitting for LinearSVC__features.texture.lbp2
+2014-04-06 08:22:16,771 - experiments.holder - INFO - Saved classifier: /Users/matt/Documents/MPhil/classifiers/VLinearSVCSubstrateClassifier__LinearSVC__features.texture.lbp2__1396768936
+2014-04-06 08:35:16,173 - experiments.videolearning - INFO - -5642078248564588607: Testing class 23 finishes (taken: 1:29:31.304904)
+2014-04-06 09:44:21,624 - experiments.videolearning - INFO - -3565769215271448253: Testing class 23 finishes (taken: 1:28:35.082132)
+2014-04-06 09:44:21,680 - experiments.videolearning - INFO - Testing Classifier: VSVMSubstrateClassifier__rbf__features.histograms.cv2_calc_hist_retinex_bgr__1396723602 Hash: 1122834869151141312 Video: /Users/matt/Documents/MPhil/Video/FoCB/clarach consti and harbour pollock.wmv
+2014-04-06 09:44:21,680 - experiments.videolearning - INFO - 1122834869151141312: Testing class 24 begins.
+2014-04-06 09:58:20,381 - experiments.videolearning - INFO - 1122834869151141312: Testing class 24 finishes (taken: 0:13:58.700361)
+2014-04-06 09:58:20,381 - experiments.videolearning - INFO - 1122834869151141312: Testing class 29 begins.
+2014-04-06 10:02:02,831 - experiments.videolearning - INFO - 1122834869151141312: Testing class 29 finishes (taken: 0:03:42.449575)
+2014-04-06 10:02:02,831 - experiments.videolearning - INFO - 1122834869151141312: Testing class 22 begins.
+2014-04-06 10:03:07,690 - experiments.videolearning - INFO - 1122834869151141312: Testing class 22 finishes (taken: 0:01:04.859371)
+2014-04-06 10:03:07,691 - experiments.videolearning - INFO - 1122834869151141312: Testing class 23 begins.
+2014-04-06 10:10:16,734 - experiments.videolearning - INFO - 1122834869151141312: Testing class 23 finishes (taken: 0:07:09.043052)
+2014-04-06 10:10:16,772 - experiments.videolearning - INFO - Testing Classifier: VSVMSubstrateClassifier__rbf__features.histograms.cv2_calc_hist_retinex_gray__1396723849 Hash: -6214262520099084860 Video: /Users/matt/Documents/MPhil/Video/FoCB/aber harbour 26th sep 08 tape 2.wmv
+2014-04-06 10:10:16,772 - experiments.videolearning - INFO - -6214262520099084860: Testing class 24 begins.
+2014-04-06 10:18:07,749 - experiments.videolearning - INFO - -6214262520099084860: Testing class 24 finishes (taken: 0:07:50.976655)
+2014-04-06 10:18:07,749 - experiments.videolearning - INFO - -6214262520099084860: Testing class 18 begins.
+2014-04-06 10:28:06,844 - experiments.videolearning - INFO - -6214262520099084860: Testing class 18 finishes (taken: 0:09:59.094529)
+2014-04-06 10:28:06,844 - experiments.videolearning - INFO - -6214262520099084860: Testing class 22 begins.
+2014-04-06 10:35:11,605 - experiments.videolearning - INFO - -6214262520099084860: Testing class 22 finishes (taken: 0:07:04.761255)
+2014-04-06 10:35:11,606 - experiments.videolearning - INFO - -6214262520099084860: Testing class 23 begins.
+2014-04-06 10:52:28,979 - experiments.videolearning - INFO - Testing Classifier: VKNNSubstrateClassifier__auto__n5__features.texture.lbp2__1396760973 Hash: -6634700838672795828 Video: /Users/matt/Documents/MPhil/Video/GoPro/Site 3.MP4
+2014-04-06 10:52:28,980 - experiments.videolearning - INFO - -6634700838672795828: Testing class 16 begins.
+2014-04-06 10:53:38,408 - experiments.videolearning - INFO - Testing Classifier: VSVMSubstrateClassifier__rbf__features.histograms.cv2_calc_hist_retinex_bgr__1396723602 Hash: 1122834869151141312 Video: /Users/matt/Documents/MPhil/Video/FoCB/clarach consti and harbour pollock.wmv
+2014-04-06 10:53:38,409 - experiments.videolearning - INFO - 1122834869151141312: Testing class 24 begins.
+2014-04-06 10:53:56,357 - experiments.videolearning - INFO - Testing Classifier: VSVMSubstrateClassifier__rbf__features.histograms.cv2_calc_hist_retinex_gray__1396723849 Hash: -6214262520099084860 Video: /Users/matt/Documents/MPhil/Video/FoCB/aber harbour 26th sep 08 tape 2.wmv
+2014-04-06 10:53:56,357 - experiments.videolearning - INFO - -6214262520099084860: Testing class 24 begins.
+2014-04-06 10:54:15,510 - experiments.videolearning - INFO - Testing Classifier: VSVMSubstrateClassifier__rbf__features.histograms.cv2_calc_hist_retinex_gray__1396724535 Hash: -5214248520081085035 Video: /Users/matt/Documents/MPhil/Video/FoCB/clarach consti and harbour pollock.wmv
+2014-04-06 10:54:15,511 - experiments.videolearning - INFO - -5214248520081085035: Testing class 24 begins.
+2014-04-06 11:02:57,816 - experiments.videolearning - INFO - -6214262520099084860: Testing class 24 finishes (taken: 0:09:01.458341)
+2014-04-06 11:02:57,816 - experiments.videolearning - INFO - -6214262520099084860: Testing class 18 begins.
+2014-04-06 11:09:39,187 - experiments.videolearning - INFO - 1122834869151141312: Testing class 24 finishes (taken: 0:16:00.778403)
+2014-04-06 11:09:39,188 - experiments.videolearning - INFO - 1122834869151141312: Testing class 29 begins.
+2014-04-06 11:10:23,273 - experiments.videolearning - INFO - -5214248520081085035: Testing class 24 finishes (taken: 0:16:07.761731)
+2014-04-06 11:10:23,273 - experiments.videolearning - INFO - -5214248520081085035: Testing class 29 begins.
+2014-04-06 11:11:32,758 - experiments.videolearning - INFO - Learned class 16
+2014-04-06 11:13:51,007 - experiments.videolearning - INFO - 1122834869151141312: Testing class 29 finishes (taken: 0:04:11.819727)
+2014-04-06 11:13:51,008 - experiments.videolearning - INFO - 1122834869151141312: Testing class 22 begins.
+2014-04-06 11:14:19,168 - experiments.videolearning - INFO - -6214262520099084860: Testing class 18 finishes (taken: 0:11:21.351958)
+2014-04-06 11:14:19,169 - experiments.videolearning - INFO - -6214262520099084860: Testing class 22 begins.
+2014-04-06 11:14:39,484 - experiments.videolearning - INFO - -5214248520081085035: Testing class 29 finishes (taken: 0:04:16.210558)
+2014-04-06 11:14:39,484 - experiments.videolearning - INFO - -5214248520081085035: Testing class 22 begins.
+2014-04-06 11:15:05,928 - experiments.videolearning - INFO - 1122834869151141312: Testing class 22 finishes (taken: 0:01:14.920075)
+2014-04-06 11:15:05,928 - experiments.videolearning - INFO - 1122834869151141312: Testing class 23 begins.
+2014-04-06 11:15:53,411 - experiments.videolearning - INFO - -5214248520081085035: Testing class 22 finishes (taken: 0:01:13.926995)
+2014-04-06 11:15:53,411 - experiments.videolearning - INFO - -5214248520081085035: Testing class 23 begins.
+2014-04-06 11:22:25,764 - experiments.videolearning - INFO - -6214262520099084860: Testing class 22 finishes (taken: 0:08:06.595505)
+2014-04-06 11:22:25,764 - experiments.videolearning - INFO - -6214262520099084860: Testing class 23 begins.
+2014-04-06 11:23:16,129 - experiments.videolearning - INFO - 1122834869151141312: Testing class 23 finishes (taken: 0:08:10.201056)
+2014-04-06 11:24:06,765 - experiments.videolearning - INFO - -5214248520081085035: Testing class 23 finishes (taken: 0:08:13.353847)
+2014-04-06 11:24:06,819 - experiments.videolearning - INFO - Testing Classifier: VSVMSubstrateClassifier__rbf__features.histograms.cv2_gray_hist__1396724727 Hash: 2069666686935350639 Video: /Users/matt/Documents/MPhil/Video/GoPro/Site 3.MP4
+2014-04-06 11:24:06,819 - experiments.videolearning - INFO - 2069666686935350639: Testing class 16 begins.
+2014-04-06 11:45:28,244 - experiments.videolearning - INFO - 2069666686935350639: Testing class 16 finishes (taken: 0:21:21.424582)
+2014-04-06 11:45:28,244 - experiments.videolearning - INFO - 2069666686935350639: Testing class 28 begins.
+2014-04-06 11:46:41,731 - experiments.videolearning - INFO - 2069666686935350639: Testing class 28 finishes (taken: 0:01:13.486978)
+2014-04-06 11:46:41,732 - experiments.videolearning - INFO - 2069666686935350639: Testing class 29 begins.
+2014-04-06 11:52:42,917 - experiments.videolearning - INFO - 2069666686935350639: Testing class 29 finishes (taken: 0:06:01.185297)
+2014-04-06 11:52:42,917 - experiments.videolearning - INFO - 2069666686935350639: Testing class 22 begins.
+2014-04-06 11:52:54,452 - experiments.videolearning - INFO - 2069666686935350639: Testing class 22 finishes (taken: 0:00:11.534653)
+2014-04-06 11:52:54,452 - experiments.videolearning - INFO - 2069666686935350639: Testing class 31 begins.
+2014-04-06 12:06:47,058 - experiments.videolearning - INFO - 2069666686935350639: Testing class 31 finishes (taken: 0:13:52.605889)
+2014-04-06 12:25:19,377 - experiments.videolearning - INFO - Testing Classifier: VKNNSubstrateClassifier__auto__n5__features.texture.lbp2__1396760973 Hash: -6634700838672795828 Video: /Users/matt/Documents/MPhil/Video/GoPro/Site 3.MP4
+2014-04-06 12:25:19,378 - experiments.videolearning - INFO - -6634700838672795828: Testing class 16 begins.
+2014-04-06 12:25:36,085 - experiments.videolearning - INFO - Testing Classifier: VLinearSVCSubstrateClassifier__LinearSVC__features.texture.lbp2__1396743829 Hash: -3565769215271448253 Video: /Users/matt/Documents/MPhil/Video/FoCB/aber harbour 26th sep 08 tape 2.wmv
+2014-04-06 12:25:36,086 - experiments.videolearning - INFO - -3565769215271448253: Testing class 24 begins.
+2014-04-06 12:26:02,469 - experiments.videolearning - INFO - Testing Classifier: VLinearSVCSubstrateClassifier__LinearSVC__features.texture.lbp2__1396751372 Hash: -8008588083093102385 Video: /Users/matt/Documents/MPhil/Video/FoCB/clarach consti and harbour pollock.wmv
+2014-04-06 12:26:02,470 - experiments.videolearning - INFO - -8008588083093102385: Testing class 24 begins.
+2014-04-06 12:26:25,308 - experiments.videolearning - INFO - Testing Classifier: VLinearSVCSubstrateClassifier__LinearSVC__features.texture.lbp2__1396768936 Hash: -4126467551371689167 Video: /Users/matt/Documents/MPhil/Video/GoPro/Site 2.MP4
+2014-04-06 12:26:25,309 - experiments.videolearning - INFO - -4126467551371689167: Testing class 16 begins.
+2014-04-06 14:15:12,580 - experiments.videolearning - INFO - -3565769215271448253: Testing class 24 finishes (taken: 1:49:36.493372)
+2014-04-06 14:15:12,580 - experiments.videolearning - INFO - -3565769215271448253: Testing class 18 begins.
+2014-04-06 15:40:49,754 - experiments.videolearning - INFO - Learned class 29
+2014-04-06 16:03:25,085 - experiments.videolearning - INFO - Learned class 22
+2014-04-06 16:03:25,085 - experiments.videolearning - INFO - Beginning fitting for rbf__features.texture.lbp2
+2014-04-06 16:03:36,139 - experiments.holder - INFO - Saved classifier: /Users/matt/Documents/MPhil/classifiers/VSVMSubstrateClassifier__rbf__features.texture.lbp2__1396796616
+2014-04-06 16:34:30,734 - experiments.videolearning - INFO - -3565769215271448253: Testing class 18 finishes (taken: 2:19:18.153313)
+2014-04-06 16:34:30,734 - experiments.videolearning - INFO - -3565769215271448253: Testing class 22 begins.
+2014-04-06 17:10:21,471 - experiments.videolearning - INFO - -8008588083093102385: Testing class 24 finishes (taken: 4:44:19.000534)
+2014-04-06 17:10:21,472 - experiments.videolearning - INFO - -8008588083093102385: Testing class 29 begins.
+2014-04-06 18:18:59,747 - experiments.videolearning - INFO - -3565769215271448253: Testing class 22 finishes (taken: 1:44:29.012134)
+2014-04-06 18:18:59,748 - experiments.videolearning - INFO - -3565769215271448253: Testing class 23 begins.
+2014-04-06 18:28:10,481 - experiments.videolearning - INFO - -8008588083093102385: Testing class 29 finishes (taken: 1:17:49.009019)
+2014-04-06 18:28:10,482 - experiments.videolearning - INFO - -8008588083093102385: Testing class 22 begins.
+2014-04-06 18:49:38,989 - experiments.videolearning - INFO - -8008588083093102385: Testing class 22 finishes (taken: 0:21:28.505928)
+2014-04-06 18:49:38,990 - experiments.videolearning - INFO - -8008588083093102385: Testing class 23 begins.
+2014-04-06 19:01:35,907 - experiments.videolearning - INFO - Learned class 16
+2014-04-06 19:31:09,239 - experiments.videolearning - INFO - Learned class 24
+2014-04-06 19:55:32,909 - experiments.videolearning - INFO - Learned class 18
+2014-04-06 20:16:49,262 - experiments.videolearning - INFO - -3565769215271448253: Testing class 23 finishes (taken: 1:57:49.514273)
+2014-04-06 20:31:43,725 - experiments.videolearning - INFO - Learned class 27
+2014-04-06 20:31:43,726 - experiments.videolearning - INFO - Beginning fitting for LinearSVC__features.texture.lbp2
+2014-04-06 20:31:51,090 - experiments.holder - INFO - Saved classifier: /Users/matt/Documents/MPhil/classifiers/VLinearSVCSubstrateClassifier__LinearSVC__features.texture.lbp2__1396812711
+2014-04-06 20:48:54,110 - experiments.videolearning - INFO - Testing Classifier: VLinearSVCSubstrateClassifier__LinearSVC__features.texture.lbp2__1396812711 Hash: 6578468607121454682 Video: /Users/matt/Documents/MPhil/Video/GoPro/Site 10.MP4
+2014-04-06 20:48:54,110 - experiments.videolearning - INFO - 6578468607121454682: Testing class 16 begins.
+2014-04-06 21:07:19,378 - experiments.videolearning - INFO - -8008588083093102385: Testing class 23 finishes (taken: 2:17:40.387257)
+2014-04-06 21:32:57,177 - experiments.videolearning - INFO - Testing Classifier: VSVMSubstrateClassifier__rbf__features.texture.lbp2__1396746671 Hash: 8687423729542333575 Video: /Users/matt/Documents/MPhil/Video/FoCB/aber harbour 26th sep 08 tape 2.wmv
+2014-04-06 21:32:57,179 - experiments.videolearning - INFO - 8687423729542333575: Testing class 24 begins.
+2014-04-06 23:23:19,935 - experiments.videolearning - INFO - Learned class 16
+2014-04-06 23:28:14,314 - experiments.videolearning - INFO - 8687423729542333575: Testing class 24 finishes (taken: 1:55:17.135512)
+2014-04-06 23:28:14,315 - experiments.videolearning - INFO - 8687423729542333575: Testing class 18 begins.
+2014-04-06 23:58:09,108 - experiments.videolearning - INFO - Learned class 24
+2014-04-07 00:27:15,646 - experiments.videolearning - INFO - Learned class 18
+2014-04-07 01:10:57,402 - experiments.videolearning - INFO - Learned class 27
+2014-04-07 01:10:57,402 - experiments.videolearning - INFO - Beginning fitting for rbf__features.texture.lbp2
+2014-04-07 01:11:01,235 - experiments.holder - INFO - Saved classifier: /Users/matt/Documents/MPhil/classifiers/VSVMSubstrateClassifier__rbf__features.texture.lbp2__1396829461
+2014-04-07 01:53:27,239 - experiments.videolearning - INFO - 8687423729542333575: Testing class 18 finishes (taken: 2:25:12.923385)
+2014-04-07 01:53:27,239 - experiments.videolearning - INFO - 8687423729542333575: Testing class 22 begins.
+2014-04-07 03:23:18,055 - experiments.videolearning - INFO - 8687423729542333575: Testing class 22 finishes (taken: 1:29:50.815818)
+2014-04-07 03:23:18,056 - experiments.videolearning - INFO - 8687423729542333575: Testing class 23 begins.
+2014-04-07 05:04:29,820 - experiments.videolearning - INFO - 8687423729542333575: Testing class 23 finishes (taken: 1:41:11.764057)
+2014-04-07 05:04:29,861 - experiments.videolearning - INFO - Testing Classifier: VSVMSubstrateClassifier__rbf__features.texture.lbp2__1396754298 Hash: 2244479861085678603 Video: /Users/matt/Documents/MPhil/Video/FoCB/clarach consti and harbour pollock.wmv
+2014-04-07 05:04:29,861 - experiments.videolearning - INFO - 2244479861085678603: Testing class 24 begins.
+2014-05-25 02:39:57,024 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:39:57,135 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:39:57,173 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:39:57,238 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:39:57,280 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:39:57,310 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:39:57,348 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:39:57,380 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:39:57,405 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:39:57,431 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:39:57,468 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:39:57,549 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:39:57,599 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:39:57,650 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:39:57,702 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:39:57,791 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:39:57,852 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:39:57,881 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:39:57,957 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:39:58,008 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:39:58,049 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:39:58,133 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:39:58,193 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:39:58,236 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:39:58,316 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:39:58,392 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:39:58,462 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:39:58,543 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:39:58,595 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:39:58,670 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:39:58,757 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:39:58,806 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:39:58,856 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:39:58,900 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:39:58,997 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:39:59,049 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:39:59,115 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:39:59,178 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:39:59,244 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:39:59,272 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:39:59,324 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:39:59,401 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:39:59,493 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:39:59,550 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:39:59,622 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:39:59,667 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:39:59,743 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:39:59,764 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:39:59,785 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:39:59,814 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:39:59,881 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:39:59,949 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:39:59,988 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:00,015 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:00,099 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:00,153 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:00,194 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:00,236 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:00,292 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:00,314 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:00,366 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:00,421 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:00,460 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:00,509 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:00,552 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:00,607 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:00,669 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:00,745 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:00,803 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:00,855 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:00,912 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:00,976 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:01,051 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:01,093 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:01,136 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:01,202 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:01,243 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:01,338 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:01,362 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:01,414 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:01,462 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:01,511 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:01,532 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:01,601 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:01,673 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:01,753 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:01,783 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:01,859 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:01,947 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:02,016 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:02,088 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:02,124 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:02,162 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:02,198 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:02,283 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:02,319 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:02,356 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:02,440 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:02,525 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:02,607 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:02,666 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:02,700 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:02,724 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:02,804 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:02,863 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:02,900 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:02,975 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:03,038 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:03,102 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:03,162 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:03,217 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:03,273 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:03,297 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:03,342 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:03,399 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:03,438 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:03,489 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:03,527 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:03,588 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:03,651 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:03,718 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:03,761 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:03,798 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:03,851 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:03,916 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:03,958 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:03,999 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:04,033 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:04,110 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:04,170 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:04,220 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:04,272 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:04,301 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:04,358 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:04,436 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:04,488 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:04,526 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:04,586 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:04,630 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:04,677 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:04,750 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:04,781 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:04,832 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:04,867 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:04,911 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:04,933 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:04,958 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:05,032 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:05,057 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:05,134 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:05,204 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:05,255 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:05,313 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:05,348 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:05,391 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:05,462 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:05,524 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:05,584 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:05,632 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:05,657 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:05,715 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:05,773 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:05,855 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:05,887 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:05,957 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:05,984 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:06,063 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:06,114 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:06,152 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:06,200 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:06,250 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:06,298 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:06,335 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:06,410 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:06,476 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:06,552 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:06,592 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:06,645 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:06,685 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:06,775 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:06,853 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:06,883 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:06,974 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:06,997 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:07,028 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:07,077 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:07,126 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:07,161 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:07,196 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:07,267 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:07,301 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:07,369 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:07,427 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:07,454 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:07,495 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:07,566 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:07,647 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:07,678 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:07,749 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:07,791 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:07,862 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:07,941 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:07,980 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:08,027 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:08,084 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:08,147 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:08,226 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:08,297 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:08,339 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:08,421 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:08,454 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:08,505 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:08,569 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:08,651 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:08,716 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:08,755 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:08,842 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:08,891 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:08,973 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:09,008 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:09,054 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:09,114 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:09,187 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:09,218 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:09,259 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:09,306 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:09,346 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:09,406 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:09,431 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:09,481 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:09,535 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:09,596 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:09,653 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:09,718 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:09,782 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:09,850 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:09,883 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:09,955 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:10,011 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:10,057 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:10,095 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:10,132 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:10,203 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:10,278 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:10,362 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:10,427 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:10,474 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:10,514 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:10,574 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:10,620 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:10,662 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:10,709 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:10,769 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:10,840 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:10,904 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:10,971 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:11,021 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:11,096 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:11,139 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:11,222 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:11,270 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:11,307 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:11,341 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:11,398 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:11,449 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:11,513 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:11,551 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:11,616 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:11,646 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:11,695 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:11,740 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:11,809 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:11,895 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:11,962 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:12,036 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:12,113 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:12,172 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:12,197 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:12,250 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:12,288 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:12,361 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:12,442 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:12,472 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:12,500 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:12,528 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:12,583 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:12,665 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:12,723 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:12,754 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:12,814 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:12,868 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:12,948 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:12,969 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:13,036 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:13,065 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:13,130 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:13,201 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:13,231 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:13,261 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:13,323 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:13,388 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:13,470 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:13,518 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:13,589 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:13,651 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:13,719 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:13,785 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:13,819 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:13,850 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:13,930 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:13,980 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:14,059 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:14,095 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:14,165 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:14,232 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:14,293 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:14,342 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:14,419 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:14,493 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:14,543 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:14,605 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:14,688 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:40:14,754 - experiments.videolearning - INFO - Learned class 24
+2014-05-25 02:44:01,965 - experiments.videolearning - INFO - Finished class 24
+2014-05-25 02:45:26,669 - experiments.videolearning - INFO - Finished class 18
+2014-05-25 02:46:26,622 - experiments.videolearning - INFO - Finished class 22
+2014-05-25 02:47:31,511 - experiments.videolearning - INFO - Finished class 23
+2014-05-25 02:47:31,512 - experiments.videolearning - INFO - Beginning fitting for LinearSVC__features.histograms.cv2_calc_hist_retinex_gray
+2014-05-25 02:47:40,114 - experiments.holder - INFO - Saved classifier: /home/matt/documents/MPhil/classifiers/VLinearSVCSubstrateClassifier__LinearSVC__features.histograms.cv2_calc_hist_retinex_gray__1400982460
+2014-05-26 15:35:02,452 - experiments.videolearning - INFO - Started class 16
+2014-05-26 15:35:18,423 - experiments.videolearning - INFO - Started class 16
+2014-05-26 15:35:53,507 - experiments.videolearning - INFO - Started class 16
+2014-05-26 15:37:52,057 - experiments.videolearning - INFO - Started class 16
+2014-05-26 15:41:07,238 - experiments.videolearning - INFO - Started class 16
+2014-05-26 15:42:24,205 - experiments.videolearning - INFO - Generated k: [frames]
+2014-05-26 15:43:40,815 - experiments.videolearning - INFO - Generated k: [frames]
+2014-05-26 15:43:40,911 - experiments.videolearning - INFO - Added terminators
+2014-05-26 15:43:40,911 - experiments.videolearning - INFO - Joining tasks
+2014-05-26 15:48:02,414 - experiments.videolearning - INFO - Generated k: [frames]
+2014-05-26 15:48:02,509 - experiments.videolearning - INFO - Added terminators
+2014-05-26 15:48:02,509 - experiments.videolearning - INFO - Joining tasks
+2014-05-26 15:49:09,990 - experiments.videolearning - INFO - Generated k: [frames]
+2014-05-26 15:49:10,085 - experiments.videolearning - INFO - Added terminators
+2014-05-26 15:49:10,085 - experiments.videolearning - INFO - Joining tasks
+2014-05-28 00:03:14,223 - experiments.holder - INFO - Params (140453565170208): {'metric_func': <function cv2_calc_hist_gray at 0x10b3cce60>, 'classifier': <algorithms.learning.svm.VLinearSVCSubstrateClassifier instance at 0x10e3ed320>, 'gt_path': u'/Users/matt/Dropbox/CompSci/MPhil/neptune/data/static/json/gt/MATT_PUGH_1391010753_COMP_0.1.json', 'video_path': u'/Users/matt/Documents/MPhil/Video/FoCB/aber harbour 26th sep 08 tape 2.wmv', u'm': 50, 'init': False, u'n': 50}
+2014-05-28 00:04:49,375 - experiments.holder - INFO - Params (140412720647568): {'metric_func': <function cv2_calc_hist_gray at 0x1111b8e60>, 'classifier': <algorithms.learning.svm.VLinearSVCSubstrateClassifier instance at 0x1141de320>, 'gt_path': u'/Users/matt/Dropbox/CompSci/MPhil/neptune/data/static/json/gt/MATT_PUGH_1391010753_COMP_0.1.json', 'video_path': u'/Users/matt/Documents/MPhil/Video/FoCB/aber harbour 26th sep 08 tape 2.wmv', u'm': 50, 'init': False, u'n': 50}
+2014-05-28 00:05:29,761 - experiments.holder - INFO - Params (140518034170432): ['metric_func', 'classifier', 'gt_path', 'video_path', u'm', 'init', u'n']
+2014-05-28 00:09:08,191 - experiments.holder - INFO - Params (140466559245136): ['metric_func', 'classifier', 'gt_path', 'video_path', u'm', 'init', u'n']
+2014-05-28 00:10:32,350 - experiments.holder - INFO - Params (140520410663712): ['metric_func', 'classifier', 'gt_path', u'm', 'video_path', u'i_range', 'init', u'n']
+2014-05-28 00:10:40,540 - experiments.videolearning - INFO - Started class 24
+2014-05-28 00:11:02,636 - experiments.holder - INFO - Params (140279325110960): ['metric_func', 'classifier', 'gt_path', u'm', 'video_path', u'i_range', 'init', u'n']
+2014-05-28 00:11:10,755 - experiments.videolearning - INFO - Started class 24
+2014-05-28 00:14:32,820 - experiments.holder - INFO - Params (140725904117936): ['metric_func', 'classifier', 'gt_path', u'm', 'video_path', u'i_range', 'init', u'n']
+2014-05-28 00:14:37,527 - experiments.videolearning - INFO - Started class 24
+2014-05-28 00:15:39,147 - experiments.videolearning - INFO - Finished class 24
+2014-05-28 00:15:39,148 - experiments.videolearning - INFO - Started class 18
+2014-05-28 00:16:47,345 - experiments.videolearning - INFO - Finished class 18
+2014-05-28 00:16:47,345 - experiments.videolearning - INFO - Started class 22
+2014-05-28 00:17:36,580 - experiments.videolearning - INFO - Finished class 22
+2014-05-28 00:17:36,580 - experiments.videolearning - INFO - Started class 23
+2014-05-28 00:18:28,879 - experiments.videolearning - INFO - Finished class 23
+2014-05-28 00:18:28,880 - experiments.videolearning - INFO - Beginning fitting for LinearSVC__features.histograms.cv2_gray_hist
+2014-05-28 00:20:02,912 - experiments.holder - INFO - Saved classifier: /Users/matt/Documents/MPhil/classifiers/VLinearSVCSubstrateClassifier__LinearSVC__features.histograms.cv2_gray_hist__1401232802
+2014-05-28 00:20:02,913 - experiments.holder - INFO - Params (140725904118736): ['metric_func', 'classifier', 'gt_path', u'm', 'video_path', u'i_range', 'init', u'n']
+2014-05-28 00:20:02,916 - experiments.videolearning - INFO - Started class 24
+2014-05-28 00:24:13,490 - experiments.holder - INFO - Params (140662531688544): ['metric_func', 'classifier', 'gt_path', u'm', 'video_path', u'i_range', 'init', u'n']
+2014-05-28 00:24:13,492 - experiments.holder - INFO - Params (140662530825376): ['metric_func', 'classifier', 'gt_path', u'm', 'video_path', u'i_range', 'init', u'n']
+2014-05-28 00:24:13,493 - experiments.holder - INFO - Params (140662531715504): ['metric_func', 'classifier', 'gt_path', u'm', 'video_path', u'i_range', 'init', u'n']
+2014-05-28 00:24:13,493 - experiments.holder - INFO - Params (140662531723360): ['metric_func', 'classifier', 'gt_path', u'm', 'video_path', u'i_range', 'init', u'n']
+2014-05-28 00:31:08,665 - experiments.holder - INFO - Params (140230443162944): ['metric_func', 'classifier', 'gt_path', u'm', 'video_path', u'i_range', 'init', u'n']
+2014-05-28 00:31:08,665 - experiments.holder - INFO - Params (140230480078704): ['metric_func', 'classifier', 'gt_path', u'm', 'video_path', u'i_range', 'init', u'n']
+2014-05-28 00:31:08,665 - experiments.holder - INFO - Params (140230443475872): ['metric_func', 'classifier', 'gt_path', u'm', 'video_path', u'i_range', 'init', u'n']
+2014-05-28 00:31:08,665 - experiments.holder - INFO - Params (140230443768352): ['metric_func', 'classifier', 'gt_path', u'm', 'video_path', u'i_range', 'init', u'n']
+2014-05-28 00:31:08,679 - experiments.videolearning - INFO - Started class 24
+2014-05-28 00:31:08,680 - experiments.videolearning - INFO - Started class 24
+2014-05-28 00:31:24,977 - experiments.holder - INFO - Params (140255347173248): ['metric_func', 'classifier', 'gt_path', u'm', 'video_path', u'i_range', 'init', u'n']
+2014-05-28 00:31:24,978 - experiments.holder - INFO - Params (140255347158368): ['metric_func', 'classifier', 'gt_path', u'm', 'video_path', u'i_range', 'init', u'n']
+2014-05-28 00:31:24,979 - experiments.holder - INFO - Params (140255347240528): ['metric_func', 'classifier', 'gt_path', u'm', 'video_path', u'i_range', 'init', u'n']
+2014-05-28 00:31:24,979 - experiments.holder - INFO - Params (140255315948992): ['metric_func', 'classifier', 'gt_path', u'm', 'video_path', u'i_range', 'init', u'n']
+2014-05-28 00:31:25,102 - experiments.videolearning - INFO - Started class 24
+2014-05-28 00:31:25,103 - experiments.videolearning - INFO - Started class 24
+2014-05-28 00:31:53,591 - experiments.holder - INFO - Params (140595162098320): ['metric_func', 'classifier', 'gt_path', u'm', 'video_path', u'i_range', 'init', u'n']
+2014-05-28 00:31:53,591 - experiments.holder - INFO - Params (140595162082432): ['metric_func', 'classifier', 'gt_path', u'm', 'video_path', u'i_range', 'init', u'n']
+2014-05-28 00:31:53,592 - experiments.holder - INFO - Params (140595162165600): ['metric_func', 'classifier', 'gt_path', u'm', 'video_path', u'i_range', 'init', u'n']
+2014-05-28 00:31:53,593 - experiments.holder - INFO - Params (140595162175888): ['metric_func', 'classifier', 'gt_path', u'm', 'video_path', u'i_range', 'init', u'n']
+2014-05-28 00:31:53,714 - experiments.videolearning - INFO - Started class 24
+2014-05-28 00:31:53,717 - experiments.videolearning - INFO - Started class 24
+2014-05-28 00:32:32,172 - experiments.holder - INFO - Params (140664307828512): ['metric_func', 'classifier', 'gt_path', u'm', 'video_path', u'i_range', 'init', u'n']
+2014-05-28 00:32:32,172 - experiments.holder - INFO - Params (140664307825408): ['metric_func', 'classifier', 'gt_path', u'm', 'video_path', u'i_range', 'init', u'n']
+2014-05-28 00:32:32,173 - experiments.holder - INFO - Params (140664307919984): ['metric_func', 'classifier', 'gt_path', u'm', 'video_path', u'i_range', 'init', u'n']
+2014-05-28 00:32:32,174 - experiments.holder - INFO - Params (140664307930272): ['metric_func', 'classifier', 'gt_path', u'm', 'video_path', u'i_range', 'init', u'n']
+2014-05-28 00:32:32,295 - experiments.videolearning - INFO - Started class 24
+2014-05-28 00:32:32,299 - experiments.videolearning - INFO - Started class 24
+2014-05-28 00:33:26,762 - experiments.videolearning - INFO - Finished class 24
+2014-05-28 00:33:26,763 - experiments.videolearning - INFO - Started class 18
+2014-05-28 00:33:53,090 - experiments.videolearning - INFO - Finished class 24
+2014-05-28 00:33:53,091 - experiments.videolearning - INFO - Started class 18
+2014-05-28 00:34:35,180 - experiments.videolearning - INFO - Finished class 18
+2014-05-28 00:34:35,181 - experiments.videolearning - INFO - Started class 22
+2014-05-28 00:35:19,153 - experiments.videolearning - INFO - Finished class 18
+2014-05-28 00:35:19,153 - experiments.videolearning - INFO - Started class 22
+2014-05-28 00:35:22,629 - experiments.videolearning - INFO - Finished class 22
+2014-05-28 00:35:22,630 - experiments.videolearning - INFO - Started class 23
+2014-05-28 00:36:13,273 - experiments.videolearning - INFO - Finished class 23
+2014-05-28 00:36:13,274 - experiments.videolearning - INFO - Beginning fitting for LinearSVC__features.histograms.cv2_gray_hist
+2014-05-28 00:36:19,690 - experiments.videolearning - INFO - Finished class 22
+2014-05-28 00:36:19,691 - experiments.videolearning - INFO - Started class 23
+2014-05-28 00:37:23,442 - experiments.videolearning - INFO - Finished class 23
+2014-05-28 00:37:23,443 - experiments.videolearning - INFO - Beginning fitting for LinearSVC__features.wavelets.gabor_composite_histogram
+2014-05-28 00:37:47,585 - experiments.holder - INFO - Saved classifier: /Users/matt/Documents/MPhil/classifiers/VLinearSVCSubstrateClassifier__LinearSVC__features.histograms.cv2_gray_hist__1401233867
+2014-05-28 00:37:47,593 - experiments.videolearning - INFO - Started class 24
+2014-05-28 00:39:25,191 - experiments.videolearning - INFO - Finished class 24
+2014-05-28 00:39:25,191 - experiments.videolearning - INFO - Started class 29
+2014-05-28 00:39:51,564 - experiments.videolearning - INFO - Finished class 29
+2014-05-28 00:39:51,564 - experiments.videolearning - INFO - Started class 22
+2014-05-28 00:39:59,189 - experiments.videolearning - INFO - Finished class 22
+2014-05-28 00:39:59,189 - experiments.videolearning - INFO - Started class 23
+2014-05-28 00:40:48,232 - experiments.videolearning - INFO - Finished class 23
+2014-05-28 00:40:48,233 - experiments.videolearning - INFO - Beginning fitting for LinearSVC__features.histograms.cv2_gray_hist
+2014-05-28 00:42:38,128 - experiments.holder - INFO - Saved classifier: /Users/matt/Documents/MPhil/classifiers/VLinearSVCSubstrateClassifier__LinearSVC__features.histograms.cv2_gray_hist__1401234157
+2014-05-28 00:42:38,133 - experiments.videolearning - INFO - Started class 24
+2014-05-28 00:44:38,169 - experiments.videolearning - INFO - Finished class 24
+2014-05-28 00:44:38,169 - experiments.videolearning - INFO - Started class 29
+2014-05-28 00:45:12,420 - experiments.videolearning - INFO - Finished class 29
+2014-05-28 00:45:12,421 - experiments.videolearning - INFO - Started class 22
+2014-05-28 00:45:22,030 - experiments.videolearning - INFO - Finished class 22
+2014-05-28 00:45:22,031 - experiments.videolearning - INFO - Started class 23
+2014-05-28 00:46:25,220 - experiments.videolearning - INFO - Finished class 23
+2014-05-28 00:46:25,221 - experiments.videolearning - INFO - Beginning fitting for LinearSVC__features.wavelets.gabor_composite_histogram
+2014-05-28 00:50:50,612 - experiments.holder - INFO - Params (140679470952976): ['metric_func', 'classifier', 'gt_path', u'm', 'video_path', u'i_range', 'init', u'n']
+2014-05-28 00:50:50,613 - experiments.holder - INFO - Params (140679470912880): ['metric_func', 'classifier', 'gt_path', u'm', 'video_path', u'i_range', 'init', u'n']
+2014-05-28 00:50:50,733 - experiments.videolearning - INFO - Started class 24
+2014-05-28 00:50:50,735 - experiments.videolearning - INFO - Started class 24
+2014-05-28 00:52:02,715 - experiments.videolearning - INFO - Finished class 24
+2014-05-28 00:52:02,716 - experiments.videolearning - INFO - Started class 18
+2014-05-28 00:52:57,332 - experiments.videolearning - INFO - Finished class 24
+2014-05-28 00:52:57,333 - experiments.videolearning - INFO - Started class 29
+2014-05-28 00:53:32,145 - experiments.videolearning - INFO - Finished class 29
+2014-05-28 00:53:32,146 - experiments.videolearning - INFO - Started class 22
+2014-05-28 00:53:32,464 - experiments.videolearning - INFO - Finished class 18
+2014-05-28 00:53:32,465 - experiments.videolearning - INFO - Started class 22
+2014-05-28 00:53:42,112 - experiments.videolearning - INFO - Finished class 22
+2014-05-28 00:53:42,113 - experiments.videolearning - INFO - Started class 23
+2014-05-28 00:54:34,595 - experiments.videolearning - INFO - Finished class 22
+2014-05-28 00:54:34,595 - experiments.videolearning - INFO - Started class 23
+2014-05-28 00:54:47,088 - experiments.videolearning - INFO - Finished class 23
+2014-05-28 00:54:47,089 - experiments.videolearning - INFO - Beginning fitting for LinearSVC__features.wavelets.gabor_composite_histogram
+2014-05-28 00:55:23,157 - experiments.videolearning - INFO - Testing Classifier: VLinearSVCSubstrateClassifier__LinearSVC__features.histograms.cv2_gray_hist__1401234157 Hash: -6827876949003614385 Video: /Users/matt/Documents/MPhil/Video/FoCB/clarach consti and harbour pollock.wmv
+2014-05-28 00:55:23,158 - experiments.videolearning - INFO - -6827876949003614385: Testing class 24 begins.
+2014-05-28 00:55:23,159 - experiments.videolearning - INFO - Testing Classifier: VLinearSVCSubstrateClassifier__LinearSVC__features.histograms.cv2_gray_hist__1401233867 Hash: -5827858948993614554 Video: /Users/matt/Documents/MPhil/Video/FoCB/aber harbour 26th sep 08 tape 2.wmv
+2014-05-28 00:55:23,159 - experiments.videolearning - INFO - -5827858948993614554: Testing class 24 begins.
+2014-05-28 00:55:38,636 - experiments.videolearning - INFO - Finished class 23
+2014-05-28 00:55:38,637 - experiments.videolearning - INFO - Beginning fitting for LinearSVC__features.wavelets.gabor_composite_histogram
+2014-05-28 01:02:32,301 - experiments.videolearning - INFO - -5827858948993614554: Testing class 24 finishes (taken: 0:07:09.140946)
+2014-05-28 01:02:32,301 - experiments.videolearning - INFO - -5827858948993614554: Testing class 18 begins.
+2014-05-28 01:03:08,709 - experiments.holder - INFO - Params (140497439630832): ['metric_func', 'classifier', 'gt_path', u'm', 'video_path', u'i_range', 'init', u'n']
+2014-05-28 01:03:08,709 - experiments.holder - INFO - Params (140497439628816): ['metric_func', 'classifier', 'gt_path', u'm', 'video_path', u'i_range', 'init', u'n']
+2014-05-28 01:03:08,722 - experiments.videolearning - INFO - Started class 24
+2014-05-28 01:03:08,725 - experiments.videolearning - INFO - Started class 24
+2014-05-28 01:04:28,769 - experiments.videolearning - INFO - Finished class 24
+2014-05-28 01:04:28,769 - experiments.videolearning - INFO - Started class 18
+2014-05-28 01:05:22,124 - experiments.videolearning - INFO - Finished class 24
+2014-05-28 01:05:22,124 - experiments.videolearning - INFO - Started class 29
+2014-05-28 01:05:57,064 - experiments.videolearning - INFO - Finished class 29
+2014-05-28 01:05:57,065 - experiments.videolearning - INFO - Started class 22
+2014-05-28 01:06:00,737 - experiments.videolearning - INFO - Finished class 18
+2014-05-28 01:06:00,738 - experiments.videolearning - INFO - Started class 22
+2014-05-28 01:06:07,134 - experiments.videolearning - INFO - Finished class 22
+2014-05-28 01:06:07,134 - experiments.videolearning - INFO - Started class 23
+2014-05-28 01:07:10,556 - experiments.videolearning - INFO - Finished class 22
+2014-05-28 01:07:10,557 - experiments.videolearning - INFO - Started class 23
+2014-05-28 01:07:18,091 - experiments.videolearning - INFO - Finished class 23
+2014-05-28 01:07:18,091 - experiments.videolearning - INFO - Beginning fitting for LinearSVC__features.wavelets.gabor_composite_histogram
+2014-05-28 01:08:16,402 - experiments.videolearning - INFO - Finished class 23
+2014-05-28 01:08:16,402 - experiments.videolearning - INFO - Beginning fitting for LinearSVC__features.wavelets.gabor_composite_histogram
+2014-05-28 01:08:59,993 - experiments.videolearning - INFO - -6827876949003614385: Testing class 24 finishes (taken: 0:13:36.834059)
+2014-05-28 01:08:59,993 - experiments.videolearning - INFO - -6827876949003614385: Testing class 29 begins.
+2014-05-28 01:10:32,444 - experiments.holder - INFO - Params (140621975707600): ['metric_func', 'classifier', 'gt_path', u'm', 'video_path', u'i_range', 'init', u'n']
+2014-05-28 01:10:32,445 - experiments.holder - INFO - Params (140621975668784): ['metric_func', 'classifier', 'gt_path', u'm', 'video_path', u'i_range', 'init', u'n']
+2014-05-28 01:10:32,570 - experiments.videolearning - INFO - Started class 24
+2014-05-28 01:10:32,571 - experiments.videolearning - INFO - Started class 24
+2014-05-28 01:12:31,762 - experiments.videolearning - INFO - -6827876949003614385: Testing class 29 finishes (taken: 0:03:31.768452)
+2014-05-28 01:12:31,762 - experiments.videolearning - INFO - -6827876949003614385: Testing class 22 begins.
+2014-05-28 01:12:43,930 - experiments.videolearning - INFO - -5827858948993614554: Testing class 18 finishes (taken: 0:10:11.628847)
+2014-05-28 01:12:43,931 - experiments.videolearning - INFO - -5827858948993614554: Testing class 22 begins.
+2014-05-28 01:13:38,262 - experiments.videolearning - INFO - -6827876949003614385: Testing class 22 finishes (taken: 0:01:06.499454)
+2014-05-28 01:13:38,262 - experiments.videolearning - INFO - -6827876949003614385: Testing class 23 begins.
+2014-05-28 01:14:03,205 - experiments.videolearning - INFO - Finished class 24
+2014-05-28 01:14:03,206 - experiments.videolearning - INFO - Started class 18
+2014-05-28 01:15:07,633 - experiments.videolearning - INFO - Finished class 24
+2014-05-28 01:15:07,635 - experiments.videolearning - INFO - Started class 29
+2014-05-28 01:15:49,291 - experiments.videolearning - INFO - Finished class 29
+2014-05-28 01:15:49,292 - experiments.videolearning - INFO - Started class 22
+2014-05-28 01:15:50,022 - experiments.videolearning - INFO - Finished class 18
+2014-05-28 01:15:50,023 - experiments.videolearning - INFO - Started class 22
+2014-05-28 01:16:00,613 - experiments.videolearning - INFO - Finished class 22
+2014-05-28 01:16:00,614 - experiments.videolearning - INFO - Started class 23
+2014-05-28 01:19:34,735 - experiments.videolearning - INFO - Finished class 22
+2014-05-28 01:19:34,736 - experiments.videolearning - INFO - Started class 23
+2014-05-28 01:19:51,869 - experiments.videolearning - INFO - Finished class 23
+2014-05-28 01:20:00,161 - experiments.videolearning - INFO - -5827858948993614554: Testing class 22 finishes (taken: 0:07:16.230363)
+2014-05-28 01:20:00,162 - experiments.videolearning - INFO - -5827858948993614554: Testing class 23 begins.
+2014-05-28 01:20:52,235 - experiments.videolearning - INFO - Finished class 23
+2014-05-28 01:21:07,393 - experiments.videolearning - INFO - -6827876949003614385: Testing class 23 finishes (taken: 0:07:29.130010)
+2014-05-28 01:22:15,139 - experiments.videolearning - INFO - Beginning fitting for LinearSVC__features.wavelets.gabor_composite_histogram
+2014-05-28 01:23:56,144 - experiments.videolearning - INFO - Beginning fitting for LinearSVC__features.wavelets.gabor_composite_histogram
+2014-05-28 01:25:07,483 - experiments.holder - INFO - Params (140469574896048): ['metric_func', 'classifier', 'gt_path', u'm', 'video_path', u'i_range', 'init', u'n']
+2014-05-28 01:25:07,484 - experiments.holder - INFO - Params (140469574855936): ['metric_func', 'classifier', 'gt_path', u'm', 'video_path', u'i_range', 'init', u'n']
+2014-05-28 01:25:07,607 - experiments.videolearning - INFO - Started class 24
+2014-05-28 01:25:07,609 - experiments.videolearning - INFO - Started class 24
+2014-05-28 01:26:18,990 - experiments.videolearning - INFO - Finished class 24
+2014-05-28 01:26:18,991 - experiments.videolearning - INFO - Started class 18
+2014-05-28 01:26:59,155 - experiments.videolearning - INFO - -5827858948993614554: Testing class 23 finishes (taken: 0:06:58.993188)
+2014-05-28 01:27:14,372 - experiments.videolearning - INFO - Finished class 24
+2014-05-28 01:27:14,373 - experiments.videolearning - INFO - Started class 29
+2014-05-28 01:27:46,973 - experiments.videolearning - INFO - Finished class 29
+2014-05-28 01:27:46,974 - experiments.videolearning - INFO - Started class 22
+2014-05-28 01:27:47,660 - experiments.videolearning - INFO - Finished class 18
+2014-05-28 01:27:47,661 - experiments.videolearning - INFO - Started class 22
+2014-05-28 01:27:56,540 - experiments.videolearning - INFO - Finished class 22
+2014-05-28 01:27:56,541 - experiments.videolearning - INFO - Started class 23
+2014-05-28 01:28:48,668 - experiments.videolearning - INFO - Finished class 22
+2014-05-28 01:28:48,669 - experiments.videolearning - INFO - Started class 23
+2014-05-28 01:28:58,279 - experiments.videolearning - INFO - Finished class 23
+2014-05-28 01:28:58,280 - experiments.videolearning - INFO - Beginning fitting for LinearSVC__features.wavelets.gabor_composite_histogram
+2014-05-28 01:29:36,508 - experiments.videolearning - INFO - No more experiments to run, exiting.
+2014-05-28 01:29:50,528 - experiments.videolearning - INFO - Finished class 23
+2014-05-28 01:29:50,529 - experiments.videolearning - INFO - Beginning fitting for LinearSVC__features.wavelets.gabor_composite_histogram
+2014-05-28 01:29:59,031 - experiments.videolearning - INFO - Testing Classifier: VLinearSVCSubstrateClassifier__LinearSVC__features.histograms.cv2_gray_hist__1401234157 Hash: -6827876949003614385 Video: /Users/matt/Documents/MPhil/Video/FoCB/clarach consti and harbour pollock.wmv
+2014-05-28 01:29:59,032 - experiments.videolearning - INFO - Testing Classifier: VLinearSVCSubstrateClassifier__LinearSVC__features.histograms.cv2_gray_hist__1401233867 Hash: -5827858948993614554 Video: /Users/matt/Documents/MPhil/Video/FoCB/aber harbour 26th sep 08 tape 2.wmv
+2014-05-28 01:29:59,032 - experiments.videolearning - INFO - -6827876949003614385: Testing class 24 begins.
+2014-05-28 01:29:59,032 - experiments.videolearning - INFO - -5827858948993614554: Testing class 24 begins.
+2014-05-28 01:34:54,391 - experiments.holder - INFO - Params (140320698771808): ['metric_func', 'classifier', 'gt_path', u'm', 'video_path', u'i_range', 'init', u'n']
+2014-05-28 01:34:54,391 - experiments.holder - INFO - Params (140320698772480): ['metric_func', 'classifier', 'gt_path', u'm', 'video_path', u'i_range', 'init', u'n']
+2014-05-28 01:34:54,391 - experiments.holder - INFO - Params (140320698769792): ['metric_func', 'classifier', 'gt_path', u'm', 'video_path', u'i_range', 'init', u'n']
+2014-05-28 01:34:54,392 - experiments.holder - INFO - Params (140320698781376): ['metric_func', 'classifier', 'gt_path', u'm', 'video_path', u'i_range', 'init', u'n']
+2014-05-28 01:34:54,392 - experiments.holder - INFO - Params (140320698780336): ['metric_func', 'classifier', 'gt_path', u'm', 'video_path', u'i_range', 'init', u'n']
+2014-05-28 01:34:54,392 - experiments.holder - INFO - Params (140320698800208): ['metric_func', 'classifier', 'gt_path', u'm', 'video_path', u'i_range', 'init', u'n']
+2014-05-28 01:34:54,433 - experiments.videolearning - INFO - Started class 16
+2014-05-28 01:34:54,441 - experiments.videolearning - INFO - Started class 16
+2014-05-28 01:34:54,449 - experiments.videolearning - INFO - Started class 16
+2014-05-28 01:36:40,069 - experiments.holder - INFO - Params (140246747056992): ['metric_func', 'classifier', 'gt_path', u'm', 'video_path', u'i_range', 'init', u'n']
+2014-05-28 01:36:40,070 - experiments.holder - INFO - Params (140246747124336): ['metric_func', 'classifier', 'gt_path', u'm', 'video_path', u'i_range', 'init', u'n']
+2014-05-28 01:36:40,071 - experiments.holder - INFO - Params (140246747042176): ['metric_func', 'classifier', 'gt_path', u'm', 'video_path', u'i_range', 'init', u'n']
+2014-05-28 01:36:40,072 - experiments.holder - INFO - Params (140246747133056): ['metric_func', 'classifier', 'gt_path', u'm', 'video_path', u'i_range', 'init', u'n']
+2014-05-28 01:36:40,073 - experiments.holder - INFO - Params (140246747134912): ['metric_func', 'classifier', 'gt_path', u'm', 'video_path', u'i_range', 'init', u'n']
+2014-05-28 01:36:40,074 - experiments.holder - INFO - Params (140246747155536): ['metric_func', 'classifier', 'gt_path', u'm', 'video_path', u'i_range', 'init', u'n']
+2014-05-28 01:37:22,336 - experiments.videolearning - INFO - -5827858948993614554: Testing class 24 finishes (taken: 0:07:23.303220)
+2014-05-28 01:37:22,337 - experiments.videolearning - INFO - -5827858948993614554: Testing class 18 begins.
+2014-05-28 01:38:20,942 - experiments.videolearning - INFO - Started class 16
+2014-05-28 01:39:39,433 - experiments.holder - INFO - Params (140622739853808): ['metric_func', 'classifier', 'gt_path', u'm', 'video_path', u'i_range', 'init', u'n']
+2014-05-28 01:39:39,434 - experiments.holder - INFO - Params (140622739697696): ['metric_func', 'classifier', 'gt_path', u'm', 'video_path', u'i_range', 'init', u'n']
+2014-05-28 01:39:39,474 - experiments.videolearning - INFO - Started class 16
+2014-05-28 01:43:11,724 - experiments.holder - INFO - Params (140699867739312): ['metric_func', 'classifier', 'gt_path', u'm', 'video_path', u'i_range', 'init', u'n']
+2014-05-28 01:43:11,724 - experiments.holder - INFO - Params (140699867739592): ['metric_func', 'classifier', 'gt_path', u'm', 'video_path', u'i_range', 'init', u'n']
+2014-05-28 01:43:11,724 - experiments.holder - INFO - Params (140699867739032): ['metric_func', 'classifier', 'gt_path', u'm', 'video_path', u'i_range', 'init', u'n']
+2014-05-28 01:43:11,724 - experiments.holder - INFO - Params (140699867740992): ['metric_func', 'classifier', 'gt_path', u'm', 'video_path', u'i_range', 'init', u'n']
+2014-05-28 01:43:11,724 - experiments.holder - INFO - Params (140699867740432): ['metric_func', 'classifier', 'gt_path', u'm', 'video_path', u'i_range', 'init', u'n']
+2014-05-28 01:43:11,724 - experiments.holder - INFO - Params (140699867763608): ['metric_func', 'classifier', 'gt_path', u'm', 'video_path', u'i_range', 'init', u'n']
+2014-05-28 01:43:11,789 - experiments.videolearning - INFO - Started class 16
+2014-05-28 01:43:11,795 - experiments.videolearning - INFO - Started class 16
+2014-05-28 01:43:11,800 - experiments.videolearning - INFO - Started class 16
+2014-05-28 01:44:04,481 - experiments.holder - INFO - Params (140045201097904): ['metric_func', 'classifier', 'gt_path', u'm', 'video_path', u'i_range', 'init', u'n']
+2014-05-28 01:44:04,481 - experiments.holder - INFO - Params (140045201098184): ['metric_func', 'classifier', 'gt_path', u'm', 'video_path', u'i_range', 'init', u'n']
+2014-05-28 01:44:04,482 - experiments.holder - INFO - Params (140045201097624): ['metric_func', 'classifier', 'gt_path', u'm', 'video_path', u'i_range', 'init', u'n']
+2014-05-28 01:44:04,482 - experiments.holder - INFO - Params (140045201099584): ['metric_func', 'classifier', 'gt_path', u'm', 'video_path', u'i_range', 'init', u'n']
+2014-05-28 01:44:04,483 - experiments.holder - INFO - Params (140045201099024): ['metric_func', 'classifier', 'gt_path', u'm', 'video_path', u'i_range', 'init', u'n']
+2014-05-28 01:44:04,483 - experiments.holder - INFO - Params (140045201126296): ['metric_func', 'classifier', 'gt_path', u'm', 'video_path', u'i_range', 'init', u'n']
+2014-05-28 01:44:04,550 - experiments.videolearning - INFO - Started class 16
+2014-05-28 01:44:04,551 - experiments.videolearning - INFO - Started class 16
+2014-05-28 01:44:04,561 - experiments.videolearning - INFO - Started class 16
+2014-05-28 01:58:39,339 - experiments.videolearning - INFO - Finished class 16
+2014-05-28 01:58:39,340 - experiments.videolearning - INFO - Started class 28
+2014-05-28 01:59:36,310 - experiments.videolearning - INFO - Finished class 28
+2014-05-28 01:59:36,323 - experiments.videolearning - INFO - Started class 29
+2014-05-28 02:02:53,297 - experiments.videolearning - INFO - Finished class 16
+2014-05-28 02:02:53,297 - experiments.videolearning - INFO - Started class 29
+2014-05-28 02:03:08,740 - experiments.videolearning - INFO - Finished class 16
+2014-05-28 02:03:08,743 - experiments.videolearning - INFO - Started class 29
+2014-05-28 02:03:47,788 - experiments.videolearning - INFO - Finished class 29
+2014-05-28 02:03:47,791 - experiments.videolearning - INFO - Started class 22
+2014-05-28 02:03:55,408 - experiments.videolearning - INFO - Finished class 22
+2014-05-28 02:03:55,408 - experiments.videolearning - INFO - Started class 31
+2014-05-28 02:13:52,036 - experiments.videolearning - INFO - Finished class 31
+2014-05-28 02:13:52,037 - experiments.videolearning - INFO - Beginning fitting for LinearSVC__features.histograms.cv2_gray_hist
+2014-05-28 02:24:21,985 - experiments.videolearning - INFO - Finished class 29
+2014-05-28 02:24:21,986 - experiments.videolearning - INFO - Started class 22
+2014-05-28 02:24:32,891 - experiments.videolearning - INFO - Finished class 29
+2014-05-28 02:24:32,892 - experiments.videolearning - INFO - Started class 22
+2014-05-28 02:25:59,841 - experiments.videolearning - INFO - Finished class 22
+2014-05-28 02:25:59,843 - experiments.videolearning - INFO - Beginning fitting for auto__n5__features.histograms.cv2_gray_hist
+2014-05-28 02:26:11,070 - experiments.videolearning - INFO - Finished class 22
+2014-05-28 02:26:11,071 - experiments.videolearning - INFO - Beginning fitting for LinearSVC__features.histograms.cv2_gray_hist
+2014-05-28 02:40:59,677 - experiments.holder - INFO - Saved classifier: /home/matt/documents/MPhil/classifiers/VKNNSubstrateClassifier__auto__n5__features.histograms.cv2_gray_hist__1401241232
+2014-05-28 02:41:01,208 - experiments.videolearning - INFO - Started class 16
+2014-05-28 02:42:02,278 - experiments.holder - INFO - Saved classifier: /home/matt/documents/MPhil/classifiers/VLinearSVCSubstrateClassifier__LinearSVC__features.histograms.cv2_gray_hist__1401241321
+2014-05-28 02:42:02,432 - experiments.videolearning - INFO - Started class 16
+2014-05-28 02:47:56,456 - experiments.holder - INFO - Saved classifier: /home/matt/documents/MPhil/classifiers/VLinearSVCSubstrateClassifier__LinearSVC__features.histograms.cv2_gray_hist__1401241675
+2014-05-28 02:47:56,648 - experiments.videolearning - INFO - Started class 16
+2014-05-28 02:54:18,052 - experiments.videolearning - INFO - Finished class 16
+2014-05-28 02:54:18,055 - experiments.videolearning - INFO - Started class 28
+2014-05-28 02:55:08,222 - experiments.videolearning - INFO - Finished class 28
+2014-05-28 02:55:08,222 - experiments.videolearning - INFO - Started class 29
+2014-05-28 02:56:50,126 - experiments.videolearning - INFO - Finished class 16
+2014-05-28 02:56:50,129 - experiments.videolearning - INFO - Started class 24
+2014-05-28 02:59:27,980 - experiments.videolearning - INFO - Finished class 24
+2014-05-28 02:59:27,983 - experiments.videolearning - INFO - Started class 18
+2014-05-28 02:59:29,248 - experiments.videolearning - INFO - Finished class 29
+2014-05-28 02:59:29,250 - experiments.videolearning - INFO - Started class 22
+2014-05-28 02:59:36,544 - experiments.videolearning - INFO - Finished class 22
+2014-05-28 02:59:36,554 - experiments.videolearning - INFO - Started class 31
+2014-05-28 03:01:39,487 - experiments.videolearning - INFO - Finished class 18
+2014-05-28 03:01:39,497 - experiments.videolearning - INFO - Started class 27
+2014-05-28 03:03:18,181 - experiments.videolearning - INFO - Finished class 16
+2014-05-28 03:03:18,181 - experiments.videolearning - INFO - Started class 24
+2014-05-28 03:05:08,844 - experiments.videolearning - INFO - Finished class 27
+2014-05-28 03:05:08,844 - experiments.videolearning - INFO - Beginning fitting for LinearSVC__features.histograms.cv2_gray_hist
+2014-05-28 03:05:51,648 - experiments.videolearning - INFO - Finished class 24
+2014-05-28 03:05:51,653 - experiments.videolearning - INFO - Started class 18
+2014-05-28 03:07:52,816 - experiments.videolearning - INFO - Finished class 18
+2014-05-28 03:07:52,817 - experiments.videolearning - INFO - Started class 27
+2014-05-28 03:08:39,342 - experiments.videolearning - INFO - Finished class 31
+2014-05-28 03:08:39,342 - experiments.videolearning - INFO - Beginning fitting for auto__n5__features.histograms.cv2_gray_hist
+2014-05-28 03:10:34,983 - experiments.videolearning - INFO - Finished class 27
+2014-05-28 03:10:34,983 - experiments.videolearning - INFO - Beginning fitting for auto__n5__features.histograms.cv2_gray_hist
+2014-05-28 03:26:47,646 - experiments.holder - INFO - Saved classifier: /home/matt/documents/MPhil/classifiers/VLinearSVCSubstrateClassifier__LinearSVC__features.histograms.cv2_gray_hist__1401244007
+2014-05-28 03:28:00,533 - experiments.holder - INFO - Saved classifier: /home/matt/documents/MPhil/classifiers/VKNNSubstrateClassifier__auto__n5__features.histograms.cv2_gray_hist__1401244016
+2014-05-28 03:31:26,570 - experiments.holder - INFO - Saved classifier: /home/matt/documents/MPhil/classifiers/VKNNSubstrateClassifier__auto__n5__features.histograms.cv2_gray_hist__1401244228
+2014-05-28 03:32:06,094 - experiments.videolearning - INFO - Testing Classifier: VLinearSVCSubstrateClassifier__LinearSVC__features.histograms.cv2_calc_hist_retinex_gray__1400982460 Hash: -4361792520708550452 Video: /home/matt/documents/MPhil/Videos/FoCB/aber harbour 26th sep 08 tape 2.wmv
+2014-05-28 03:32:06,104 - experiments.videolearning - INFO - -4361792520708550452: Testing class 24 begins.
+2014-05-28 03:32:07,047 - experiments.videolearning - INFO - Testing Classifier: VKNNSubstrateClassifier__auto__n5__features.histograms.cv2_gray_hist__1401244228 Hash: 7591248849416816281 Video: /home/matt/documents/MPhil/Videos/GoPro/Site 3.MP4
+2014-05-28 03:32:07,047 - experiments.videolearning - INFO - 7591248849416816281: Testing class 16 begins.
+2014-05-28 03:32:07,260 - experiments.videolearning - INFO - Testing Classifier: VKNNSubstrateClassifier__auto__n5__features.histograms.cv2_gray_hist__1401244016 Hash: 7591246849401816432 Video: /home/matt/documents/MPhil/Videos/GoPro/Site 10.MP4
+2014-05-28 03:32:07,261 - experiments.videolearning - INFO - 7591246849401816432: Testing class 16 begins.
+2014-05-28 03:32:12,327 - experiments.videolearning - INFO - Testing Classifier: VKNNSubstrateClassifier__auto__n5__features.histograms.cv2_gray_hist__1401241232 Hash: -7855472224266735325 Video: /home/matt/documents/MPhil/Videos/GoPro/Site 2.MP4
+2014-05-28 03:32:12,330 - experiments.videolearning - INFO - -7855472224266735325: Testing class 16 begins.
+2014-05-28 04:00:18,342 - experiments.videolearning - INFO - -4361792520708550452: Testing class 24 finishes (taken: 0:28:12.229817)
+2014-05-28 04:00:18,343 - experiments.videolearning - INFO - -4361792520708550452: Testing class 18 begins.
+2014-05-28 04:36:53,396 - experiments.videolearning - INFO - -4361792520708550452: Testing class 18 finishes (taken: 0:36:35.052792)
+2014-05-28 04:36:53,397 - experiments.videolearning - INFO - -4361792520708550452: Testing class 22 begins.
+2014-05-28 05:03:07,165 - experiments.videolearning - INFO - -4361792520708550452: Testing class 22 finishes (taken: 0:26:13.768022)
+2014-05-28 05:03:07,169 - experiments.videolearning - INFO - -4361792520708550452: Testing class 23 begins.
+2014-05-28 06:25:06,979 - experiments.videolearning - INFO - 7591248849416816281: Testing class 16 finishes (taken: 2:52:59.927957)
+2014-05-28 06:25:06,979 - experiments.videolearning - INFO - 7591248849416816281: Testing class 28 begins.
+2014-05-28 06:34:36,858 - experiments.videolearning - INFO - 7591248849416816281: Testing class 28 finishes (taken: 0:09:29.878857)
+2014-05-28 06:34:36,858 - experiments.videolearning - INFO - 7591248849416816281: Testing class 29 begins.
+2014-05-28 06:46:51,908 - experiments.videolearning - INFO - 7591246849401816432: Testing class 16 finishes (taken: 3:14:44.647419)
+2014-05-28 06:46:51,909 - experiments.videolearning - INFO - 7591246849401816432: Testing class 24 begins.
+2014-05-28 07:13:58,630 - experiments.videolearning - INFO - 7591246849401816432: Testing class 24 finishes (taken: 0:27:06.720466)
+2014-05-28 07:13:58,630 - experiments.videolearning - INFO - 7591246849401816432: Testing class 18 begins.
+2014-05-28 07:22:19,736 - experiments.videolearning - INFO - 7591248849416816281: Testing class 29 finishes (taken: 0:47:42.877802)
+2014-05-28 07:22:19,742 - experiments.videolearning - INFO - 7591248849416816281: Testing class 22 begins.
+2014-05-28 07:23:50,748 - experiments.videolearning - INFO - 7591248849416816281: Testing class 22 finishes (taken: 0:01:31.004660)
+2014-05-28 07:23:50,758 - experiments.videolearning - INFO - 7591248849416816281: Testing class 31 begins.
+2014-05-28 07:35:45,682 - experiments.videolearning - INFO - 7591246849401816432: Testing class 18 finishes (taken: 0:21:47.051432)
+2014-05-28 07:35:45,685 - experiments.videolearning - INFO - 7591246849401816432: Testing class 27 begins.
+2014-05-28 07:42:34,850 - experiments.videolearning - INFO - -7855472224266735325: Testing class 16 finishes (taken: 4:10:22.518963)
+2014-05-28 07:42:34,860 - experiments.videolearning - INFO - -7855472224266735325: Testing class 29 begins.
+2014-05-28 07:56:39,880 - experiments.holder - INFO - Params (140639061383312): ['metric_func', 'classifier', 'gt_path', u'm', 'video_path', u'i_range', 'init', u'n']
+2014-05-28 07:56:39,880 - experiments.holder - INFO - Params (140639061434928): ['metric_func', 'classifier', 'gt_path', u'm', 'video_path', u'i_range', 'init', u'n']
+2014-05-28 07:56:39,880 - experiments.holder - INFO - Params (140639056910400): ['metric_func', 'classifier', 'gt_path', u'm', 'video_path', u'i_range', 'init', u'n']
+2014-05-28 07:56:39,881 - experiments.holder - INFO - Params (140639061274896): ['metric_func', 'classifier', 'gt_path', u'm', 'video_path', u'i_range', 'init', u'n']
+2014-05-28 07:56:39,881 - experiments.holder - INFO - Params (140639061536928): ['metric_func', 'classifier', 'gt_path', u'm', 'video_path', u'i_range', 'init', u'n']
+2014-05-28 07:56:39,881 - experiments.holder - INFO - Params (140639061426112): ['metric_func', 'classifier', 'gt_path', u'm', 'video_path', u'i_range', 'init', u'n']
+2014-05-28 07:56:39,881 - experiments.holder - INFO - Params (140639062754128): ['metric_func', 'classifier', 'gt_path', u'm', 'video_path', u'i_range', 'init', u'n']
+2014-05-28 07:56:39,881 - experiments.holder - INFO - Params (140639062767792): ['metric_func', 'classifier', 'gt_path', u'm', 'video_path', u'i_range', 'init', u'n']
+2014-05-28 07:56:39,881 - experiments.holder - INFO - Params (140639062766832): ['metric_func', 'classifier', 'gt_path', u'm', 'video_path', u'i_range', 'init', u'n']
+2014-05-28 07:56:39,882 - experiments.holder - INFO - Params (140639062772336): ['metric_func', 'classifier', 'gt_path', u'm', 'video_path', u'i_range', 'init', u'n']
+2014-05-28 07:56:39,882 - experiments.holder - INFO - Params (140639062771376): ['metric_func', 'classifier', 'gt_path', u'm', 'video_path', u'i_range', 'init', u'n']
+2014-05-28 07:56:39,882 - experiments.holder - INFO - Params (140639062776880): ['metric_func', 'classifier', 'gt_path', u'm', 'video_path', u'i_range', 'init', u'n']
+2014-05-28 07:56:39,893 - experiments.videolearning - INFO - Started class 24
+2014-05-28 07:56:39,895 - experiments.videolearning - INFO - Started class 24
+2014-05-28 07:58:24,896 - experiments.videolearning - INFO - Finished class 24
+2014-05-28 07:58:24,896 - experiments.videolearning - INFO - Started class 18
+2014-05-28 07:58:25,172 - experiments.videolearning - INFO - Finished class 24
+2014-05-28 07:58:25,173 - experiments.videolearning - INFO - Started class 18
+2014-05-28 07:58:45,297 - experiments.holder - INFO - Params (140331149323232): ['metric_func', 'classifier', 'gt_path', u'm', 'video_path', u'i_range', 'init', u'n']
+2014-05-28 07:58:45,297 - experiments.holder - INFO - Params (140331149323904): ['metric_func', 'classifier', 'gt_path', u'm', 'video_path', u'i_range', 'init', u'n']
+2014-05-28 07:58:45,298 - experiments.holder - INFO - Params (140331149321216): ['metric_func', 'classifier', 'gt_path', u'm', 'video_path', u'i_range', 'init', u'n']
+2014-05-28 07:58:45,298 - experiments.holder - INFO - Params (140331149332800): ['metric_func', 'classifier', 'gt_path', u'm', 'video_path', u'i_range', 'init', u'n']
+2014-05-28 07:58:45,298 - experiments.holder - INFO - Params (140331149331760): ['metric_func', 'classifier', 'gt_path', u'm', 'video_path', u'i_range', 'init', u'n']
+2014-05-28 07:58:45,298 - experiments.holder - INFO - Params (140331149351632): ['metric_func', 'classifier', 'gt_path', u'm', 'video_path', u'i_range', 'init', u'n']
+2014-05-28 07:58:45,298 - experiments.holder - INFO - Params (140331149350672): ['metric_func', 'classifier', 'gt_path', u'm', 'video_path', u'i_range', 'init', u'n']
+2014-05-28 07:58:45,298 - experiments.holder - INFO - Params (140331149356176): ['metric_func', 'classifier', 'gt_path', u'm', 'video_path', u'i_range', 'init', u'n']
+2014-05-28 07:58:45,299 - experiments.holder - INFO - Params (140331149355216): ['metric_func', 'classifier', 'gt_path', u'm', 'video_path', u'i_range', 'init', u'n']
+2014-05-28 07:58:45,299 - experiments.holder - INFO - Params (140331149360720): ['metric_func', 'classifier', 'gt_path', u'm', 'video_path', u'i_range', 'init', u'n']
+2014-05-28 07:58:45,299 - experiments.holder - INFO - Params (140331149359760): ['metric_func', 'classifier', 'gt_path', u'm', 'video_path', u'i_range', 'init', u'n']
+2014-05-28 07:58:45,299 - experiments.holder - INFO - Params (140331149365264): ['metric_func', 'classifier', 'gt_path', u'm', 'video_path', u'i_range', 'init', u'n']
+2014-05-28 07:58:45,310 - experiments.videolearning - INFO - Started class 24
+2014-05-28 07:58:45,311 - experiments.videolearning - INFO - Started class 24
+2014-05-28 08:00:29,901 - experiments.videolearning - INFO - Finished class 24
+2014-05-28 08:00:29,901 - experiments.videolearning - INFO - Started class 18
+2014-05-28 08:00:30,772 - experiments.videolearning - INFO - Finished class 24
+2014-05-28 08:00:30,772 - experiments.videolearning - INFO - Started class 18
+2014-05-28 08:02:42,607 - experiments.videolearning - INFO - Finished class 18
+2014-05-28 08:02:42,607 - experiments.videolearning - INFO - Started class 22
+2014-05-28 08:02:43,323 - experiments.videolearning - INFO - Finished class 18
+2014-05-28 08:02:43,324 - experiments.videolearning - INFO - Started class 22
+2014-05-28 08:04:14,746 - experiments.videolearning - INFO - Finished class 22
+2014-05-28 08:04:14,746 - experiments.videolearning - INFO - Started class 23
+2014-05-28 08:04:16,315 - experiments.videolearning - INFO - Finished class 22
+2014-05-28 08:04:16,315 - experiments.videolearning - INFO - Started class 23
+2014-05-28 08:05:49,593 - experiments.videolearning - INFO - Finished class 23
+2014-05-28 08:05:49,594 - experiments.videolearning - INFO - Beginning fitting for auto__n5__features.wavelets.gabor_lbp1
+2014-05-28 08:05:50,181 - experiments.holder - INFO - Saved classifier: /Users/matt/Documents/MPhil/classifiers/VKNNSubstrateClassifier__auto__n5__features.wavelets.gabor_lbp1__1401260750
+2014-05-28 08:05:50,187 - experiments.videolearning - INFO - Started class 24
+2014-05-28 08:05:50,940 - experiments.videolearning - INFO - Finished class 23
+2014-05-28 08:05:50,941 - experiments.videolearning - INFO - Beginning fitting for LinearSVC__features.wavelets.gabor_lbp1
+2014-05-28 08:06:46,706 - experiments.holder - INFO - Saved classifier: /Users/matt/Documents/MPhil/classifiers/VLinearSVCSubstrateClassifier__LinearSVC__features.wavelets.gabor_lbp1__1401260806
+2014-05-28 08:06:46,710 - experiments.videolearning - INFO - Started class 24
+2014-05-28 08:07:58,141 - experiments.videolearning - INFO - Finished class 24
+2014-05-28 08:07:58,141 - experiments.videolearning - INFO - Started class 18
+2014-05-28 08:08:55,119 - experiments.videolearning - INFO - Finished class 24
+2014-05-28 08:08:55,120 - experiments.videolearning - INFO - Started class 18
+2014-05-28 08:10:41,460 - experiments.videolearning - INFO - Finished class 18
+2014-05-28 08:10:41,461 - experiments.videolearning - INFO - Started class 22
+2014-05-28 08:11:37,195 - experiments.videolearning - INFO - Finished class 18
+2014-05-28 08:11:37,195 - experiments.videolearning - INFO - Started class 22
+2014-05-28 08:12:35,909 - experiments.videolearning - INFO - Finished class 22
+2014-05-28 08:12:35,910 - experiments.videolearning - INFO - Started class 23
+2014-05-28 08:13:31,268 - experiments.videolearning - INFO - Finished class 22
+2014-05-28 08:13:31,268 - experiments.videolearning - INFO - Started class 23
+2014-05-28 08:14:31,731 - experiments.videolearning - INFO - Finished class 23
+2014-05-28 08:14:31,731 - experiments.videolearning - INFO - Beginning fitting for LinearSVC__features.wavelets.gabor_lbp2
+2014-05-28 08:15:28,526 - experiments.videolearning - INFO - Finished class 23
+2014-05-28 08:15:28,526 - experiments.videolearning - INFO - Beginning fitting for auto__n5__features.wavelets.gabor_lbp2
+2014-05-28 08:15:33,882 - experiments.holder - INFO - Saved classifier: /Users/matt/Documents/MPhil/classifiers/VKNNSubstrateClassifier__auto__n5__features.wavelets.gabor_lbp2__1401261333
+2014-05-28 08:15:33,904 - experiments.videolearning - INFO - Started class 24
+2014-05-28 08:16:35,464 - experiments.videolearning - INFO - Finished class 24
+2014-05-28 08:16:35,464 - experiments.videolearning - INFO - Started class 18
+2014-05-28 08:17:04,014 - experiments.holder - INFO - Saved classifier: /Users/matt/Documents/MPhil/classifiers/VLinearSVCSubstrateClassifier__LinearSVC__features.wavelets.gabor_lbp2__1401261423
+2014-05-28 08:17:04,018 - experiments.videolearning - INFO - Started class 24
+2014-05-28 08:17:52,411 - experiments.videolearning - INFO - Finished class 18
+2014-05-28 08:17:52,412 - experiments.videolearning - INFO - Started class 22
+2014-05-28 08:18:03,913 - experiments.videolearning - INFO - Finished class 24
+2014-05-28 08:18:03,913 - experiments.videolearning - INFO - Started class 18
+2014-05-28 08:18:46,814 - experiments.videolearning - INFO - Finished class 22
+2014-05-28 08:18:46,815 - experiments.videolearning - INFO - Started class 23
+2014-05-28 08:19:19,293 - experiments.videolearning - INFO - Finished class 18
+2014-05-28 08:19:19,294 - experiments.videolearning - INFO - Started class 22
+2014-05-28 08:19:42,244 - experiments.videolearning - INFO - Finished class 23
+2014-05-28 08:19:42,244 - experiments.videolearning - INFO - Beginning fitting for LinearSVC__features.wavelets.gabor_composite_histogram
+2014-05-28 08:20:11,617 - experiments.videolearning - INFO - Finished class 22
+2014-05-28 08:20:11,617 - experiments.videolearning - INFO - Started class 23
+2014-05-28 08:21:06,173 - experiments.videolearning - INFO - Finished class 23
+2014-05-28 08:21:06,173 - experiments.videolearning - INFO - Beginning fitting for auto__n5__features.wavelets.gabor_composite_histogram

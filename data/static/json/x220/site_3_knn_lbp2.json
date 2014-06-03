@@ -1,0 +1,14 @@
+{
+  "experimentType": "VIDEOSUBSTRATE",
+  "allFunctions": false,
+  "selectedFunctions": [
+    "features.texture.lbp2"
+  ],
+  "allClassifiers": false,
+  "selectedClassifiers": [
+    "knn.knn"
+  ],
+  "selectedVideos": [
+    "PHIL_HUGHES_1391026047_COMP_0.1.json|GoPro::Site 3.MP4"
+  ]
+}

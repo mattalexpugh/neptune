@@ -1,0 +1,14 @@
+{
+  "experimentType": "VIDEOSUBSTRATE",
+  "allFunctions": false,
+  "selectedFunctions": [
+    "features.histograms.cv2_calc_hist_bgr"
+  ],
+  "allClassifiers": false,
+  "selectedClassifiers": [
+	"svm.svmlin"
+  ],
+  "selectedVideos": [
+    "PHIL_HUGHES_1391026047_COMP_0.1.json|GoPro::Site 3.MP4"
+  ]
+}
