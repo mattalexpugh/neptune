@@ -90,7 +90,8 @@ def gabor_composite_from_thetas(image, histeq=False):
 
     Returns m x n np.float64 matrix of responses (where m x n = dim(image))
     """
-    image = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
+    if len(image.shape) > 2:
+        image = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 
     if histeq:
         image = cv2.equalizeHist(image)

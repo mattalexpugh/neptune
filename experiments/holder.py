@@ -1,4 +1,5 @@
 import logging
+import billiard as mp
 
 import app.paths as p
 from app import get_api
@@ -34,6 +35,20 @@ def get_exp_harness(json_file):
         exp = None
 
     return exp
+
+
+def train_classifier(tasks, results):
+    for exp_tuple in iter(tasks.get, None):
+        params, exp_ptr = exp_tuple
+
+        exp = exp_ptr(**params)
+        exp.train()
+        saved_classifier = exp.classifier.save()
+        del exp
+
+        log.info("Saved classifier: " + saved_classifier)
+
+        results.put(saved_classifier)
 
 
 class EXPHarnessLoader(object):
@@ -148,6 +163,13 @@ class EXPSubstrateHarness(EXPHarnessLoader):
                 self._videos.append((ground_truth_fp, video_fp))
 
     def run(self):
+        tasks = mp.Queue()
+        results = mp.JoinableQueue()
+        interim = []
+        args = (tasks, results)
+        n_procs = min(mp.cpu_count(), len(self._videos))
+        all_jobs = []
+
         for video_gt_pair in self._videos:
             gt = video_gt_pair[0]
             fp = video_gt_pair[1]
@@ -164,19 +186,31 @@ class EXPSubstrateHarness(EXPHarnessLoader):
                 }
 
                 for classifier in self._classifiers:
-
                     params = base_params.copy()
                     params.update(self._experiment_args)
                     params['classifier'] = classifier(metric=func_name)
-
                     log.info("Params ({}): {}".format(id(params), params.keys()))
 
-                    exp = self._experiment(**params)
-                    exp.train()
-                    saved_classifier = exp.classifier.save()
-                    del exp
+                    all_jobs.append((params, self._experiment))
 
-                    log.info("Saved classifier: " + saved_classifier)
+        for job in all_jobs:
+            tasks.put(job)
+
+        for _ in range(n_procs):
+            p = mp.Process(target=train_classifier, args=args).start()
+
+        for _ in range(len(all_jobs)):
+            interim.append(results.get())
+            results.task_done()
+
+        for _ in range(n_procs):
+            tasks.put(None)
+
+        results.join()
+        tasks.close()
+        results.close()
+
+        return interim
 
     @property
     def use_all_funcs(self):

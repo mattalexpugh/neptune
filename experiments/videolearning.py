@@ -4,6 +4,7 @@ __author__ = 'matt'
 import time
 import datetime
 import logging
+import os
 
 import billiard as mp
 import numpy as np
@@ -63,7 +64,7 @@ class EXPMLVidSubstrateBase(object):
 
             log.info("Finished class " + str(k))
 
-    def _process_frame(self, frame):
+    def process_frame(self, frame):
         """
         Default frame processor, simply uses self._metric function pointer on
         the entire frame passed through. Converts the representation to a
@@ -79,14 +80,14 @@ class EXPMLVidSubstrateBase(object):
 
     def train(self):
         """
-        Trains the classifier, looks to _process_frame to deliver the metric-affected
+        Trains the classifier, looks to process_frame to deliver the metric-affected
         version of the whole frame, or subsections thereof. This method doesn't
-        really care if _process_frame returns 1 or more results, it just collates
+        really care if process_frame returns 1 or more results, it just collates
         the training vectors X and Y before passing to sklearn for fitting.
         """
 
         for frame, k in self:
-            for data in self._process_frame(frame):
+            for data in self.process_frame(frame):
                 self._x.append(data)
                 self._y.append(k)
 
@@ -108,6 +109,9 @@ class EXPMLVidSubstrateBase(object):
 
         for f in frames:
             yield f
+
+    def get_data_from_frame(self, frame):
+        return frame
 
     @property
     def classifier(self):
@@ -143,9 +147,9 @@ class EXPMLVidSubstratePatch(EXPMLVidSubstrateBase):
         self._m = m
         self._n = n
 
-    def _process_frame(self, frame):
+    def process_frame(self, frame):
         patches = self.converter.get_frame_mxn_patches_list(self.m, self.n)
-        patches = self._prepare_patches(patches)
+        patches = self.get_data_from_frame(patches)
 
         for patch in patches:
             data = self._metric(patch)
@@ -155,7 +159,7 @@ class EXPMLVidSubstratePatch(EXPMLVidSubstrateBase):
 
             yield data
 
-    def _prepare_patches(self, patches):
+    def get_data_from_frame(self, patches):
         return patches
 
     @property
@@ -195,7 +199,7 @@ class EXPMLVidSubstratePatchBWRanged(EXPMLVidSubstratePatch):
 
         return v_min and v_max
 
-    def _prepare_patches(self, patches):
+    def get_data_from_frame(self, patches):
         import cv2
         gs_patches = [(cv2.cvtColor(x[0], cv2.COLOR_BGR2GRAY), x[1]) for x in patches]
 
@@ -206,7 +210,7 @@ class EXPMLVidSubstrateFullFrame(EXPMLVidSubstrateBase):
     """
     The default behaviour is to train on full-frames anyway, as no further
     processing steps are required. Consult EXPMLVidSubstratePatch for the API
-    to introduce patch / window based overrides in _process_frame()
+    to introduce patch / window based overrides in process_frame()
     """
 
     pass
@@ -222,7 +226,7 @@ class EXPClassifierHandler(object):
         return root_files
 
     @staticmethod
-    def run_exp_for_all_classifiers(save_dir=DIR_CLASSIFIERS, parallel=False):
+    def run_exp_for_all_classifiers(save_dir=DIR_CLASSIFIERS, parallel=True):
         """
         Runs all the saved classifiers that are located in save_dir.
         parallel, if True, will use the multiprocessing module to run
@@ -238,30 +242,55 @@ class EXPClassifierHandler(object):
         classifiers = EXPClassifierHandler.get_all_saved_classifiers(DIR_CLASSIFIERS)
         classifiers = [x for x in classifiers if not x.endswith(".csv")]
 
+        if len(classifiers) == 0:
+            log.info("No more experiments to run, exiting.")
+            return
+
         if parallel:
-            max_processes = min(mp.cpu_count(), len(classifiers))
-            pool = mp.Pool(processes=max_processes)
+            videos_to_classifiers = {}
 
-            try:
-                for c in classifiers:
-                    pool.apply_async(
-                        EXPClassifierHandler.run_exp_for_classifier,
-                        args=(c,)
-                    )
+            for c in classifiers:
+                clf = load_saved_classifier(save_dir + c)
+                file_name = clf.video_path.split("/")[-1]
 
-                pool.close()
-            except KeyboardInterrupt:
-                log.info("Terminating pool due to KeyboardInterrupt")
-                pool.terminate()
-                raise
-            except Exception, e:
-                log.info("Terminating pool with exception {}".format(e))
-                pool.terminate()
-            finally:
-                pool.join()
+                if file_name not in videos_to_classifiers:
+                    videos_to_classifiers[file_name] = []
+
+                clfid = (clf.identifier, c)
+                videos_to_classifiers[file_name].append(clfid)
+
+            # So now we've mapped video_file: [classifiers], multiproc by k
+            tasks = mp.Queue()
+            results = mp.JoinableQueue()
+            interim = []
+            args = (tasks, results, save_dir)
+            n_procs = min(mp.cpu_count(), len(videos_to_classifiers.keys()))
+
+            for k in videos_to_classifiers.keys():
+                these_classifiers = videos_to_classifiers[k]
+                tasks.put(these_classifiers)
+
+            delegator = EXPClassifierHandler.run_exp_from_mp_queue
+
+            for _ in range(n_procs):
+                p = mp.Process(target=delegator, args=args).start()
+
+            for _ in range(len(videos_to_classifiers.keys())):
+                interim.append(results.get())
+                results.task_done()
+
+            for _ in range(n_procs):
+                tasks.put(None)
+
+            results.join()
+            tasks.close()
+            results.close()
         else:
             for c in classifiers:
                 EXPClassifierHandler.run_exp_for_classifier(c, save_dir)
+
+        # Maybe by the time we get here more will be waiting... keep going
+        EXPClassifierHandler.run_exp_for_all_classifiers(save_dir, parallel)
 
     @staticmethod
     def run_exp_from_queue(queue):
@@ -269,10 +298,18 @@ class EXPClassifierHandler(object):
         EXPClassifierHandler.run_exp_for_classifier(c)
 
     @staticmethod
+    def run_exp_from_mp_queue(tasks, result, save_dir):
+        for videos in iter(tasks.get, None):
+            for _, path in videos:
+                EXPClassifierHandler.run_exp_for_classifier(path, save_dir)
+
+    @staticmethod
     def run_exp_for_classifier(classifier_file, save_dir=DIR_CLASSIFIERS):
         from app import get_api
+
         api = get_api()
-        clf = load_saved_classifier(DIR_CLASSIFIERS + classifier_file)
+        full_classifier_path = DIR_CLASSIFIERS + classifier_file
+        clf = load_saved_classifier(full_classifier_path)
         file_name = clf.video_path.split("/")[-1]  # Include c type & params
 
         fp = save_dir + STR_PARAM_DELIM.join(
@@ -304,16 +341,19 @@ class EXPClassifierHandler(object):
                 for f in testing_frames:
                     exp.converter.set_current_frame(f)
                     exp.converter.capture_next_frame()
-
                     frame = exp.converter.current_frame
-                    data = function_ptr(frame)
 
-                    if isinstance(data, np.ndarray):
-                        data = data.ravel()
+                    for element in exp.get_data_from_frame(frame):
+                        # So this can be a full frame, or a window, or anything really...
+                        # Just needs to be consistent with the original exp
+                        data = function_ptr(element)
 
-                    result = exp.classifier.classify(data)  # Get the result
-                    line = [f, klass, result[0], int(klass) == int(result)]
-                    csv_file.writerow(line)
+                        if isinstance(data, np.ndarray):
+                            data = data.ravel()
+
+                        result = exp.classifier.classify(data)  # Get the result
+                        line = [f, klass, result[0], int(klass) == int(result)]
+                        csv_file.writerow(line)
 
                 end_time = datetime.datetime.now()
                 time_delta = end_time - start_time
@@ -321,6 +361,8 @@ class EXPClassifierHandler(object):
                 log.info("{}: Testing class {} finishes (taken: {})".format(
                     c_hash, klass, time_delta
                 ))
+
+        os.rename(full_classifier_path, full_classifier_path + ".npy")
 
 
 EXPERIMENT_MAP = {

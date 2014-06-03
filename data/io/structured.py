@@ -29,7 +29,7 @@ class CSVEXPSubstrateWriter(object):
 
         return self
 
-    def __exit__(self):
+    def __exit__(self, type, value, traceback):
         self._csv_file.close()
 
     def writerow(self, row):
