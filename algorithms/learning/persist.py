@@ -1,7 +1,7 @@
 __author__ = 'matt'
 
 import time
-import platform # fix this!
+import platform  # fix this!
 
 from sklearn.externals import joblib
 
@@ -11,6 +11,8 @@ STR_PARAM_DELIM = "__"
 
 if platform.system() == 'Darwin':
     DIR_CLASSIFIERS = "/Users/matt/Documents/MPhil/classifiers/"
+elif platform.system() == 'Windows':
+    DIR_CLASSIFIERS = "C:\Users\Matt\Documents\MPhil\classifiers"
 else:
     DIR_CLASSIFIERS = "/home/matt/documents/MPhil/classifiers/"
 
