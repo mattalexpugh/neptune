@@ -167,7 +167,8 @@ class EXPSubstrateHarness(EXPHarnessLoader):
         results = mp.JoinableQueue()
         interim = []
         args = (tasks, results)
-        n_procs = min(mp.cpu_count(), len(self._videos))
+        # n_procs = min(mp.cpu_count(), len(self._videos))
+        n_procs = mp.cpu_count()
         all_jobs = []
 
         for video_gt_pair in self._videos:
@@ -189,7 +190,7 @@ class EXPSubstrateHarness(EXPHarnessLoader):
                     params = base_params.copy()
                     params.update(self._experiment_args)
                     params['classifier'] = classifier(metric=func_name)
-                    log.info("Params ({}): {}".format(id(params), params.keys()))
+                    log.info("Params ({}): {}".format(id(params), params))
 
                     all_jobs.append((params, self._experiment))
 
