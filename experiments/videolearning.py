@@ -9,6 +9,7 @@ import os
 import billiard as mp
 import numpy as np
 
+from algorithms.correction.colour import col_to_bgr
 from algorithms.learning.persist import DIR_CLASSIFIERS, STR_PARAM_DELIM,\
     load_saved_classifier
 from core.gui.util.containers import VideoFrameConverter
@@ -25,58 +26,45 @@ class EXPMLVidSubstrateBase(object):
     def __init__(self, gt_path, video_path,
                  metric_func,
                  init=True, classifier=None):
-        self._classifier = classifier
-        self._capture = create_capture(video_path)
-        self._converter = VideoFrameConverter(self._capture)
-        self._ground_truth = GTHVideoSubstrates(gt_path, self._capture)
-        self._classes = self._ground_truth.classes_present
-        self._metric = metric_func
+        self.classifier = classifier
+        self.capture = create_capture(video_path)
+        self.converter = VideoFrameConverter(self.capture)
+        self.ground_truth = GTHVideoSubstrates(gt_path, self.capture)
+        self.classes = self.ground_truth.classes_present
+        self.metric = metric_func
 
-        self._training_frames = []  # Stores all frames used in training
-        self._x = []                # frames n_samples * n_features
-        self._y = []                # labels n_samples
+        self.training_frames = []  # Stores all frames used in training
+        self.x = []                # frames n_samples * n_features
+        self.y = []                # labels n_samples
 
-        self._classifier.ground_truth = gt_path
-        self._classifier.video_path = video_path
+        self.classifier.ground_truth = gt_path
+        self.classifier.video_path = video_path
+
+        self.training_c_to_frames = {}
+        self._setup_training_dict()
 
         if init:
             self.train()
 
-    def __iter__(self):
-        """
-        Provides a mechanism for introspective iteration, returns a tuple
-        of the next frame for given class k, and k itself:
+    def _setup_training_dict(self):
 
-            (np.ndarray: frame, int: class_id)
-
-        Usage:
-
-            for frame, klass in EXPMLVidSubstrateBase: ...
-        """
         for k in self.classes:
-            log.info("Started class " + str(k))
+            if k not in self.training_c_to_frames:
+                self.training_c_to_frames[k] = [x for x in self.get_training_frames(k)]
 
-            for f in self.get_training_frames(k):
-                self.converter.set_current_frame(f)
-                self.converter.capture_next_frame()
-
-                yield self.converter.current_frame, k
-
-            log.info("Finished class " + str(k))
-
-    def process_frame(self, frame):
-        """
-        Default frame processor, simply uses self._metric function pointer on
-        the entire frame passed through. Converts the representation to a
-        n x 1 vector for speed by default. Returns processed data in the form
-        of a generator.
-        """
-        data = self._metric(frame)
-
-        if isinstance(data, np.ndarray):
-            data = data.ravel()
-
-        yield data
+    # def process_frame(self, frame):
+    #     """
+    #     Default frame processor, simply uses self.metric function pointer on
+    #     the entire frame passed through. Converts the representation to a
+    #     n x 1 vector for speed by default. Returns processed data in the form
+    #     of a generator.
+    #     """
+    #     data = self.metric(frame)
+    #
+    #     #if isinstance(data, np.ndarray):
+    #     #    data = data.ravel()
+    #
+    #     yield data
 
     def train(self):
         """
@@ -86,16 +74,21 @@ class EXPMLVidSubstrateBase(object):
         the training vectors X and Y before passing to sklearn for fitting.
         """
 
-        for frame, k in self:
-            for data in self.process_frame(frame):
-                self._x.append(data)
-                self._y.append(k)
+        # Thread safe lists here? @todo: multiprocessing
+        for k, v in self.training_c_to_frames.iteritems():
+            self.converter.set_current_frame(v)
+            self.x.extend(self.metric(self.converter.capture_next_frame(True)))
+            self.y.append(k)
 
         log.info("Beginning fitting for " + self.classifier.identifier)
 
         # Keep a reference to the frames we have chosen for this iteration
-        self.classifier.training_data = self._training_frames
-        self.classifier.raw_classifier.fit(np.array(self._x), np.array(self._y))
+        self.classifier.training_data = self.training_frames
+        self.classifier.raw_classifier.fit(np.array(self.x), np.array(self.y))
+
+    def process_frame(self, frame):
+
+        return self.metric(frame)
 
     def get_training_frames(self, klass, n=None):
         """
@@ -105,29 +98,13 @@ class EXPMLVidSubstrateBase(object):
         and was only relevant for Gabor full-frame image representations.
         """
         frames, _ = self.ground_truth.get_sample_frames_for_class(klass, n=n)
-        self._training_frames.extend(frames)  # Keep a reference to them
+        self.training_frames.extend(frames)  # Keep a reference to them
 
         for f in frames:
             yield f
 
     def get_data_from_frame(self, frame):
         return frame
-
-    @property
-    def classifier(self):
-        return self._classifier
-
-    @property
-    def ground_truth(self):
-        return self._ground_truth
-
-    @property
-    def converter(self):
-        return self._converter
-
-    @property
-    def classes(self):
-        return self._classes
 
 
 class EXPMLVidSubstratePatch(EXPMLVidSubstrateBase):
@@ -144,31 +121,40 @@ class EXPMLVidSubstratePatch(EXPMLVidSubstrateBase):
                  init=True, classifier=None):
         super(EXPMLVidSubstratePatch, self).__init__(
             gt_path, video_path, metric_func, init, classifier)
-        self._m = m
-        self._n = n
+        self.m = m
+        self.n = n
+
+    def train(self):
+        """
+        Trains the classifier, looks to process_frame to deliver the metric-affected
+        version of the whole frame, or subsections thereof. This method doesn't
+        really care if process_frame returns 1 or more results, it just collates
+        the training vectors X and Y before passing to sklearn for fitting.
+        """
+
+        # Thread safe lists here? @todo: multiprocessing
+        for k, v in self.training_c_to_frames.iteritems():
+            self.converter.set_current_frame(v)
+            patches = [x for x in self.process_frame(self.converter.capture_next_frame(True))]
+            self.x.extend([self.metric(x) for x in patches])
+            self.y.extend([k for i in range(len(patches))])
+
+        log.info("Beginning fitting for " + self.classifier.identifier)
+
+        # Keep a reference to the frames we have chosen for this iteration
+        self.classifier.training_data = self.training_frames
+        self.classifier.raw_classifier.fit(np.array(self.x), np.array(self.y))
 
     def process_frame(self, frame):
         patches = self.converter.get_frame_mxn_patches_list(self.m, self.n)
-        patches = self.get_data_from_frame(patches)
 
         for patch in patches:
-            data = self._metric(patch)
+            data = self.metric(patch)
 
             if isinstance(data, np.ndarray):
                 data = data.ravel()
 
             yield data
-
-    def get_data_from_frame(self, patches):
-        return patches
-
-    @property
-    def m(self):
-        return self._m
-
-    @property
-    def n(self):
-        return self._n
 
 
 class EXPMLVidSubstratePatchBWRanged(EXPMLVidSubstratePatch):
@@ -192,18 +178,16 @@ class EXPMLVidSubstratePatchBWRanged(EXPMLVidSubstratePatch):
         self._i_valid_max = self._i_max_half + self._i_valid_range
         self._i_valid_min = self._i_max_half - self._i_valid_range
 
-    def _is_in_target_range(self, patch):
-        mean = np.mean(patch)
-        v_min = mean > self._i_valid_min
-        v_max = mean < self._i_valid_max
-
-        return v_min and v_max
-
     def get_data_from_frame(self, patches):
-        import cv2
-        gs_patches = [(cv2.cvtColor(x[0], cv2.COLOR_BGR2GRAY), x[1]) for x in patches]
 
-        return [x[0] for x in gs_patches if self._is_in_target_range(x[0])]
+        def viable_patch(patch):
+            mean = np.mean(patch)
+
+            return (mean > self._i_valid_min) and (mean < self._i_valid_max)
+
+        gs_patches = [col_to_bgr(x[0]) for x in patches]
+
+        return filter(viable_patch, gs_patches)
 
 
 class EXPMLVidSubstrateFullFrame(EXPMLVidSubstrateBase):
@@ -325,42 +309,45 @@ class EXPClassifierHandler(object):
         ))
 
         training_frames = set(clf.training_data)  # The frames used to train
+        results = []
+
+        for klass in exp.classes:
+            log.info("{}: Testing class {} begins.".format(c_hash, klass))
+            start_time = datetime.datetime.now()
+
+            class_frames = set(exp.ground_truth.get_frames_for_class(klass))
+            testing_frames = class_frames.difference(training_frames)
+
+            # Deconstruct the filename c to get the method
+            function_name = classifier_file.split(STR_PARAM_DELIM)[-2]
+            function_ptr = api.methods.get_function_ptr(function_name)
+
+            # This seems like a nice candidate for parellisation
+            # We have n_frames and n_procs. Split n_frames / n_procs and allocate
+            for f in testing_frames:
+                exp.converter.set_current_frame(f)
+                exp.converter.capture_next_frame()
+                frame = exp.converter.current_frame
+
+                for element in exp.get_data_from_frame(frame):
+                    # So this can be a full frame, or a window, or anything really...
+                    # Just needs to be consistent with the original exp
+                    data = function_ptr(element)
+
+                    if isinstance(data, np.ndarray):
+                        data = data.ravel()
+
+                    result = exp.classifier.classify(data)  # Get the result
+                    results.append([f, klass, result[0], int(klass) == int(result)])
+
+            time_delta = datetime.datetime.now() - start_time
+
+            log.info("{}: Testing class {} finishes (taken: {})".format(
+                c_hash, klass, time_delta
+            ))
 
         with CSVEXPSubstrateWriter(fp, c_hash, clf) as csv_file:
-            for klass in exp.classes:
-                log.info("{}: Testing class {} begins.".format(c_hash, klass))
-                start_time = datetime.datetime.now()
-
-                class_frames = set(exp.ground_truth.get_frames_for_class(klass))
-                testing_frames = class_frames.difference(training_frames)
-
-                # Deconstruct the filename c to get the method
-                function_name = classifier_file.split(STR_PARAM_DELIM)[-2]
-                function_ptr = api.methods.get_function_ptr(function_name)
-
-                for f in testing_frames:
-                    exp.converter.set_current_frame(f)
-                    exp.converter.capture_next_frame()
-                    frame = exp.converter.current_frame
-
-                    for element in exp.get_data_from_frame(frame):
-                        # So this can be a full frame, or a window, or anything really...
-                        # Just needs to be consistent with the original exp
-                        data = function_ptr(element)
-
-                        if isinstance(data, np.ndarray):
-                            data = data.ravel()
-
-                        result = exp.classifier.classify(data)  # Get the result
-                        line = [f, klass, result[0], int(klass) == int(result)]
-                        csv_file.writerow(line)
-
-                end_time = datetime.datetime.now()
-                time_delta = end_time - start_time
-
-                log.info("{}: Testing class {} finishes (taken: {})".format(
-                    c_hash, klass, time_delta
-                ))
+            map(lambda x: csv_file.writerow(x), results)
 
         os.rename(full_classifier_path, full_classifier_path + ".npy")
 

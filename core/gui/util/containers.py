@@ -25,13 +25,17 @@ class VideoFrameConverter():
 
     def __init__(self, capture):
         self.capture = capture
-        self._current_frame = np.array([])
+        self.current_frame = np.array([])
+        self.num_frames = capture.get(cv.CV_CAP_PROP_FRAME_COUNT)
 
-    def capture_next_frame(self):
+    def capture_next_frame(self, returnFrame=False):
         ret, read_frame = self.capture.read()
 
         if ret:
-            self._current_frame = cvtColor(read_frame, COLOR_BGR2RGB)
+            self.current_frame = cvtColor(read_frame, COLOR_BGR2RGB)
+
+        if returnFrame:
+            return self.current_frame
 
     def convert_frame(self):
         frame = self.current_frame
@@ -91,16 +95,12 @@ class VideoFrameConverter():
     def frame_number(self):
         return self.capture.get(cv.CV_CAP_PROP_POS_FRAMES) - 1
 
-    @property
-    def current_frame(self):
-        if self._current_frame.shape[0] == 0:
-            self.capture_next_frame()
-
-        return self._current_frame
-
-    @property
-    def num_frames(self):
-        return self.capture.get(cv.CV_CAP_PROP_FRAME_COUNT)
+    # @property
+    # def current_frame(self):
+    #     if self._current_frame.shape[0] == 0:
+    #         self.capture_next_frame()
+    #
+    #     return self._current_frame
 
 
 ## TESTING STUFF

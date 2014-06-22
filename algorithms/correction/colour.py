@@ -53,6 +53,10 @@ def retinex_with_adjust(nimg):
     return retinex_adjust(retinex(nimg))
 
 
+def col_to_bgr(frame):
+    return cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
+
+
 METHOD_MAP = {
     'retinex': retinex,
     'retinex_with_adjust': retinex_with_adjust
