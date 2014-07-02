@@ -1,6 +1,7 @@
 {
   "selectedExperiment": "substrates.patchbased_ranged_bw",
   "experimentType": "VIDEOSUBSTRATE",
+  "experimentArgs": {},
   "allFunctions": false,
   "selectedFunctions": [
     "features.texture.lbp2",
