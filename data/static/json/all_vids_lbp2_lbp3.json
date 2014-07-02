@@ -1,5 +1,5 @@
 {
-  "selectedExperiment": "substrates.patchbased_ranged_bw",
+  "selectedExperiment": "substrates.fullframe",
   "experimentType": "VIDEOSUBSTRATE",
   "experimentArgs": {},
   "allFunctions": false,
