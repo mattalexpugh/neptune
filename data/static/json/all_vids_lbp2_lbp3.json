@@ -4,8 +4,8 @@
   "experimentArgs": {},
   "allFunctions": false,
   "selectedFunctions": [
-    "features.texture.lbp2",
-    "features.texture.lbp3"
+    "features.wavelets.gabor_lbp2",
+    "features.wavelets.gabor_lbp3"
   ],
   "allClassifiers": true,
   "selectedClassifiers": [

@@ -76,9 +76,10 @@ class EXPMLVidSubstrateBase(object):
 
         # Thread safe lists here? @todo: multiprocessing
         for k, v in self.training_c_to_frames.iteritems():
-            self.converter.set_current_frame(v)
-            self.x.extend(self.metric(self.converter.capture_next_frame(True)))
-            self.y.append(k)
+            for i in v:
+                self.converter.set_current_frame(i)
+                self.x.extend(self.metric(self.converter.capture_next_frame(True)))
+                self.y.append(k)
 
         log.info("Beginning fitting for " + self.classifier.identifier)
 

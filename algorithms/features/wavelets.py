@@ -130,3 +130,4 @@ METHOD_MAP = {
     'gabor_lbp3': gabor_composite_lbp3,
     'gabor_composite_histogram': gabor_composite_histogram
 }
+    
