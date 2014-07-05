@@ -78,7 +78,7 @@ class EXPMLVidSubstrateBase(object):
         for k, v in self.training_c_to_frames.iteritems():
             for i in v:
                 self.converter.set_current_frame(i)
-                self.x.extend(self.metric(self.converter.capture_next_frame(True)))
+                self.x.append(self.metric(self.converter.capture_next_frame(True)))
                 self.y.append(k)
 
         log.info("Beginning fitting for " + self.classifier.identifier)
