@@ -25,17 +25,17 @@ class VideoFrameConverter():
 
     def __init__(self, capture):
         self.capture = capture
-        self.current_frame = np.array([])
+        self._current_frame = np.array([])
         self.num_frames = capture.get(cv.CV_CAP_PROP_FRAME_COUNT)
 
     def capture_next_frame(self, returnFrame=False):
         ret, read_frame = self.capture.read()
 
         if ret:
-            self.current_frame = cvtColor(read_frame, COLOR_BGR2RGB)
+            self._current_frame = cvtColor(read_frame, COLOR_BGR2RGB)
 
         if returnFrame:
-            return self.current_frame
+            return self._current_frame
 
     def convert_frame(self):
         frame = self.current_frame
@@ -95,20 +95,22 @@ class VideoFrameConverter():
     def frame_number(self):
         return self.capture.get(cv.CV_CAP_PROP_POS_FRAMES) - 1
 
-    # @property
-    # def current_frame(self):
-    #     if self._current_frame.shape[0] == 0:
-    #         self.capture_next_frame()
-    #
-    #     return self._current_frame
+    @property
+    def current_frame(self):
+        if self._current_frame.shape[0] == 0:
+            self.capture_next_frame()
+
+        return self._current_frame
 
 
 ## TESTING STUFF
 if __name__ == '__main__':
     from structures.video import create_capture
+    from algorithms.features.wavelets import gabor_2d_with_kernel, full_frame_kernels
     import app.paths as p
     import os
     import cv2
+    from numpy import histogram, interp
 
     i_max = 255
     i_max_half = i_max / 2
@@ -134,7 +136,7 @@ if __name__ == '__main__':
         conv = VideoFrameConverter(cap)
         conv.set_current_frame(frame_num)
 
-        return conv.get_frame_mxn_patches_list(window, window)
+        return conv.get_frame_mxn_patches_list(window, window), conv.current_frame
 
     def get_gs_patches_in_range(tg_patches=None):
         tg_patches = get_test_patches() if tg_patches is None else tg_patches
@@ -142,34 +144,80 @@ if __name__ == '__main__':
 
         return [x for x in tg_gs_patches if is_in_target_range(x[0])]
 
+    def histeq(im,nbr_bins=256):
+
+       #get image histogram
+       imhist, bins = histogram(im.flatten(),nbr_bins,normed=True)
+       cdf = imhist.cumsum() #cumulative distribution function
+       cdf = 255 * cdf / cdf[-1] #normalize
+
+       #use linear interpolation of cdf to find new pixel values
+       im2 = interp(im.flatten(),bins[:-1],cdf)
+
+       return im2.reshape(im.shape)
+
+    kl2fr = {
+        16: [6000, 17200, 20900],
+        18: [19500, 21300],
+        24: [30000, 30100, 31000],
+        27: [24000, 25000]
+    }
+
     video_name = "Site 10.MP4"
-    window = 75
-    frame_num = 10000
+    window = 50
     fpstub = '/Users/matt/Downloads/' if p.IS_MAC else '/home/matt/downloads/'
-    video_name_stub = get_video_name_stub()
-    patches = get_test_patches(video_name, window, frame_num)
-    gs_patches = get_gs_patches_in_range(patches)
 
-    for patch, descriptor in gs_patches:
+    for klass in kl2fr.keys():
+        for frame_num in kl2fr[klass]:
+            video_name_stub = get_video_name_stub()
+            patches, frame = get_test_patches(video_name, window, frame_num)
+            gs_patches = get_gs_patches_in_range(patches)
 
-        #if not is_in_target_range(patch):
-        #    continue
+            frame = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
 
-        mean = np.mean(patch)
-        fp = fpstub + 'windows/{0}/{1}/{2}x{2}/m{4}_{3}.png'.format(
-            video_name_stub, frame_num, window, descriptor, mean)
+            printed_frames = []
 
-        if not os.path.exists(os.path.dirname(fp)):
-            os.makedirs(os.path.dirname(fp))
+            for patch, descriptor in gs_patches:
 
-        #with open(fp, 'wb') as f:
-        #    w.write(f, np.reshape(patch, (-1, window * 3)))
+                #if not is_in_target_range(patch):
+                #    continue
 
-        #gray_patch = cv2.cvtColor(patch, cv2.COLOR_BGR2GRAY)
-        #
-        #mean = np.mean(gray_patch)
+                mean = np.mean(patch)
 
-        fp = fpstub + 'windows/{0}/{1}/{2}x{2}/eq_m{4}_{3}.png'.format(
-            video_name_stub, frame_num, window, descriptor, mean)
+                base_stub = fpstub + 'windows/{0}/{2}x{2}/{5}_{1}/'.format(
+                    video_name_stub, frame_num, window, descriptor, mean, klass
+                )
 
-        cv2.imwrite(fp, patch)
+                fp = base_stub + 'm{}_{}.png'.format(mean, descriptor)
+                histeqfp = base_stub + 'm_histeq{}_{}.png'.format(mean, descriptor)
+                histeqpatch = cv2.equalizeHist(patch)
+
+                if not os.path.exists(os.path.dirname(fp)):
+                    os.makedirs(os.path.dirname(fp))
+
+                gfp = base_stub + 'gab{}_{}.png'.format(mean, descriptor)
+                geqfp = base_stub + 'gab_histeq{}_{}.png'.format(mean, descriptor)
+
+
+
+                gpatch = gabor_2d_with_kernel(patch, full_frame_kernels[0])
+
+                for k in full_frame_kernels[1:]:
+                    gpatch += gabor_2d_with_kernel(patch, k)
+
+                gabhisteqpatch = histeq(gpatch)
+
+                retval = cv2.imwrite(fp, patch)
+                retval = cv2.imwrite(histeqfp, histeqpatch)
+                retval = cv2.imwrite(gfp, gpatch)
+                retval = cv2.imwrite(geqfp, gabhisteqpatch)
+
+                if frame_num not in printed_frames:
+                    fp = base_stub + "frame_{}.png".format(frame_num)
+                    cv2.imwrite(fp, frame)
+
+                    eqed = cv2.equalizeHist(frame)
+                    eqfp = base_stub + "frameeq_{}.png".format(frame_num)
+                    cv2.imwrite(eqfp, eqed)
+
+                    printed_frames.append(frame_num)

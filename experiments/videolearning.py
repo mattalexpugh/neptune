@@ -352,6 +352,29 @@ class EXPClassifierHandler(object):
 
         os.rename(full_classifier_path, full_classifier_path + ".npy")
 
+    @staticmethod
+    def run_experiments_grouped_by_frames():
+        """
+        Load up all the saved classifiers for each we then have:
+
+            Video trained on : String
+            Function used : ptr
+            Classifier : classifier
+            Training frames : int[]
+
+        What do they share?
+
+            Video
+            Function
+
+        Possible overlap:
+
+            Training frames
+
+        """
+        pass
+
+
 
 EXPERIMENT_MAP = {
     'fullframe': EXPMLVidSubstrateFullFrame,
